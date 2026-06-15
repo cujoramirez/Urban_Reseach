@@ -1,0 +1,50 @@
+# ---------------------------------------------------------------------------
+# LaTeX build artifacts
+# (We compile on Overleaf, but ignore these in case anyone builds locally too.)
+# ---------------------------------------------------------------------------
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.nav
+*.snm
+*.vrb
+*.idx
+*.ind
+*.ilg
+*.xdv
+# Keep the compiled PDF out of git too — regenerate from source.
+report/*.pdf
+
+# ---------------------------------------------------------------------------
+# macOS
+# ---------------------------------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ---------------------------------------------------------------------------
+# Large binary field photos — DO NOT COMMIT THESE TO GIT.
+# Raw HEIC/JPEG/PNG from fieldwork bloat the repo permanently.
+# Use Git LFS (https://git-lfs.com) or keep them in external/shared storage
+# (e.g. team Drive) and link to them from the photos/ README.
+# See investigate/field/photos/README.md.
+# ---------------------------------------------------------------------------
+*.heic
+*.HEIC
+*.raw
+*.tiff
+investigate/field/photos/*.jpg
+investigate/field/photos/*.jpeg
+investigate/field/photos/*.png
+# (.gitkeep and README.md in photos/ are still tracked.)
