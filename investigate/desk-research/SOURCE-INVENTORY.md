@@ -34,6 +34,8 @@ corridor) · `CONTEXT` (broader Jakarta / national — applies only as backgroun
 | S10 | Kompas (Megapolitan) — *Jakarta Darurat Parkir: Trotoar Dikuasai Kendaraan* | News, 12 May 2026 | QUAL, SENT | News | **CONTEXT** (city-wide) | `sources/web-captures.md` → CAP-7 | Page fetched ✓; no figures, not corridor-specific ⚠ |
 | S11 | Kompas (Megapolitan) — *Sulit Dapat Ojol, Warga Menumpuk di Luar Stasiun Sudirman* | News, 20 May 2025 | QUAL, SENT | News | **CORRIDOR-adjacent** (Stasiun Sudirman / Blora / Dukuh Atas) | `sources/web-captures.md` → CAP-8 | Page fetched ✓; named-pedestrian quotes; illustrative not representative ⚠ |
 | S12 | Merdeka — *Anies: Trotoar Sudirman-Thamrin bukan tempat jualan PKL* | News, 6 Mar 2018 | POLICY, SENT | News (gov statement) | **CORRIDOR** | `sources/web-captures.md` → CAP-9 | Page fetched ✓ |
+| S13 | Bina Marga / PUPR — *Pedoman Perencanaan Teknis Fasilitas Pejalan Kaki* No. 07/P/BM/2023 | National standard, 2023 | QUANT, POLICY | Government (PUPR) | **STANDARD** (benchmark) | `sources/binamarga_07_2023_pedoman_pejalan_kaki.pdf` | Full text ✓ (84 pp) |
+| S14 | GoodStats → Korlantas — 2023 pedestrian crash data | Data journalism, 12 Nov 2024 | QUANT | News/data (primary = Korlantas) | **CONTEXT** (national safety) | `sources/web-captures.md` → CAP-10 | 8.274 crossing-crashes ✓; 10.428/54,84% VERIFY ⚠ |
 
 ### Key verified figures (quick reference — see notes/ for exact passages)
 - **S1 (CORRIDOR):** PEQI physical-condition score **64.28** (Class II, "sesuai sebagian besar
