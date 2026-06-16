@@ -57,16 +57,29 @@ Mark each person once. "Road" = walking in the carriageway/gutter, not the sidew
 |  |  |  |  |
 |  |  |  |  |
 
-## E. Crossings & shade (quick check)
+## E. Crossings (quick check)
 - Nearest safe crossing within 200 m? ☐ yes ☐ no — type: ☐ zebra ☐ JPO ☐ pelican
   *(std spacing **100–200 m**; S13)*
 - Pedestrian signal present & working? ☐ yes ☐ no   Median refuge? ☐ yes ☐ no
 - Crossing/JPO warranted here? (ped flow **>450/jam/eff-m**, veh **>500/jam**, or **>40 km/jam**)
   ☐ yes ☐ no
-- Shade along segment: ☐ none ☐ patchy ☐ mostly shaded (trees/canopy/buildings)
-  On-site temp/feel: ______ °C *(THI uncomfortable **>27°C**)*
 
-## F. One-line neutral impression
+## F. Weather & climate-coping
+**Environment now:** Temp/feel ______ °C  Humidity ____ %  *(THI uncomfortable **>27°C**)*
+- Sky: ☐ clear ☐ hazy ☐ overcast ☐ drizzle ☐ heavy rain
+- Shade along segment: ☐ none ☐ patchy ☐ mostly shaded — longest **unshaded gap** ____ m
+  *(guideline shade ~every 300 m; S1)*
+- Wet/puddle/flood points after rain: ☐ none ☐ some — where: ______________
+
+**Coping tally (per 5-min window):**
+| Behaviour | Tally | | Behaviour | Tally |
+|-----------|-------|--|-----------|-------|
+| Umbrella — sun |  | | Walking shaded side / crossed to shade |  |
+| Umbrella — rain |  | | Sheltering / waiting out rain (under cover) |  |
+| Hat / long sleeve / sun-jacket |  | | Hurrying through exposed/hot stretch |  |
+| Fanning / wiping sweat / cold drink |  | | Ordered ojol/taxi instead of walking (rain) |  |
+
+## G. One-line neutral impression
 (What you actually saw — keep interpretation out: that's for synthesis.)
 ________________________________________________________________________
 

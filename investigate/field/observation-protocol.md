@@ -61,6 +61,33 @@ Neutral prompts — log the event and the trigger, not a judgement:
 - **Transit micro-walk**: path and rough distance from station exit to destination/ojol \[S1
   notes "felt-far" transit distance; S11 shows dispersal toward Dukuh Atas].
 
+## 4A. Weather & climate-coping (observe)
+Heat and rain shape walking here, and people cope in visible ways. Log the environment first,
+then the coping behaviour. Benchmark: THI **>27°C** reads as uncomfortable (S14-area lead);
+the standard recommends shade roughly every **300 m** (S1).
+
+**Measure the environment (per segment, per window):**
+- **Temperature / feels-like** and **humidity** (phone weather app or a small thermometer); note
+  the reading and the time.
+- **Sky / rain:** clear · hazy · overcast · drizzle · heavy rain.
+- **Shade coverage** along the segment: none · patchy · mostly shaded; note the **longest
+  unshaded gap** in metres (vs the ~300 m shade guideline).
+- **Wet-surface / puddling / flooding** points after rain, and slippery tiles.
+
+**Count the coping behaviour (the observable proxies for discomfort):**
+- **Umbrellas/parasols in use** (split sun-use vs rain-use), hats, long sleeves, jackets-as-sun-
+  shield, face coverings against sun.
+- **Shade-hugging:** people walking the shaded side, or crossing the street to reach shade.
+- **Clustering under** trees, awnings, canopies, JPO, or halte during strong sun or rain.
+- **Sheltering / waiting out rain** (count people stopped under cover) and the apparent wait.
+- **Pace change:** hurrying through exposed/hot stretches; slowing in shade.
+- **Mode shift in rain:** surge of people ordering ojol / taxis instead of walking (count at
+  ojol points before vs during a shower if you catch one).
+- Discomfort signals: fanning, wiping sweat, buying cold drinks.
+
+**Time-of-day:** compare **midday heat (11:00–14:00)** against the cooler peaks. A drop in
+midday pedestrians, or a shift to the shaded side, is itself a finding.
+
 ## 5. Neutrality discipline (because we were flagged for bias)
 - Record **both** sidewalk use and road use; **both** comfortable-looking and uncomfortable-
   looking behaviour. Don't only photograph problems.

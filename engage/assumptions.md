@@ -23,6 +23,8 @@ field*, not facts.
 | 2 | The back-streets one block off Sudirman have little or no usable sidewalk. | UNVERIFIED | Audit sheet (sidewalk present / effective width) |
 | 3 | People step into the road because the sidewalk is obstructed or missing. | UNVERIFIED | Observation counts + intercept questions |
 | 4 | Heat / lack of shade makes walking unpleasant during the day. | UNVERIFIED | Audit (shade parameter) + intercept on comfort |
+| 5 | People carry umbrellas often/always to cope with sun and rain here. | UNVERIFIED | Umbrella tally (sun vs rain) + intercept frequency question |
+| 6 | Rain pushes people from walking to ojol/taxi. | UNVERIFIED | Ojol-surge count during rain + intercept on mode-shift |
 | _…_ | _(add the rest from Miro)_ | UNVERIFIED | |
 
 ---

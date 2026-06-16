@@ -97,6 +97,24 @@ the negatives.
 
 ---
 
+## Shared add-on — Weather & climate-coping (ask any persona; ≤2 min)
+Heat and rain are a likely pain point (shade was a named shortfall, S1). These are observable
+*and* askable, so answers triangulate against the tally (Section F).
+1. **Apakah Anda biasa membawa payung?** ☐ selalu ☐ sering ☐ kadang ☐ jarang ☐ tidak —
+   untuk **hujan**, **panas (matahari)**, atau **keduanya**? *(frequency + purpose)*
+2. Saat **panas terik**, apa yang Anda lakukan saat berjalan di sini? *(shade side, change route,
+   change time, switch to ojol — let it emerge)*
+3. Saat **hujan**, bagaimana Anda menyesuaikan? *(berteduh & tunggu, ojol, rute yang ada
+   kanopinya, batal jalan)*
+4. Pernahkah **cuaca membuat Anda memilih ojol/taksi** daripada jalan kaki? Kapan?
+   *(mode-shift signal)*
+5. Apakah Anda **mengubah jam berjalan** untuk menghindari panas atau hujan?
+6. Bagian rute mana yang **paling panas / paling tidak terlindung**, atau **paling sering
+   tergenang** saat hujan? *(pinpoints the pain segment — map it)*
+7. Kalau sebelum berjalan Anda bisa tahu **cuaca + ada-tidaknya peneduh/genangan di rute**,
+   apakah berguna? Informasi apa yang paling Anda butuhkan? *(neutral; probes the value of
+   route-condition info without proposing a product)*
+
 ## Expert / policy interview (obstacle-oriented) — Anies / Karsa City Lab / UDK
 Reframed per the mentor (15 Jun) to be goal-oriented, tied to the challenge. Semi-structured,
 record with consent, code by research question.
