@@ -47,3 +47,22 @@ replaces. This is our shared memory of *why* the project is the way it is.
   conclusion we wanted. Neutral, two-sided questions and explicit assumptions keep the
   fieldwork honest and let the data surprise us.
 - **Owner:** Team.
+
+### 2026-06-16 — Seeded initial desk research (Jakarta/Sudirman) + literature-informed interview bank
+- **Decision:** Added an **initial set of six peer-reviewed, open-access sources** to
+  `investigate/desk-research/` (one Markdown file each, following the existing template), all
+  focused on the **Jakarta / Sudirman corridor**: Mulyadi et al. (2022, Sudirman–Thamrin
+  walkability), Apritasari (2020, Thamrin–Sudirman user satisfaction), Afkara & Kusuma (2020,
+  MRT walking-distance perception), Arif & Yola (2021, Jakarta sidewalk thermal comfort),
+  Putri & Ellisa (2020, informal use of pedestrian space), Napitupulu & Rudiarto (2025, Dukuh
+  Atas TOD walkability). Their BibTeX is in `report/refs.bib`. Also added a **literature-informed,
+  neutral pedestrian interview bank** at `investigate/field/instruments/pedestrian-interview-bank.md`.
+- **Reasoning:** Builds the *pre-knowledge* (for BAB II — Tinjauan Pustaka) **before** fieldwork,
+  so our intercept questions are informed by what prior Jakarta studies found mattered — without
+  importing their conclusions. The interview bank stays **neutral and two-sided** to preserve the
+  confirmation-bias fix above; it **complements** `intercept-script.md` and `guiding-questions.md`,
+  it does not replace them.
+- **To validate (team):** confirm each source's findings against the full text; check Indonesian
+  author-name order in `refs.bib`; agree final intercept wording. These were **seeded for review**,
+  not locked. No field data was invented; `synthesis.md` and `act/` remain untouched.
+- **Owner:** Team (to review/extend).
