@@ -25,7 +25,17 @@ field*, not facts.
 | 4 | Heat / lack of shade makes walking unpleasant during the day. | UNVERIFIED | Audit (shade parameter) + intercept on comfort |
 | 5 | People carry umbrellas often/always to cope with sun and rain here. | UNVERIFIED | Umbrella tally (sun vs rain) + intercept frequency question |
 | 6 | Rain pushes people from walking to ojol/taxi. | UNVERIFIED | Ojol-surge count during rain + intercept on mode-shift |
+| 7 | Pedestrian volume drops at midday heat versus the cooler peak hours. | UNVERIFIED | 5-min counts across time windows joined to WeatherKit temp/heat index |
+| 8 | In heat, people shift to the shaded side or to shadier routes. | UNVERIFIED | Shade-hugging tally + go-along route notes + sensing-walk lux/temp |
+| 9 | Higher rain probability raises sheltering and trip cancellation/delay. | UNVERIFIED | Sheltering tally + intercept on timing-shift, joined to WeatherKit precip probability |
+| 10 | Self-rated comfort falls as heat index rises (around THI >27 C). | UNVERIFIED | ASHRAE thermal-comfort vote vs on-site temp/WeatherKit |
+| 11 | Air quality affects willingness to walk on bad-AQI days. | UNVERIFIED | Counts + intercept joined to AQI reading |
 | _…_ | _(add the rest from Miro)_ | UNVERIFIED | |
+
+> **Weather-behaviour note:** items 5-11 are the comfort/weather hypotheses. We test them by
+> joining each observation window to **Apple WeatherKit** data (with on-site sensor + BMKG
+> cross-check). They are hypotheses to test, not the basis for a feature; see
+> [`../investigate/field/data-sources-and-methods.md`](../investigate/field/data-sources-and-methods.md).
 
 ---
 

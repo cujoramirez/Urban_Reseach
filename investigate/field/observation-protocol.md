@@ -67,8 +67,9 @@ then the coping behaviour. Benchmark: THI **>27°C** reads as uncomfortable (S14
 the standard recommends shade roughly every **300 m** (S1).
 
 **Measure the environment (per segment, per window):**
-- **Temperature / feels-like** and **humidity** (phone weather app or a small thermometer); note
-  the reading and the time.
+- **Temperature / feels-like**, **humidity**, **precip probability** from **Apple WeatherKit**
+  (iPhone/Apple Watch), plus a small logger on the sensing walk; note the reading and time. See
+  [`data-sources-and-methods.md`](data-sources-and-methods.md).
 - **Sky / rain:** clear · hazy · overcast · drizzle · heavy rain.
 - **Shade coverage** along the segment: none · patchy · mostly shaded; note the **longest
   unshaded gap** in metres (vs the ~300 m shade guideline).

@@ -65,7 +65,7 @@ Mark each person once. "Road" = walking in the carriageway/gutter, not the sidew
   ☐ yes ☐ no
 
 ## F. Weather & climate-coping
-**Environment now:** Temp/feel ______ °C  Humidity ____ %  *(THI uncomfortable **>27°C**)*
+**Environment now (Apple WeatherKit):** Temp/feel ______ °C  Humidity ____ %  Precip prob ____ %  *(THI uncomfortable **>27°C**)*
 - Sky: ☐ clear ☐ hazy ☐ overcast ☐ drizzle ☐ heavy rain
 - Shade along segment: ☐ none ☐ patchy ☐ mostly shaded, longest **unshaded gap** ____ m
   *(guideline shade ~every 300 m; S1)*
