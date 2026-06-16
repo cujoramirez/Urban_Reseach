@@ -47,3 +47,27 @@ replaces. This is our shared memory of *why* the project is the way it is.
   conclusion we wanted. Neutral, two-sided questions and explicit assumptions keep the
   fieldwork honest and let the data surprise us.
 - **Owner:** Team.
+
+### 2026-06-16 — Field-research plan + instruments locked for the Wed–Fri window
+- **Decision:** Run field research **Wed 17 / Thu 18 / Fri 19 June** on the locked Sudirman
+  scope, using a fixed instrument set: segment **audit sheet (0–2)**, **observation tally sheet**
+  (gradient pairs, 5-min counts), **intercept script**, and the **per-persona interview guide**.
+  Resources/timing: weekday AM/PM peaks for commuters; **Thu-night women's intercepts led by
+  Sintani** (Cikini–Benhil); **Fri 19** affinity mapping + hypothesis test + challenge refine.
+  Expert track (Anies / Karsa City Lab / UDK) pursued via formal proposal + academy intro letter
+  (**pending ADA confirmation**); request the letter H-1.
+- **Reasoning:** Lock the method before the field so observation/interviews have clear objectives
+  (per mentor). Instruments derive from the verified desk-research evidence (see
+  `investigate/desk-research/`).
+- **Owner:** Team (PIC per Confluence research plan).
+
+### 2026-06-16 — Bias re-check: a leading question slipped back into Confluence
+- **Decision:** The *Exploratory Cycle* doc reintroduced the rejected framing — *"…berjalan di
+  badan jalan **meskipun** tersedia trotoar yang layak…"*. **Replace it everywhere** with the
+  neutral split (how do people move? / do they use the sidewalk?) and keep the comfort question.
+  De-biased versions now live in `engage/guiding-questions.md`, `report/main.tex` (BAB I), and
+  `investigate/field/instruments/interview-guide.md`.
+- **Reasoning:** The bias the mentor flagged on 15 Jun is recurring because it matches a team
+  member's lived experience of central Jakarta; it must be actively guarded against, not assumed
+  fixed.
+- **Owner:** Team.

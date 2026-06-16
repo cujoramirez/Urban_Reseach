@@ -6,9 +6,19 @@
 
 ---
 
+## Big Idea & Essential Question (CBL framing)
+
+- **Big Idea:** *Urban Living Experience.*
+- **Essential Question:** *"Apa yang menentukan apakah berjalan kaki di kota terasa nyaman,
+  aman, dan bermartabat, serta bagi siapa pengalaman itu benar-benar terwujud?"*
+  (What determines whether walking in the city feels comfortable, safe, and dignified — and for
+  whom is that experience actually realized?)
+
 ## Current (temporary) statement
 
 > **"Make the walking experience in the Sudirman area more comfortable."**
+> (ID working form: *"Meningkatkan kenyamanan pengalaman berjalan kaki di sekitar koridor
+> transit Sudirman."*)
 
 ### Scope reminder (this part *is* locked)
 
