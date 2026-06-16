@@ -65,7 +65,7 @@ replaces. This is our shared memory of *why* the project is the way it is.
 - **Decision:** The *Exploratory Cycle* doc reintroduced the rejected framing, *"…berjalan di
   badan jalan **meskipun** tersedia trotoar yang layak…"*. **Replace it everywhere** with the
   neutral split (how do people move? / do they use the sidewalk?) and keep the comfort question.
-  De-biased versions now live in `engage/guiding-questions.md`, `report/main.tex` (BAB I), and
+  De-biased versions now live in `engage/guiding-questions.md`, `report/main_id.tex` (BAB I), and
   `investigate/field/instruments/interview-guide.md`.
 - **Reasoning:** The bias the mentor flagged on 15 Jun is recurring because it matches a team
   member's lived experience of central Jakarta; it must be actively guarded against, not assumed

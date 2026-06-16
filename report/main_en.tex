@@ -1,0 +1,232 @@
+% =====================================================================
+%  Walkability of the Sudirman Corridor (ENGLISH, IEEE conference template)
+%  Companion to main_id.tex (Bahasa Indonesia, report class).
+%  Compile on Overleaf: pdfLaTeX + Biber. Shares refs.bib.
+%  Research-stage paper: NO field findings until data is collected.
+% =====================================================================
+\documentclass[conference]{IEEEtran}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{xurl}
+\usepackage[hidelinks]{hyperref}
+\usepackage{csquotes}
+\usepackage[backend=biber,style=ieee]{biblatex}
+\addbibresource{refs.bib}
+
+\begin{document}
+
+\title{Toward a Comfort-Aware Assessment of Walkability in the Sudirman Corridor, Jakarta:\\
+A Mixed-Methods and Computer-Vision Research Design}
+
+\author{%
+  \IEEEauthorblockN{Gading Aditya Perdana, Kenrich Heavenly Sandria, Naufal Ammar Rauf,
+  Jatayu Muhammad Wicaksono, Sintani Gina Lestari}
+  \IEEEauthorblockA{Tim Riset Pijak (Independent Research Team)\\ Jakarta, Indonesia}%
+  \thanks{Independent team research conducted during the Apple Developer Academy @ BINUS,
+  Cohort 9. Intellectual property belongs to the team. Working challenge statement; results
+  follow fieldwork.}%
+}
+
+\maketitle
+
+\begin{abstract}
+Walking is the most basic form of urban mobility, yet in Jakarta it accounts for under two
+percent of commute trips and sits within a city where sidewalks cover a small share of the road
+network. The Jalan Jenderal Sudirman corridor is a useful case: a 2017--2022 sidewalk
+revitalization pilot with a sharp contrast between a wide main footway and the near-absent
+sidewalks one block behind it. This paper presents the research design for a comfort-focused
+walkability study of that corridor and its back-streets. We combine a standards-referenced
+segment audit, time-windowed pedestrian counts, neutral street intercepts, and an
+obstacle-oriented expert interview with a computational layer: computer-vision mapping of the
+sidewalk network and streetscape features, a shade and thermal-comfort layer, and interpretable
+machine learning for route and mode choice. Weather is logged per observation window from a
+single source to test whether conditions change comfort and behavior. The core design is a
+paired observation of the main corridor against its back-street to measure the quality gradient
+that prior literature leaves unmeasured. We report the instruments, data sources, benchmarks,
+and cross-validation strategy; field results are deliberately withheld until data collection.
+\end{abstract}
+
+\begin{IEEEkeywords}
+walkability, pedestrian environment, thermal comfort, computer vision, machine learning,
+mixed methods, transit-oriented development, Jakarta
+\end{IEEEkeywords}
+
+\section{Introduction}
+Population mobility in Jakarta depends on mass transit (Transjakarta, Commuter Line, MRT), yet
+the first and last leg of most trips is made on foot, by motorcycle taxi (ojek/ojol), or by
+private vehicle. Walking holds a small share of commute modes: under two percent of trips in the
+Greater Jakarta commuter survey are made on foot or by bicycle, with private vehicles dominant
+\autocite{goodstats2024}. City-wide sidewalk provision is thin: about 540~km of sidewalk against
+6{,}956~km of road in 2015 \autocite{itdp2019}. Walking in a transit-dense corridor is therefore
+best understood as a last-mile connector rather than a primary mode.
+
+The Jalan Jenderal Sudirman corridor is a strong case. It was a flagship of the 2017--2022
+sidewalk revitalization program \autocite{beritajakarta2019,itdp2019}, and it shows a sharp
+contrast between a wide, engineered main footway and the degraded streets one block behind it.
+
+The essential question framing the project is: what determines whether walking in the city feels
+comfortable, safe, and dignified, and for whom is that experience realized? The working challenge
+statement, kept temporary and to be refined after fieldwork, is to improve the comfort of the
+walking experience in the Sudirman transit corridor. The word ``comfort'' is treated as an
+assumption to be tested, not a conclusion.
+
+We formulate neutral, two-sided research questions: (1) how do pedestrians move through the
+Sudirman area; (2) do pedestrians use the available sidewalks, and what influences this;
+(3) what makes walking here feel comfortable or uncomfortable; (4) how do weather and shade
+affect when, where, and how people walk, and how do they cope; (5) how do pedestrians know, or
+fail to know, route conditions before walking; (6) how does route choice differ by time of day
+and gender; and (7) what obstacles blocked the delivery of comfortable pedestrian facilities
+in 2017--2022 (for the expert interview).
+
+The scope is locked to the Sudirman corridor and its immediate back-streets, named by street
+rather than by district or a list of stations. The central object of study is the quality
+gradient between the wide main footway and the near-absent sidewalks behind it. The team was
+flagged for confirmation bias, so the questions are kept neutral, assumptions are made explicit
+and separate, and findings are withheld until field data is collected.
+
+\section{Related Work}
+\subsection{Walkability Concepts and Measurement}
+Pedestrian-path quality is commonly scored with structured indices. The Pedestrian Environmental
+Quality Index (PEQI) rates completeness, safety, and comfort from physical condition and
+perception \autocite{dwisadana2024}; the Global Walkability Index (GWI) uses nine parameters
+\autocite{ridhani2015,mulyadi2022}, with categories of highly walkable (index $\geq 70$), waiting
+to walk ($50$--$70$), and not walkable ($\leq 50$) \autocite{mulyadi2022}. At the policy level,
+design guidance derives from a Complete Streets framework \autocite{itdp2019}.
+
+\subsection{Corridor Condition and User Satisfaction}
+On the southern segment of the corridor, a post-revitalization PEQI study scored physical
+condition $64.28$ and perception $84.70$, for a combined $74.49$ classified as acceptable, while
+listing concrete shortfalls: motorcycles and vendors on the footway despite bollards, limited
+shade, missing pedestrian signals at some crossings, and a transit distance felt as far
+\autocite{dwisadana2024}. A road-diet revitalization raised GWI walkability by up to
+$38.98\%$ and was associated with a $15.41\%$ rise in public-transport users, from a 2015
+baseline near $64$ on Sudirman and $71$ on Thamrin \autocite{mulyadi2022,ridhani2015}. A
+user-satisfaction study on the same corridor evaluated paths, street furniture, and signage from
+the pedestrian side \autocite{apritasari2020satisfaction}.
+
+\subsection{Transit and Last-Mile Walking}
+Pedestrian activity concentrates at transit nodes \autocite{dwisadana2024}; at Dukuh Atas,
+walking frequency is driven by income, trip purpose, and settlement density
+\autocite{rakhmatulloh2020}, with a recent study reassessing walkability on a 400~m core radius
+\autocite{napitupulu2025tod}. For the MRT corridor, a stated-preference discrete-choice study
+reports Jakarta-specific acceptable walking distances of about $629$~m for men and $593$~m for
+women, and $689$~m near offices versus $547$~m near residences \autocite{afkara2020walking}.
+Field reporting documents last-mile friction near a Sudirman station, with commuters crowding the
+kerb for ojol while motorcycles line the footway \autocite{kompas2025ojol}.
+
+\subsection{Safety, Gender, and Microclimate}
+Public streets are the most common offline site of harassment nationally, and women are reported
+far more vulnerable \autocite{krpa2022}; women's daily mobility is framed as linked trip chains
+\autocite{udk_mobilitasperempuan}. National crash data record $10{,}428$ pedestrian victims in
+2023, with $54.84\%$ linked to crossing at undesignated places \autocite{korlantas2023}. Heat
+shapes comfort: Sky View Factor relates to pedestrian thermal comfort on a Jakarta footway
+\autocite{arif2021skyview}, and shade is a recurring shortfall in corridor audits
+\autocite{dwisadana2024}.
+
+\subsection{Informal Use, Policy, and Standards}
+Pedestrian space is occupied informally; Jakarta had 324 pedestrian bridges in 2015, mostly near
+transit, with leftover space colonized for unplanned uses \autocite{putri2020residual}. A 2018
+policy reserved the Sudirman--Thamrin footway for pedestrians and planned to relocate vendors to
+side streets behind office buildings \autocite{merdeka2018pkl}, a plausible driver of the
+gradient. National technical standards set a minimum footway width of $1.85$~m, crossing spacing
+of $100$--$200$~m, a maximum ramp slope of $8\%$, and a protected-crossing threshold above $450$
+pedestrians per hour per effective meter \autocite{binamarga2023}.
+
+\subsection{Computational Methods}
+Recent work measures walkability from imagery with deep learning, segmenting street-view
+panoramas into elements that become walkability features \autocite{walkabilitydl2024}, with
+crowdsourced accessibility labeling schemes for sidewalks \autocite{projectsidewalk2019}.
+Open-source semantic segmentation of aerial tiles maps sidewalk, crosswalk, and footpath into a
+routable network, allowing sidewalk presence and continuity to be measured at scale
+\autocite{tile2net2023}. Shade-aware routing models a sun-avoidance preference and a
+CoolWalkability metric from building footprints, heights, and sun position \autocite{coolwalks2025}.
+Interpretable machine learning, using gradient boosting with SHAP, extends discrete-choice models
+of pedestrian route choice \autocite{routechoiceml2024,afkara2020walking}.
+
+\section{Methodology}
+\subsection{Research Design}
+We use a convergent mixed-methods design combining three angles of evidence: objective
+(standards-referenced audit, counts, sensors, computer vision), observed (pedestrian behavior),
+and stated (interviews and validated perception scales). The core is a paired observation of a
+main-corridor segment against its back-street to quantify the gradient.
+
+\subsection{Scope and Units}
+The unit of analysis is a segment (one block per side, named by street). Each main-corridor
+segment is paired with the back-street block behind it, observed on matched days and times.
+Windows span the morning peak (06:00--09:00), midday heat (11:00--14:00), evening peak
+(15:00--18:30), after dark, and weekend/Car Free Day. Priority nodes are Dukuh Atas/Sudirman
+station, GBK--FX, and Ratu Plaza/Menara Mandiri.
+
+\subsection{Instruments}
+The instruments are a segment audit scored 0--2 with GPS and photo references; a tally sheet for
+5-minute counts (sidewalk versus road, direction to or from transit, apparent group and gender),
+an obstruction inventory, and a weather and coping block; a $\leq 5$-minute consent-first
+intercept script; a neutral per-persona interview guide with an obstacle-oriented expert
+interview; and validated perception scales (a seven-point thermal sensation vote, a perceived
+safety and comfort scale, and selected Neighborhood Environment Walkability Scale items).
+
+\subsection{Sampling}
+Sampling is non-probability with quotas crossing persona, location, and time. Personas include
+office commuters, women pedestrians (oversampled), students, transit last-mile users, informal
+actors (vendors and ojol drivers), back-street residents, and people with reduced mobility.
+Recruitment occurs at natural dwell points. The convenience nature of the sample is stated;
+representativeness is not claimed.
+
+\subsection{Data Sources}
+Weather is logged per window from Apple WeatherKit (temperature, apparent temperature, humidity,
+precipitation probability, UV, and condition) to keep the research and any future application on
+one source, with Open-Meteo as a historical fallback and the national meteorological agency
+(BMKG) as an official cross-check; attribution is shown on outputs. Other sources are air quality;
+OpenStreetMap geometry with building footprints and heights; Google Street View and aerial tiles
+for computer vision; a sensing walk logging temperature, humidity, and illuminance with GPS; and
+geotagged review and social-media mining for public discourse.
+
+\subsection{Benchmarks}
+Audit parameters reference the national standard \autocite{binamarga2023}: minimum footway width
+$1.85$~m, crossing spacing $100$--$200$~m, maximum ramp slope $8\%$, minimum overpass clearance
+$5.1$~m, and the pedestrian-flow unit of persons per meter per minute. Walkability uses PEQI and
+GWI \autocite{dwisadana2024,mulyadi2022}; acceptable walking distance uses Jakarta-specific values
+\autocite{afkara2020walking}; safety context uses national crash data \autocite{korlantas2023};
+thermal comfort references Sky View Factor and a Temperature-Humidity index
+\autocite{arif2021skyview}.
+
+\subsection{Computational Methods}
+We apply the team's computer-vision and machine-learning skills to widen coverage and
+objectivity. Automated sidewalk mapping segments aerial tiles into a routable network to measure
+the gradient at scale \autocite{tile2net2023}; street-view segmentation yields per-point
+streetscape features \autocite{walkabilitydl2024} with an accessibility label scheme
+\autocite{projectsidewalk2019}; a shade layer follows the CoolWalks approach from building
+footprints, heights, and sun position \autocite{coolwalks2025}; and an interpretable model
+(gradient boosting with SHAP) extends the discrete-choice baseline
+\autocite{afkara2020walking,routechoiceml2024}. Models trained on other cities require validation
+against the Jakarta field audit, and each model is treated as a hypothesis generator rather than
+proof.
+
+\subsection{Cross-Validation and Ethics}
+Each claim is tested from the three angles. Computer-vision outputs are ground-truthed against the
+field audit, sensor readings are compared with WeatherKit, and audits are scored by multiple
+raters for reliability. Agreement strengthens a finding; disagreement is reported as insight. Every
+intercept begins with verbal consent, with separate consent for recording; sensitive and after-dark
+intercepts are led by a female team member with a buddy. Faces in photographs are blurred, and
+service terms are respected (WeatherKit attribution, Google terms, OpenStreetMap license).
+
+\section{Expected Results and Discussion}
+Field results are withheld until data collection (target after the field week). The analysis will
+report the measured gradient between the main corridor and its back-streets, the relationship
+between weather and observed comfort behavior, and the agreement between computer-vision estimates
+and the field audit. No conclusion about corridor comfort or safety is drawn in advance.
+
+\section{Conclusion}
+This paper sets out a neutral, standards-referenced, and computationally extended research design
+for a comfort-focused walkability study of the Sudirman corridor. The contribution at this stage
+is the design itself: a paired-gradient measurement, a weather-joined observation protocol, and a
+computer-vision and machine-learning pipeline validated against field ground truth. Findings will
+follow the fieldwork.
+
+\printbibliography
+
+\end{document}

@@ -67,8 +67,9 @@ Urban_Research/
 ├── act/                 ← Stage 3: what we decide to build
 │   └── solution-candidates.md
 └── report/              ← LaTeX report (Overleaf)
-    ├── main.tex
-    └── refs.bib
+    ├── main_id.tex      ← Bahasa Indonesia, report class (BAB I-IV)
+    ├── main_en.tex      ← English, IEEE conference template
+    └── refs.bib         ← shared bibliography
 ```
 
 ---
