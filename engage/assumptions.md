@@ -10,9 +10,9 @@ field*, not facts.
 
 ## How to use this file
 
-- Populate it from our Miro board — pull out every belief we are carrying into the field.
+- Populate it from our Miro board, pull out every belief we are carrying into the field.
 - Label each one **UNVERIFIED** until fieldwork confirms or refutes it.
-- After fieldwork, update the **Status** column. Do **not** delete a refuted assumption —
+- After fieldwork, update the **Status** column. Do **not** delete a refuted assumption,
   a refuted assumption is a finding.
 
 ## Assumptions table
@@ -29,5 +29,5 @@ field*, not facts.
 
 ---
 
-**Reminder:** the point of fieldwork is to find out whether these are true — including the
+**Reminder:** the point of fieldwork is to find out whether these are true, including the
 possibility that they are wrong. Let the data decide.

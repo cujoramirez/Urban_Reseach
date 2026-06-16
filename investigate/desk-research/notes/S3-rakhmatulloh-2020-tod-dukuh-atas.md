@@ -1,4 +1,4 @@
-# S3 — Pengembangan Jalur Pejalan Kaki di Kawasan TOD Dukuh Atas Jakarta
+# S3: Pengembangan Jalur Pejalan Kaki di Kawasan TOD Dukuh Atas Jakarta
 
 ## Full citation
 Rakhmatulloh, A. R., & Dewi, D. I. K. (2020). *Pengembangan Jalur Pejalan Kaki di Kawasan TOD
@@ -13,7 +13,7 @@ ISSN 2337-7062.
 
 ## Scope
 **CORRIDOR-ADJACENT.** Dukuh Atas is the **northern transit hub of the Sudirman corridor**
-(MRT/KRL/Transjakarta/LRT interchange near the Bundaran HI end) — described as the "embrio
+(MRT/KRL/Transjakarta/LRT interchange near the Bundaran HI end), described as the "embrio
 pembangunan TOD di Indonesia" with a **walkable-city / road-diet** concept. Data collected
 **2019** (post-revitalization era, pre/early-MRT). Complements S1 (which covers the southern
 segment 4) by covering the northern node.
@@ -24,7 +24,7 @@ segment 4) by covering the northern node.
 
 ## QUANTITATIVE findings (exact / close passages)
 - **Headline result (abstract):** "pendapatan, maksud perjalanan, dan kepadatan permukiman
-  dapat mempengaruhi frekuensi pejalan kaki di kawasan TOD Dukuh Atas" — **income, trip purpose,
+  dapat mempengaruhi frekuensi pejalan kaki di kawasan TOD Dukuh Atas", **income, trip purpose,
   and settlement density** significantly affect walking frequency (significance <0.05).
 - Pedestrian profile: **±63% male**; majority **age 15–30 (usia produktif)**; **~89% private
   employees (karyawan swasta)**; morning peak **06.00–09.00 WIB**.

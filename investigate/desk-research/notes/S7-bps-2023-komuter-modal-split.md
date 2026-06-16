@@ -1,4 +1,4 @@
-# S7 — BPS Survei Komuter Jabodetabek 2023: modal split (via GoodStats)
+# S7 · BPS Survei Komuter Jabodetabek 2023: modal split (via GoodStats)
 
 ## Full citation
 GoodStats. (2024, 19 September). *Hampir 80% Komuter Jabodetabek Memilih Gunakan Kendaraan
@@ -12,7 +12,7 @@ Jabodetabek 2023.**
 - **Accessed:** 2026-06-16
 
 ## Scope
-**CONTEXT — Jabodetabek (metro region).** Not corridor-specific. Relevant because it quantifies
+**CONTEXT, Jabodetabek (metro region).** Not corridor-specific. Relevant because it quantifies
 how small a share **walking** holds among commute modes, which frames the demand side of any
 walking intervention.
 
@@ -24,7 +24,7 @@ walking intervention.
 
 ## SENTIMENT / INTENT
 - Implies a car/motorcycle-dominated commute culture; walking is a marginal *primary* mode but
-  is typically the **last-mile** connector to the ~20% who use public transport — the segment a
+  is typically the **last-mile** connector to the ~20% who use public transport, the segment a
   comfort-focused intervention would touch.
 
 ## Corridor vs. general
@@ -34,4 +34,4 @@ walking intervention.
 - **VERIFY:** confirm the 2023 modal-split percentages against the **BPS primary** (Silastik /
   the published Statistik Komuter Jabodetabek 2023) before relying on them in the report.
 - Note the year carefully: the headline split is **2023**; the "~10% are commuters" is **2019**.
-  (Earlier search summaries mislabeled the split as 2019 — corrected here.)
+  (Earlier search summaries mislabeled the split as 2019, corrected here.)

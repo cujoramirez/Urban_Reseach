@@ -1,6 +1,6 @@
 # Challenge Statement
 
-> ⚠️ **BANNER — TEMPORARY STATEMENT.**
+> ⚠️ **BANNER, TEMPORARY STATEMENT.**
 > This statement is **not final**. It will be **refined on Friday, 19 June 2026**, after our
 > first round of fieldwork. Do not treat the wording below as locked.
 
@@ -11,7 +11,7 @@
 - **Big Idea:** *Urban Living Experience.*
 - **Essential Question:** *"Apa yang menentukan apakah berjalan kaki di kota terasa nyaman,
   aman, dan bermartabat, serta bagi siapa pengalaman itu benar-benar terwujud?"*
-  (What determines whether walking in the city feels comfortable, safe, and dignified — and for
+  (What determines whether walking in the city feels comfortable, safe, and dignified, and for
   whom is that experience actually realized?)
 
 ## Current (temporary) statement
@@ -35,7 +35,7 @@ and the near-nonexistent sidewalks one block behind it. See [`../DECISIONS.md`](
 - **2026-06-15 (current):** Narrowed to the Sudirman corridor + back-streets, named streets
   only, focused on the comfort of the *walking experience* and the sidewalk "gradient."
 - **2026-06-19 (planned):** Refine wording after fieldwork. Note that "comfortable" is itself
-  an assumption to test — fieldwork may reshape what the real problem is.
+  an assumption to test, fieldwork may reshape what the real problem is.
 
 ---
 

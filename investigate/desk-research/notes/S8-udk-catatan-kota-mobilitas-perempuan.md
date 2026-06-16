@@ -1,4 +1,4 @@
-# S8 — UDK (Urun Daya Kota): Membaca Rantai Mobilitas Perempuan di Kota
+# S8 · UDK (Urun Daya Kota): Membaca Rantai Mobilitas Perempuan di Kota
 
 ## Full citation
 Urun Daya Kota (UDK). (n.d.). *Membaca Rantai Mobilitas Perempuan di Kota: Bagaimana Menciptakan
@@ -8,16 +8,16 @@ yang Aman & Nyaman Untuknya?* Catatan Kota. Urun Daya Kota.
 - **Capture:** `sources/web-captures.md` → CAP-4
 - **Source type:** NGO / civic-organization essay (Catatan Kota series).
 - **Accessed:** 2026-06-16
-- **Verification level:** ⚠ **Existence + framing only** — article body, date, and any figures
+- **Verification level:** ⚠ **Existence + framing only**, article body, date, and any figures
   not retrieved from the listing page.
 
 ## Scope
-**CONTEXT — women's urban mobility (general).** Not Sudirman-specific. Useful as a *framing /
+**CONTEXT, women's urban mobility (general).** Not Sudirman-specific. Useful as a *framing /
 lens* source for designing neutral fieldwork that captures women's experience and "mobility
 chains," which the team's gender-balanced intercept plan already anticipates.
 
 ## QUALITATIVE / SENTIMENT (exact passage available)
-- Framing: **"Kota dihadirkan sebagai ruang hidup yang mestinya aman, nyaman, dan inklusif—
+- Framing: **"Kota dihadirkan sebagai ruang hidup yang mestinya aman, nyaman, dan inklusif, 
   termasuk bagi perempuan"** with complex daily mobility patterns.
 - Theme: women's daily travel is a *chain* of linked trips (mobility chains); urban space should
   be safe, comfortable, inclusive for that pattern.

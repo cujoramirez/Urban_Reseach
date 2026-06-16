@@ -1,8 +1,8 @@
 # Synthesis
 
-> 🚫 **INTENTIONALLY EMPTY — do not fill before Friday, 19 June 2026.**
+> 🚫 **INTENTIONALLY EMPTY, do not fill before Friday, 19 June 2026.**
 > Synthesis must come from **collected field data**, not from our assumptions. Filling this
-> in early — from what we *expect* rather than what we *found* — is exactly the confirmation
+> in early, from what we *expect* rather than what we *found*, is exactly the confirmation
 > bias our mentor flagged. Leave it blank until we have real data.
 
 ---

@@ -1,4 +1,4 @@
-# S9 — Walkability & importance assessment, Sudirman–Thamrin CBD (road diet)
+# S9: Walkability & importance assessment, Sudirman–Thamrin CBD (road diet)
 
 ## Full citation
 Mulyadi, A. M., Sihombing, A. V. R., Hendrawan, H., Vitriana, A., & Nugroho, A. (2022).
@@ -7,14 +7,14 @@ capital city of Indonesia.* Transportation Research Interdisciplinary Perspectiv
 https://doi.org/10.1016/j.trip.2022.100695
 
 - **URL:** https://www.sciencedirect.com/science/article/pii/S2590198222001555
-- **Local file:** `sources/sciencedirect_cbd_walkability_road_diet.pdf` (full text, 13 pp.) —
+- **Local file:** `sources/sciencedirect_cbd_walkability_road_diet.pdf` (full text, 13 pp.),
   obtained via the team's institutional access.
 - **Source type:** Peer-reviewed journal article (Elsevier; authors from BRIN/Litbang West Java,
   POLBAN, Ministry of Public Works/Bina Marga).
 - **Accessed:** 2026-06-16
 
 ## Scope
-**CORRIDOR-SPECIFIC** — Sudirman–Thamrin CBD. Five survey locations along the corridor (3 on
+**CORRIDOR-SPECIFIC**, Sudirman–Thamrin CBD. Five survey locations along the corridor (3 on
 Sudirman incl. Skate Park area; 2 on Thamrin incl. Plaza area), plus the HI roundabout area.
 Pilot project of the **road-diet** sidewalk revitalization for the 2018 Asian Games. This is the
 strongest corridor-specific *before/after* walkability source in the set.
@@ -46,12 +46,12 @@ strongest corridor-specific *before/after* walkability source in the set.
 
 ## QUALITATIVE / IPA findings
 - Main walkability obstacles named: **obstructions on the sidewalk** and **sidewalk width**.
-- IPA flags items to "concentrate here" (high importance, low performance) — incl. pedestrian
+- IPA flags items to "concentrate here" (high importance, low performance), incl. pedestrian
   conflicts, motorist behavior, and infrastructure for people with disabilities (P-items).
 
 ## SENTIMENT / INTENT
 - Frames the road diet as a **success** that makes Jakarta "more walkable" while raising PT use;
-  recommends periodic evaluation and replication in other CBDs. (Author stance — label as such.)
+  recommends periodic evaluation and replication in other CBDs. (Author stance, label as such.)
 
 ## Corridor vs. general
 - **Corridor-specific** (the WI values, before/after, IPA, TJ Corridor-1 ridership).
@@ -60,7 +60,7 @@ strongest corridor-specific *before/after* walkability source in the set.
 ## CONTRADICTION with S5 (must be logged)
 - S9 (peer-reviewed, citing the **same** Ridhani 2015 primary, with numbers) says **Sudirman
   2015 ≈ 64 = "waiting to walk"**, Thamrin ≈ 71 = "walkable."
-- My **S5 note** recorded "**pleasure to walk** for both Thamrin & Sudirman" — but that came from
+- My **S5 note** recorded "**pleasure to walk** for both Thamrin & Sudirman", but that came from
   an **unreliable WebFetch summary** of the UGM abstract page, and "pleasure to walk" is **not
   even a category** on this GWI scale. → **Treat S9's figures as the reliable version; correct
   S5.** Resolve fully only by reading the Ridhani 2015 full text.

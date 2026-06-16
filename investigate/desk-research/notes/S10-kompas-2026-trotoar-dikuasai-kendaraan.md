@@ -1,4 +1,4 @@
-# S10 — Jakarta Darurat Parkir: Trotoar Dikuasai Kendaraan (Kompas, 2026)
+# S10 · Jakarta Darurat Parkir: Trotoar Dikuasai Kendaraan (Kompas, 2026)
 
 ## Full citation
 Kompas.com (Megapolitan). (2026, 12 May). *Jakarta Darurat Parkir: Trotoar Dikuasai Kendaraan,
@@ -10,7 +10,7 @@ Pungli Tak Kunjung Usai.*
 - **Accessed:** 2026-06-16
 
 ## Scope
-**CONTEXT — city-wide, recent (2026).** Names Jl. Matraman Raya (East Jakarta) and Blok M;
+**CONTEXT, city-wide, recent (2026).** Names Jl. Matraman Raya (East Jakarta) and Blok M;
 **does not mention Sudirman** and **does not cite a Dishub percentage.** Use only to corroborate
 the *theme* of vehicle encroachment on sidewalks.
 
@@ -25,7 +25,7 @@ the *theme* of vehicle encroachment on sidewalks.
 
 ## Why kept
 - Recent, credible corroboration that sidewalk encroachment by vehicles is a live, city-wide
-  problem — consistent with S1's corridor-level finding (motorbikes/PKL on Sudirman seg. 4).
+  problem, consistent with S1's corridor-level finding (motorbikes/PKL on Sudirman seg. 4).
 - **Does NOT** substitute for the missing KCL/Dishub ">40% / 12%" figure (G6 still open).
 
 ## Flags

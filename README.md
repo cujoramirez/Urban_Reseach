@@ -1,6 +1,6 @@
-# Urban Research — Sudirman Walking Experience
+# Urban Research: Sudirman Walking Experience
 
-**Apple Developer Academy @ BINUS — Cohort 9**
+**Apple Developer Academy @ BINUS, Cohort 9**
 **Urban Innovation Challenge (Challenge 4) · Challenge Based Learning (CBL)**
 **Big Idea: "Urban Living Experience"**
 
@@ -11,7 +11,7 @@
 ## What this repository is
 
 This is our **research workspace**: field notes, reports, instruments, and progress
-tracking. There is **no app code here** — the eventual deliverable is a native iOS app,
+tracking. There is **no app code here**, the eventual deliverable is a native iOS app,
 but that lives in a separate repository. This repo is for the *thinking and the evidence*
 that the app will be built on.
 
@@ -28,7 +28,7 @@ Challenge Based Learning moves through three stages. Our folders mirror them:
 |-------|--------|-----------------|
 | **Engage** | [`engage/`](engage/) | The challenge statement, our explicit assumptions, and neutral guiding questions. |
 | **Investigate** | [`investigate/`](investigate/) | Desk research, field instruments, raw data, and (later) synthesis. |
-| **Act** | [`act/`](act/) | Solution candidates — held until the data tells us what to build. |
+| **Act** | [`act/`](act/) | Solution candidates, held until the data tells us what to build. |
 
 Reporting lives in [`report/`](report/) (LaTeX, written for Overleaf).
 
@@ -36,12 +36,12 @@ Reporting lives in [`report/`](report/) (LaTeX, written for Overleaf).
 
 ## LOCKED scope
 
-**The Sudirman corridor and its immediate back-streets — referenced by named streets only.**
+**The Sudirman corridor and its immediate back-streets, referenced by named streets only.**
 
 - ✅ The main Sudirman trotoar (wide, proper sidewalk) **and** the near-nonexistent
-  sidewalks one block behind it. The *contrast* between these two — the "gradient" — is
+  sidewalks one block behind it. The *contrast* between these two, the "gradient", is
   the core of our research.
-- ❌ **NOT** "Jakarta Selatan" (too broad — explicitly rejected by our mentor).
+- ❌ **NOT** "Jakarta Selatan" (too broad, explicitly rejected by our mentor).
 - ❌ **NOT** a long list of station names.
 
 Always describe locations by **named streets**, not districts or stations.
@@ -87,7 +87,7 @@ Internal working group. **(Fill in your own roles below.)**
 
 **Mentor:** Kak Will Chris
 
-> Internal nickname: "William Cupertino" — an inside joke, **not** for external use.
+> Internal nickname: "William Cupertino", an inside joke, **not** for external use.
 > A formal external name is still being decided (working candidate: *Tim Pijak*).
 
 ---
@@ -97,4 +97,4 @@ Internal working group. **(Fill in your own roles below.)**
 1. **No invented data.** Placeholders stay placeholders until real fieldwork fills them.
 2. **Keep guiding questions neutral.** Assumptions go in `assumptions.md`, never inside questions.
 3. **Log decisions** in `DECISIONS.md` as you make them.
-4. **Don't commit large photos** to git — see [`investigate/field/photos/README.md`](investigate/field/photos/README.md).
+4. **Don't commit large photos** to git, see [`investigate/field/photos/README.md`](investigate/field/photos/README.md).

@@ -1,7 +1,7 @@
 # Guiding Questions
 
 These are the questions that steer our fieldwork. They are written to be **neutral and
-two-sided** — they must never pre-load the answer we expect. Our assumptions live separately
+two-sided**, they must never pre-load the answer we expect. Our assumptions live separately
 in [`assumptions.md`](assumptions.md) and must stay out of these questions.
 
 Each question has a **Why this matters to the challenge** line so we never lose the thread
@@ -12,20 +12,20 @@ back to the walking experience in the Sudirman corridor.
 ## A. Field questions (pedestrians & observation)
 
 1. **How do pedestrians move through the Sudirman area?**
-   - *Why this matters:* Establishes the actual movement patterns before we judge them —
+   - *Why this matters:* Establishes the actual movement patterns before we judge them,
      where people walk, at what pace, in what numbers.
 
 2. **Do pedestrians use the sidewalks provided?**
    - *Why this matters:* A neutral counterpart to Q1. Asks plainly whether sidewalks are
      used, without assuming they are avoided.
 
-3. **What makes walking here feel comfortable — and what makes it feel uncomfortable?**
+3. **What makes walking here feel comfortable, and what makes it feel uncomfortable?**
    - *Why this matters:* We must not assume discomfort. This asks people to define comfort in
      their own terms, in both directions.
 
 4. **How does the walking environment differ between the main Sudirman trotoar and the
    back-streets one block away?**
-   - *Why this matters:* Directly studies the "gradient" — the contrast at the centre of our
+   - *Why this matters:* Directly studies the "gradient", the contrast at the centre of our
      scope.
 
 5. **Who is walking, and for what purpose?** (e.g. commuting, ojek/ojol pickup, leisure,
@@ -34,23 +34,23 @@ back to the walking experience in the Sudirman corridor.
      designing for an imagined "average" pedestrian.
 
 6. **What do pedestrians do when the sidewalk is interrupted or unavailable?**
-   - *Why this matters:* Observes behaviour at obstructions neutrally — they may detour,
+   - *Why this matters:* Observes behaviour at obstructions neutrally, they may detour,
      wait, step into the road, or turn back. We record what actually happens.
 
 > _(Add more as fieldwork suggests them. Keep every addition neutral and two-sided.)_
 
 ---
 
-## B. Interview questions (policy expert — obstacle-oriented)
+## B. Interview questions (policy expert: obstacle-oriented)
 
 > **Context:** Planned interview with the former Jakarta governor who led the **2017–2022
 > sidewalk program**. **Purpose:** to surface the **obstacles that blocked comfortable
 > pedestrian facilities** from being built and maintained. This is the clear, challenge-tied
-> reason for the interview — not vague "cross-validation."
+> reason for the interview, not vague "cross-validation."
 
 1. **What were the main obstacles to building and maintaining good pedestrian facilities
    along corridors like Sudirman during the 2017–2022 program?**
-   - *Why this matters:* The core of the interview — names the real-world barriers we'd
+   - *Why this matters:* The core of the interview, names the real-world barriers we'd
      otherwise only guess at.
 
 2. **Which obstacles were budgetary, which were regulatory/coordination, and which were about

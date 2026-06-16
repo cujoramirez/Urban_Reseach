@@ -1,7 +1,7 @@
 # Street-Intercept Script (≤ 5 minutes)
 
 A short, neutral script for talking to pedestrians on the street. Keep it under **5 minutes**.
-Questions are **open and non-leading** — let people answer in their own words.
+Questions are **open and non-leading**, let people answer in their own words.
 
 > **Safety note:** Sensitive intercepts and any **night** intercepts should be **led by a
 > female team member**, with at least one other teammate nearby. Read the area; stop any
@@ -26,11 +26,11 @@ Questions are **open and non-leading** — let people answer in their own words.
 
 ## 3. Core questions (open, neutral, two-sided)
 
-3. "Bagaimana pengalaman Anda berjalan kaki di sini?" *(open — no assumption of good or bad)*
+3. "Bagaimana pengalaman Anda berjalan kaki di sini?" *(open, no assumption of good or bad)*
 4. "Apa yang membuat berjalan kaki di sini terasa **nyaman**? Apa yang membuatnya **kurang
    nyaman**?" *(both directions)*
 5. "Tadi Anda berjalan di trotoar, di jalan, atau berpindah-pindah? Apa yang memengaruhi
-   pilihan itu?" *(neutral — does not assume road-walking)*
+   pilihan itu?" *(neutral, does not assume road-walking)*
 6. "Kalau ada satu hal yang bisa diperbaiki dari berjalan kaki di sini, apa itu?"
 
 ## 4. Close
@@ -42,5 +42,5 @@ Questions are **open and non-leading** — let people answer in their own words.
 
 ---
 
-**Do not** suggest answers, agree/disagree, or hint at what you expect. Silence is fine —
+**Do not** suggest answers, agree/disagree, or hint at what you expect. Silence is fine,
 give people time to think.

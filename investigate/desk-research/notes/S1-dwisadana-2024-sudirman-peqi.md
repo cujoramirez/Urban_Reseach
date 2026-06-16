@@ -1,4 +1,4 @@
-# S1 — Kualitas Jalur Pejalan Kaki Pasca Revitalisasi, Koridor Jl. Jenderal Sudirman
+# S1: Kualitas Jalur Pejalan Kaki Pasca Revitalisasi, Koridor Jl. Jenderal Sudirman
 
 ## Full citation
 Dwisadana, M. A., & Widjajanti, R. (2024). *Kajian Kualitas Jalur Pejalan Kaki Pasca
@@ -11,7 +11,7 @@ Wilayah dan Kota), 13(1), 21–35. E-ISSN 2338-3526.
 - **Accessed:** 2026-06-16
 
 ## Scope
-**CORRIDOR-SPECIFIC — but only Segment 4** of the Sudirman corridor (southern end). The paper
+**CORRIDOR-SPECIFIC, but only Segment 4** of the Sudirman corridor (southern end). The paper
 divides the corridor into four segments north→south by land use; it studies **segment 4**,
 whose crowd points are **in front of Menara Mandiri, GBK & FX, and Ratu Plaza** (near
 Transjakarta/MRT transit integrated with JPO). Studies the **post-revitalization (2018–2020)**
@@ -56,10 +56,10 @@ state. This is exactly the southern part of our scope (toward Senayan).
 
 ## SENTIMENT / INTENT (exact passages)
 - **"pejalan kaki lebih peduli terhadap pemenuhan kebutuhan kenyamanannya daripada
-  keamanannya"** — pedestrians care more about *comfort* than *safety* here, because most
+  keamanannya"**, pedestrians care more about *comfort* than *safety* here, because most
   problems are comfort-related.
 - **"karakteristik pejalan kaki cenderung menerima kualitas jalur pejalan kaki selama mampu
-  mewadahi pergerakannya"** — pedestrians tend to *accept/tolerate* the sidewalk as long as it
+  mewadahi pergerakannya"**, pedestrians tend to *accept/tolerate* the sidewalk as long as it
   lets them move, even where it misses design standards. (Explains why perception (84.7) scores
   higher than measured physical condition (64.3).)
 

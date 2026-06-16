@@ -4,7 +4,7 @@ Transcripts of **street intercepts** and the **policy-expert interview**.
 
 ## ⚠️ Consent before recording
 
-- Get **explicit verbal consent to record** *before* you start any audio recording — this is
+- Get **explicit verbal consent to record** *before* you start any audio recording, this is
   separate from consent to participate. See the
   [intercept script](../instruments/intercept-script.md).
 - If someone declines recording, you may still take written notes (if they agreed to talk).
@@ -22,7 +22,7 @@ Transcripts of **street intercepts** and the **policy-expert interview**.
 ## Template
 
 ```markdown
-# <Intercept / Interview> — <date>
+# <Intercept / Interview>: <date>
 
 - Location/segment:
 - Interviewer(s):
@@ -34,5 +34,5 @@ Q: …
 A: …
 ```
 
-> Transcribe faithfully. Keep your interpretation out of the transcript itself — analysis
+> Transcribe faithfully. Keep your interpretation out of the transcript itself, analysis
 > happens later in synthesis, from the real words.

@@ -4,7 +4,7 @@ Photo evidence from the field.
 
 ## ⚠️ Do NOT commit raw / large images to git
 
-Raw `HEIC` and large `JPEG`/`PNG` files permanently bloat the repository — once committed,
+Raw `HEIC` and large `JPEG`/`PNG` files permanently bloat the repository, once committed,
 they stay in git history forever. Instead:
 
 - **Preferred:** keep photos in **external/shared storage** (e.g. the team Google Drive) and

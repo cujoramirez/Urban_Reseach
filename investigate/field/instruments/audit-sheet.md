@@ -26,12 +26,12 @@ Use **N/A** only where a parameter genuinely does not apply.
 | 1 | **Sidewalk present** (is there a sidewalk at all?) | ☐ | ☐ | ☐ | |
 | 2 | **Effective width** (measure m; std min **1,85 m**: 2≥1,85 / 1=1,2–1,85 / 0<1,2) | ☐ | ☐ | ☐ | width: __ m |
 | 3 | **Surface intact** (no holes, broken tiles, trip hazards) | ☐ | ☐ | ☐ | |
-| 4 | **Obstruction** (0 = heavily blocked, 2 = clear) — note type below | ☐ | ☐ | ☐ | type: |
+| 4 | **Obstruction** (0 = heavily blocked, 2 = clear), note type below | ☐ | ☐ | ☐ | type: |
 | 5 | **Kerb ramp / guiding block** (ramp slope std **max 8% / 1:12**; tactile guiding block) | ☐ | ☐ | ☐ | slope: __% |
 | 6 | **Lighting** *(night audit)* | ☐ | ☐ | ☐ | |
 | 7 | **Crowd / "eyes on street"** (activity & passive surveillance) | ☐ | ☐ | ☐ | |
 | 8 | **Crossing access** (std spacing **100–200 m**: 2≤200 m / 0>200 m) | ☐ | ☐ | ☐ | dist: __ m |
-| 9 | **Shade** (trees, canopy, shelter; note feel/temp — THI uncomfortable **>27°C**) | ☐ | ☐ | ☐ | °C: __ |
+| 9 | **Shade** (trees, canopy, shelter; note feel/temp, THI uncomfortable **>27°C**) | ☐ | ☐ | ☐ | °C: __ |
 | 10 | **Drainage / open gutter** (0 = open/dangerous gutter, 2 = covered/safe) | ☐ | ☐ | ☐ | |
 
 ### Obstruction type (circle all that apply)

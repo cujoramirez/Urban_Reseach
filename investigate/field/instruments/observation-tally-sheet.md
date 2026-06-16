@@ -1,4 +1,4 @@
-# Observation Tally Sheet (printable) — gradient pairs
+# Observation Tally Sheet (printable): gradient pairs
 
 Print **two per pair** (one MAIN-corridor segment, one BACK-street segment) and observe them the
 same day/time. Pairs with the [observation protocol](../observation-protocol.md) and feeds the
@@ -16,7 +16,7 @@ counts CSV ([data/README.md](../data/README.md)). Use **5-minute count windows**
 
 ---
 
-## A. Pedestrian counts — tally per 5-min window
+## A. Pedestrian counts: tally per 5-min window
 Mark each person once. "Road" = walking in the carriageway/gutter, not the sidewalk.
 
 | Window | On sidewalk (tally) | In road (tally) | → toward transit | ← away | Notes |
@@ -26,7 +26,7 @@ Mark each person once. "Road" = walking in the carriageway/gutter, not the sidew
 | 3 |  |  |  |  |  |
 | **Totals** |  |  |  |  |  |
 
-## B. Who is walking — tally (apparent only; never asked intrusively)
+## B. Who is walking: tally (apparent only; never asked intrusively)
 | Group | Tally | | Rough gender | Tally |
 |-------|-------|--|--------------|-------|
 | Office / formal |  | | Women (est.) |  |
@@ -36,7 +36,7 @@ Mark each person once. "Road" = walking in the carriageway/gutter, not the sidew
 | Parent + child |  | | | |
 | Elderly / visible disability |  | | | |
 
-## C. Encroachment on the sidewalk — count + locate (photo ref + GPS)
+## C. Encroachment on the sidewalk: count + locate (photo ref + GPS)
 | Obstruction | Count | Where on segment | Photo ref |
 |-------------|-------|------------------|-----------|
 | Parked/through motorbikes |  |  |  |
@@ -45,9 +45,9 @@ Mark each person once. "Road" = walking in the carriageway/gutter, not the sidew
 | Poles / signage / construction |  |  |  |
 | Other: __________ |  |  |  |
 - Narrowest **effective** walkable width observed: ______ m, at: ______________
-  *(national min standard **1,85 m** — flag if below; S13)*
+  *(national min standard **1,85 m**, flag if below; S13)*
 
-## D. Behaviour event log (neutral — record event + apparent trigger, not a verdict)
+## D. Behaviour event log (neutral: record event + apparent trigger, not a verdict)
 | Time | Event (what happened) | Apparent trigger (or "none") | Photo/GPS |
 |------|-----------------------|------------------------------|-----------|
 |  | e.g. pedestrian stepped into road |  |  |
@@ -58,7 +58,7 @@ Mark each person once. "Road" = walking in the carriageway/gutter, not the sidew
 |  |  |  |  |
 
 ## E. Crossings (quick check)
-- Nearest safe crossing within 200 m? ☐ yes ☐ no — type: ☐ zebra ☐ JPO ☐ pelican
+- Nearest safe crossing within 200 m? ☐ yes ☐ no, type: ☐ zebra ☐ JPO ☐ pelican
   *(std spacing **100–200 m**; S13)*
 - Pedestrian signal present & working? ☐ yes ☐ no   Median refuge? ☐ yes ☐ no
 - Crossing/JPO warranted here? (ped flow **>450/jam/eff-m**, veh **>500/jam**, or **>40 km/jam**)
@@ -67,20 +67,20 @@ Mark each person once. "Road" = walking in the carriageway/gutter, not the sidew
 ## F. Weather & climate-coping
 **Environment now:** Temp/feel ______ °C  Humidity ____ %  *(THI uncomfortable **>27°C**)*
 - Sky: ☐ clear ☐ hazy ☐ overcast ☐ drizzle ☐ heavy rain
-- Shade along segment: ☐ none ☐ patchy ☐ mostly shaded — longest **unshaded gap** ____ m
+- Shade along segment: ☐ none ☐ patchy ☐ mostly shaded, longest **unshaded gap** ____ m
   *(guideline shade ~every 300 m; S1)*
-- Wet/puddle/flood points after rain: ☐ none ☐ some — where: ______________
+- Wet/puddle/flood points after rain: ☐ none ☐ some, where: ______________
 
 **Coping tally (per 5-min window):**
 | Behaviour | Tally | | Behaviour | Tally |
 |-----------|-------|--|-----------|-------|
-| Umbrella — sun |  | | Walking shaded side / crossed to shade |  |
-| Umbrella — rain |  | | Sheltering / waiting out rain (under cover) |  |
+| Umbrella, sun |  | | Walking shaded side / crossed to shade |  |
+| Umbrella, rain |  | | Sheltering / waiting out rain (under cover) |  |
 | Hat / long sleeve / sun-jacket |  | | Hurrying through exposed/hot stretch |  |
 | Fanning / wiping sweat / cold drink |  | | Ordered ojol/taxi instead of walking (rain) |  |
 
 ## G. One-line neutral impression
-(What you actually saw — keep interpretation out: that's for synthesis.)
+(What you actually saw, keep interpretation out: that's for synthesis.)
 ________________________________________________________________________
 
 ---

@@ -1,4 +1,4 @@
-# S11 — Sulit Dapat Ojol, Warga Menumpuk di Luar Stasiun Sudirman (Kompas, 2025)
+# S11: Sulit Dapat Ojol, Warga Menumpuk di Luar Stasiun Sudirman (Kompas, 2025)
 
 ## Full citation
 Kompas.com (Megapolitan). (2025, 20 May). *Sulit Dapat Ojol, Warga Menumpuk di Luar Stasiun
@@ -10,7 +10,7 @@ Sudirman.*
 - **Accessed:** 2026-06-16
 
 ## Scope
-**CORRIDOR-adjacent (northern last-mile node)** — Stasiun Sudirman (KRL), Jalan Blora, toward
+**CORRIDOR-adjacent (northern last-mile node)**, Stasiun Sudirman (KRL), Jalan Blora, toward
 Dukuh Atas MRT. Morning peak. Directly relevant to last-mile walking behaviour on/around the
 corridor.
 
@@ -31,8 +31,8 @@ corridor.
 
 ## Why it matters for fieldwork
 - **Behaviour to observe:** pedestrians clustering at kerb edges, ojol motorbikes lined up on
-  the trotoar, KRL passengers dispersing on foot toward MRT — concrete, countable behaviours.
-- **Profile correction:** the two named pedestrians are **young women (28, 23)** — useful
+  the trotoar, KRL passengers dispersing on foot toward MRT, concrete, countable behaviours.
+- **Profile correction:** the two named pedestrians are **young women (28, 23)**, useful
   counterweight to the male-office-worker dominance in S1/S3/S9. Do not over-index on one profile.
 
 ## Corridor vs. general

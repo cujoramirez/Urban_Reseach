@@ -1,8 +1,8 @@
-# Field Observation Protocol — what to observe (and when/where)
+# Field Observation Protocol: what to observe (and when/where)
 
 Turns the desk-research findings into **concrete, countable things to watch for** in the field.
 Every item is neutral and two-sided (we record what happens, not what we expect). Pair this with
-the physical [audit sheet](instruments/audit-sheet.md) — the audit measures the *place*; this
+the physical [audit sheet](instruments/audit-sheet.md), the audit measures the *place*; this
 protocol records *behaviour*.
 
 > **Why each item is here:** it traces to a verified source (see `../desk-research/notes/` and
@@ -13,7 +13,7 @@ protocol records *behaviour*.
 
 ## 1. The core design: observe the GRADIENT in pairs
 The central gap in the literature is the contrast between the wide main trotoar and the streets
-one block behind it (no source measures this — it's ours to find). So:
+one block behind it (no source measures this, it's ours to find). So:
 
 - **Pick paired segments:** a **main-corridor** segment (named street, e.g. a block of Jl.
   Jenderal Sudirman) and a **back-street** one block behind it (e.g. toward Karet Tengsin / Karet
@@ -21,43 +21,43 @@ one block behind it (no source measures this — it's ours to find). So:
 - Record both with the **same audit sheet + this protocol**, so the contrast is measured, not
   assumed.
 - Vendors were officially moved "to the side streets behind the office buildings" in 2018
-  \[S12] — so the back-streets are where informal activity may concentrate. Verify on the ground.
+  \[S12], so the back-streets are where informal activity may concentrate. Verify on the ground.
 
 ## 2. When to observe (time windows)
 Commuter flow peaks on the corridor are **06:00–09:00** and **15:00–18:00 WIB**, Mon–Fri \[S1].
 Sample across:
-- **Weekday AM peak** (06:30–09:00) — commute-in, last-mile from transit.
-- **Weekday midday** (11:00–14:00) — heat, lunch trips, vendor activity.
-- **Weekday PM peak** (16:00–18:30) — commute-out.
-- **Evening/after dark** (after 18:30) — lighting, "eyes on street", safety feel (female-led).
-- **Weekend (Sunday) / Car Free Day** — leisure crowd (joggers, cyclists, families), a very
+- **Weekday AM peak** (06:30–09:00), commute-in, last-mile from transit.
+- **Weekday midday** (11:00–14:00), heat, lunch trips, vendor activity.
+- **Weekday PM peak** (16:00–18:30), commute-out.
+- **Evening/after dark** (after 18:30), lighting, "eyes on street", safety feel (female-led).
+- **Weekend (Sunday) / Car Free Day**, leisure crowd (joggers, cyclists, families), a very
   different user mix from weekday commuters. *(CFD ~Sunday morning; confirm exact hours locally.)*
-Always log **date, time window, weather** (heat/rain change everything — shade matters \[S1]).
+Always log **date, time window, weather** (heat/rain change everything, shade matters \[S1]).
 
 ## 3. What to COUNT (per segment, fixed 5-minute windows)
 Use the counts CSV (`instruments/../data/README.md`). For each window:
-- **Pedestrians on the sidewalk** vs **pedestrians in the road / gutter** — the neutral pair
+- **Pedestrians on the sidewalk** vs **pedestrians in the road / gutter**, the neutral pair
   (do they use the sidewalk? both answers recorded) \[S1 method; behaviour seen in S11].
 - **Direction**: toward / away from the nearest transit point (MRT/TJ/KRL) \[S1, S3].
 - **Apparent group**: office/formal, casual/student, vendor, ojol/courier, parent-with-child,
-  elderly, person with visible disability. (Apparent only — never asked intrusively.)
-- **Rough gender split** (observed estimate) — women are under-represented in prior samples
+  elderly, person with visible disability. (Apparent only, never asked intrusively.)
+- **Rough gender split** (observed estimate), women are under-represented in prior samples
   \[S1, S3] yet central to safety questions \[S2]; note them deliberately.
 - **Ojol pickups within ~300 m** and **people waiting at the kerb for ojol** \[S11].
 
 ## 4. What BEHAVIOUR to watch for (event log, with photo ref + GPS)
-Neutral prompts — log the event and the trigger, not a judgement:
-- **Stepping into the road**: when/where a pedestrian leaves the sidewalk — and **why** it
+Neutral prompts, log the event and the trigger, not a judgement:
+- **Stepping into the road**: when/where a pedestrian leaves the sidewalk, and **why** it
   appears to happen (obstruction? vendor? crowd? puddle? nothing?) \[S1, S11].
 - **Encroachment inventory** on the sidewalk: parked/through **motorbikes**, **PKL/vendors**,
-  parked cars, poles, construction, planters — count and locate \[S1, S9, S10, S12].
+  parked cars, poles, construction, planters, count and locate \[S1, S9, S10, S12].
 - **Sidewalk width in use**: where the *effective* walkable width pinches (S9 names width +
   obstructions as the top walkability obstacles).
 - **Crossing behaviour**: at signalised vs unsignalised crossings; jaywalking vs waiting; missing
   pedestrian signals/medians \[S1].
 - **Shade-seeking**: do people cluster in shade, cross to a shadier side, or hurry exposed
   stretches? (S1: shade is a named shortfall.)
-- **Dwell / waiting**: clusters at kerbs, halte, JPO, ojol points — where and how big \[S11].
+- **Dwell / waiting**: clusters at kerbs, halte, JPO, ojol points, where and how big \[S11].
 - **Transit micro-walk**: path and rough distance from station exit to destination/ojol \[S1
   notes "felt-far" transit distance; S11 shows dispersal toward Dukuh Atas].
 
@@ -92,7 +92,7 @@ midday pedestrians, or a shift to the shaded side, is itself a finding.
 - Record **both** sidewalk use and road use; **both** comfortable-looking and uncomfortable-
   looking behaviour. Don't only photograph problems.
 - Separate **observation** ("3 pedestrians stepped into road at the vendor cluster") from
-  **inference** ("because the vendor blocked it") — write inference as a question to test.
+  **inference** ("because the vendor blocked it"), write inference as a question to test.
 - A high or a low count is data either way. Don't go looking only for the road-walkers.
 
 ## 6. Coverage checklist (so we don't over-sample the easy spots)
@@ -106,5 +106,5 @@ midday pedestrians, or a shift to the shaded side, is itself a finding.
 ## 7. What this feeds
 - The counts/behaviour test the assumptions in `../engage/assumptions.md`.
 - The gradient pairs answer the literature gap (G1) in `../desk-research/SYNTHESIS.md`.
-- Observed "who/where/when" sets the **recruitment** for interviews — see
+- Observed "who/where/when" sets the **recruitment** for interviews, see
   [`respondent-profile.md`](respondent-profile.md).

@@ -1,4 +1,4 @@
-# S5 — Walkability Index Trotoar: Poros Medan Merdeka–Thamrin–Sudirman
+# S5 · Walkability Index Trotoar: Poros Medan Merdeka–Thamrin–Sudirman
 
 ## Full citation
 Ridhani, C. (2015). *Walkability Index Jalur Pedestrian (Trotoar) di Poros Medan Merdeka–
@@ -9,7 +9,7 @@ Drs. Joko Christanto, M.Sc.)
 - **Capture:** `sources/web-captures.md` → CAP-2
 - **Source type:** Undergraduate thesis (academic, UGM).
 - **Accessed:** 2026-06-16
-- **Verification level:** ⚠ **Abstract / metadata only** — full thesis not downloadable
+- **Verification level:** ⚠ **Abstract / metadata only**, full thesis not downloadable
   (repository offers only abstract, ToC, bibliography PDFs).
 
 ## Scope
@@ -21,7 +21,7 @@ the 2018–2020 works that S1/S4 describe.
 - Method: **Global Walkability Index (GWI)**, **9 parameters**, pedestrian counts, segment
   length; survey + **25 pedestrian interviews**.
 - ~~Rankings: Jl. MH Thamrin & Jl. Jenderal Sudirman = "pleasure to walk"; Jl. Medan
-  Merdeka = "waiting to walk."~~ ⚠ **CORRECTED — see below.**
+  Merdeka = "waiting to walk."~~ ⚠ **CORRECTED, see below.**
 
 ## ⚠ CORRECTION (2026-06-16, after S9)
 The "pleasure to walk" wording above came from an **unreliable WebFetch summary** of the UGM
@@ -29,7 +29,7 @@ abstract page and is **contradicted by S9** (Mulyadi et al. 2022), a peer-review
 cites this exact Ridhani 2015 work **with numbers**:
 > "Previous research in 2015 found the walkability index … relatively lower between **64 and 71**
 > … which included the **'waiting to walk' and 'walkable' categories** (Ridhani and Christanto,
-> 2015)" — i.e. **Sudirman ≈ 64 = "waiting to walk," Thamrin ≈ 71 = "walkable."**
+> 2015)", i.e. **Sudirman ≈ 64 = "waiting to walk," Thamrin ≈ 71 = "walkable."**
 "Pleasure to walk" is **not even a category** on the GWI scale used (WI≥70 highly walkable /
 50–70 waiting to walk / ≤50 not walkable). **Use S9's version.** Resolve fully only by reading
 the Ridhani 2015 full text (not retrievable so far).

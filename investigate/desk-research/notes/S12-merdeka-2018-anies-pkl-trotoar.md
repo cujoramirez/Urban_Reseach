@@ -1,4 +1,4 @@
-# S12 — Anies: Trotoar Sudirman–Thamrin bukan tempat jualan PKL (Merdeka, 2018)
+# S12 · Anies: Trotoar Sudirman–Thamrin bukan tempat jualan PKL (Merdeka, 2018)
 
 ## Full citation
 Merdeka.com. (2018, 6 March). *Anies: Trotoar Sudirman-Thamrin bukan tempat jualan PKL, buat
@@ -21,16 +21,16 @@ adjacent **side streets** (the gradient).
 
 ## Why it matters for fieldwork
 - Documents the **policy mechanism that cleared the main trotoar** of vendors and **pushed
-  informal trade toward the back-streets** — a plausible *driver* of the wide-main-vs-busy-back
+  informal trade toward the back-streets**, a plausible *driver* of the wide-main-vs-busy-back
   gradient (G1) the team will study on the ground.
 - Identifies **PKL (street vendors) as a key corridor actor** whose livelihood interest competes
-  with pedestrian space — a group to interview, and a concrete "obstacle" theme for the
+  with pedestrian space, a group to interview, and a concrete "obstacle" theme for the
   expert/policy interview.
 
 ## SENTIMENT / INTENT
 - Government framing: sidewalk = pedestrians-first; vendors to be accommodated elsewhere. (Label
   as stated policy intent.) Note from search context (unverified): vendors reportedly return in
-  practice — **a tension to test in the field, not assert.**
+  practice, **a tension to test in the field, not assert.**
 
 ## Corridor vs. general
 - Corridor-specific policy; the relocation-to-side-streets detail is the corridor→back-street link.

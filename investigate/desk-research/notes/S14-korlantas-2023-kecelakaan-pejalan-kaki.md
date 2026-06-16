@@ -1,4 +1,4 @@
-# S14 — Pedestrian crash data 2023 (Korlantas Polri, via GoodStats)
+# S14: Pedestrian crash data 2023 (Korlantas Polri, via GoodStats)
 
 ## Full citation
 GoodStats. (2024, 12 November). *Berbagai Jenis Kecelakaan Lalu Lintas yang Terjadi Sepanjang
@@ -11,20 +11,20 @@ Tahun 2023.* Figures attributed to **Korlantas Polri**.
 - **Accessed:** 2026-06-16
 
 ## Scope
-**CONTEXT — national.** Safety baseline for the crossing/road-stepping observation and the Anies
+**CONTEXT, national.** Safety baseline for the crossing/road-stepping observation and the Anies
 interview. Not corridor-specific.
 
 ## QUANTITATIVE findings
 - **VERIFIED (fetched):** "Kecelakaan yang melibatkan pejalan kaki saat menyeberang … mencapai
   **8.274** di 2023" (Korlantas). Top crash types: loss-of-control 18,961; rear-end 18,638;
   head-on 17,337.
-- **VERIFIED (Pusiknas Polri, via `curl -k` — see CAP-11):** "sebanyak **10.428 pejalan kaki
+- **VERIFIED (Pusiknas Polri, via `curl -k`, see CAP-11):** "sebanyak **10.428 pejalan kaki
   menjadi korban**" in 2023 (Korlantas data); crossing at random places stated as the **top
   cause**; regional example Polda Jateng 2nd with 152 victims.
 - **VERIFIED (Pusiknas, re-grep):** careless crossing accounts for **54,84%** of pedestrian
-  victims — "menyeberang di sembarang tempat yaitu mencapai 54,84 persen dari jumlah total
+  victims, "menyeberang di sembarang tempat yaitu mencapai 54,84 persen dari jumlah total
   seluruh [korban]."
-- **VERIFY ⚠ still:** national death totals conflict across outlets (~18.357 vs ~27.000) — cite
+- **VERIFY ⚠ still:** national death totals conflict across outlets (~18.357 vs ~27.000), cite
   the pedestrian-specific figures (10.428; 54,84%), not a single national death total.
 
 ## Why it matters for fieldwork
@@ -35,5 +35,5 @@ interview. Not corridor-specific.
 
 ## Flags
 - The crossing-crash count (8,274) is verified; the headline "10,428 victims / 54.84% careless"
-  is **provisional** — fetch the Pusiknas/Korlantas primary (SSL-blocked here) before reporting.
+  is **provisional**, fetch the Pusiknas/Korlantas primary (SSL-blocked here) before reporting.
 - Secondary source; for the report, cite Korlantas/IRSMS primary where possible.

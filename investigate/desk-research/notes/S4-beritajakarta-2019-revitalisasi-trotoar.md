@@ -1,4 +1,4 @@
-# S4 — Revitalisasi Trotoar Bangkitkan Budaya Berjalan Kaki (Dinas Bina Marga DKI)
+# S4: Revitalisasi Trotoar Bangkitkan Budaya Berjalan Kaki (Dinas Bina Marga DKI)
 
 ## Full citation
 Berita Jakarta. (2019, 18 October). *Revitalisasi Trotoar Bangkitkan Budaya Berjalan Kaki.*
@@ -30,7 +30,7 @@ totals (km, budget) are city-wide context.
 
 ## QUALITATIVE / SENTIMENT
 - Official framing: revitalization intended to "bangkitkan budaya berjalan kaki" (revive a
-  walking culture). This is the *government’s stated intent* — keep labelled as such, not as an
+  walking culture). This is the *government’s stated intent*, keep labelled as such, not as an
   outcome measure.
 
 ## Corridor vs. general

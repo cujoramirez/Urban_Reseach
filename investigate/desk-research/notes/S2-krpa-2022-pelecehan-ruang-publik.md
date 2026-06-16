@@ -1,4 +1,4 @@
-# S2 — KRPA: Survei Pelecehan Seksual di Ruang Publik (selama pandemi COVID-19)
+# S2 · KRPA: Survei Pelecehan Seksual di Ruang Publik (selama pandemi COVID-19)
 
 ## Full citation
 Koalisi Ruang Publik Aman (KRPA). (2022). *Hasil Survei KRPA: Survei Pelecehan Seksual di
@@ -12,7 +12,7 @@ Sintas Indonesia).
 - **Accessed:** 2026-06-16
 
 ## Scope
-**CONTEXT — NATIONAL.** 4,236 respondents across **34 provinces**. **No Jakarta-only or
+**CONTEXT, NATIONAL.** 4,236 respondents across **34 provinces**. **No Jakarta-only or
 Sudirman-specific breakdown** appears in this deck. Use only as background on harassment in
 public space; do **not** present as corridor evidence.
 
@@ -24,7 +24,7 @@ public space; do **not** present as corridor evidence.
     publik").
   - Men: **29,6%** ("3 dari 10 laki-laki").
   - Other genders: **83,33%** ("4 dari 5 teman-teman gender lainnya").
-- **Locations — offline public space, highest (respondents could pick >1)** (slide 6,
+- **Locations, offline public space, highest (respondents could pick >1)** (slide 6,
   "Lokasi Terjadinya Pelecehan, ruang publik luring/offline"):
   - **jalanan umum (public streets): 2.130**
   - kawasan pemukiman (residential areas): 797
@@ -43,7 +43,7 @@ public space; do **not** present as corridor evidence.
   situation/feelings** during the pandemic (discomfort, irritation, anger recurring).
 
 ## SENTIMENT / INTENT
-- Frames public streets as the **single most common site** of offline harassment in Indonesia —
+- Frames public streets as the **single most common site** of offline harassment in Indonesia,
   relevant to the "comfort/safety of walking" question, especially for women.
 - Conclusion (slide 14): "**perempuan dan kelompok gender minoritas lainnya 6 kali lebih rentan**
   untuk mengalami pelecehan seksual di ruang publik"; public space "masih belum cukup aman."
@@ -61,8 +61,8 @@ public space; do **not** present as corridor evidence.
 
 ## Flags
 - **VERIFY:** the 78,89% figure sits next to the women image; treat it as the *women’s* rate as
-  labelled. The "4 dari 5 / 3 dari 10" are KRPA’s own roundings of the percentages — quote the
+  labelled. The "4 dari 5 / 3 dari 10" are KRPA’s own roundings of the percentages, quote the
   exact % rather than the fraction where precision matters.
-- Pandemic-period survey (mobility was atypical) — note the timeframe when using.
+- Pandemic-period survey (mobility was atypical), note the timeframe when using.
 - This is a presentation deck, not the full methodology report; for rigorous citation, seek the
   full KRPA report. (Logged in inventory.)

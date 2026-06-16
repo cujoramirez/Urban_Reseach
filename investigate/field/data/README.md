@@ -1,7 +1,7 @@
 # Field Data (CSV)
 
 Raw, structured field data. Keep it as **CSV** so anyone can open it in Numbers, Excel, or a
-script. **No invented rows** — only real observations go here.
+script. **No invented rows**, only real observations go here.
 
 ## Conventions
 
@@ -12,7 +12,7 @@ script. **No invented rows** — only real observations go here.
 - Free text goes in the `notes` column only.
 - Keep one file per session/day, named e.g. `counts_2026-06-19.csv`, `audit_2026-06-19.csv`.
 
-## Counts CSV — sample header row
+## Counts CSV: sample header row
 
 ```csv
 segment_id,timestamp,pedestrians_on_sidewalk,pedestrians_on_road,est_gender_split,ojol_pickups_under_300m,notes
@@ -28,7 +28,7 @@ segment_id,timestamp,pedestrians_on_sidewalk,pedestrians_on_road,est_gender_spli
 | `ojol_pickups_under_300m` | Ride-hailing pickups observed within ~300 m |
 | `notes` | Anything notable (weather, event, obstruction, etc.) |
 
-## Audit CSV — sample header row
+## Audit CSV: sample header row
 
 Mirrors the [audit sheet](../instruments/audit-sheet.md); each parameter scored 0–2.
 

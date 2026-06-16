@@ -1,4 +1,4 @@
-# S13 — Pedoman Perencanaan Teknis Fasilitas Pejalan Kaki (Bina Marga, 2023)
+# S13: Pedoman Perencanaan Teknis Fasilitas Pejalan Kaki (Bina Marga, 2023)
 
 ## Full citation
 Direktorat Jenderal Bina Marga, Kementerian PUPR. (2023). *Pedoman Perencanaan Teknis Fasilitas
@@ -15,17 +15,17 @@ cross-validate our segment audit and counts against. Applies to pedestrian facil
 road space (Rumaja) in urban areas; explicitly strengthens inclusivity for the disabled,
 elderly, children, and women.
 
-## QUANTITATIVE standards (exact passages — our audit benchmarks)
+## QUANTITATIVE standards (exact passages: our audit benchmarks)
 - **Minimum sidewalk width: 1,85 m.** "Lebar minimum 1,85 m"; "lebar minimal trotoar sebesar
-  1,85 meter". *(Note: our draft audit used ≥1.5 m — raise the benchmark to 1.85 m.)*
+  1,85 meter". *(Note: our draft audit used ≥1.5 m, raise the benchmark to 1.85 m.)*
 - **Crossing spacing: "Jarak antar penyeberangan adalah pada rentang 100 - 200 meter."**
   *(Matches our audit's "safe crossing within 200 m".)*
-- **Ramp slope: max 8% (1:12)** — "kemiringan maksimum 8% (1:12)"; "Tingkat kelandaian tidak
+- **Ramp slope: max 8% (1:12)**, "kemiringan maksimum 8% (1:12)"; "Tingkat kelandaian tidak
   melebihi 8%"; surface cross-fall for drainage **2%–3%**.
-- **JPO (pedestrian overpass) minimum height: 5,1 m** — "Ketinggian jembatan penyeberangan orang
+- **JPO (pedestrian overpass) minimum height: 5,1 m**, "Ketinggian jembatan penyeberangan orang
   minimum 5,1 m".
 - **Pedestrian volume unit:** "V adalah volume pejalan kaki rencana/dua arah (orang/meter/menit)"
-  — i.e. count **persons/effective-metre/minute**, two-way. (Aligns our 5-min counts to the code.)
+ , i.e. count **persons/effective-metre/minute**, two-way. (Aligns our 5-min counts to the code.)
 - **Grade-separated / protected crossing trigger:** "Volume pejalan kaki di satu sisi jalan sudah
   > 450 orang/jam/lebar efektif (dalam meter)".
 - **Crossing demand basis:** "arus pejalan kaki yang menyeberang ruas jalan sepanjang 100 meter
@@ -36,13 +36,13 @@ elderly, children, and women.
   below 1,85 m, **use 1,85 m**.
 - **Tabel 2 (N value):** 1,5 m high pedestrian generation (transit/inclusive service/mall/office/
   hospital/worship/school); 1,0 m medium; 0,5 m low (residential).
-- **Tabel 3 (dimension by location & max flow) — exact figures:**
+- **Tabel 3 (dimension by location & max flow), exact figures:**
   - **Arterial, CBD / park / school / major generator:** max flow **80 pejalan kaki/menit**;
     kereb zone 0,15 m; facility lane 1,2 m; building-frontage 0,75 m; **effective 2,75–3,75 m;
     total 5–6 m.**
   - **Collector, CBD:** max flow **60 pejalan kaki/menit**; kereb 0,15 m; facility lane 0,9 m;
     frontage 0,35 m; **effective 2–2,75 m; total 3,5–4 m.**
-- **Crossing warrant (grade-separated/protected) — any one of:** pedestrian volume **>450
+- **Crossing warrant (grade-separated/protected), any one of:** pedestrian volume **>450
   orang/jam/eff-m** (one side); vehicle volume **>500 kendaraan/jam**; vehicle speed **>40 km/jam**.
 - **Kereb (curb) height classes:** 0–6 cm (speed-limited transit segments); 6–15 cm; 15–20 cm
   (arterial/collector); 20–25 cm (high-traffic arterial).
@@ -50,7 +50,7 @@ elderly, children, and women.
 
 ## QUALITATIVE / design requirements
 - Effective width must stay clear of obstructions (vendors, parking, poles, bins, trees,
-  benches, bus stops) — directly the encroachment our audit logs.
+  benches, bus stops), directly the encroachment our audit logs.
 - Inclusive elements: guiding blocks, ramps, lighting on crossings, signage.
 
 ## Why it matters for fieldwork (cross-validation)
@@ -58,7 +58,7 @@ elderly, children, and women.
   ≥ 1.85 m" = score 2; below = scored against the code.
 - Gives the **counts** a unit (persons/m/min) and a **crossing-spacing** benchmark (100–200 m)
   to test segments against.
-- Defines when a crossing/JPO is warranted (>450 ped/hr/eff-m) — lets us flag under-provision.
+- Defines when a crossing/JPO is warranted (>450 ped/hr/eff-m), lets us flag under-provision.
 
 ## Flags
 - Pull the exact numbers from **Table 3** (dimension-by-flow) and the LOS/capacity figures

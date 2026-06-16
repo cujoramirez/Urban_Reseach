@@ -6,7 +6,7 @@ in this same `sources/` folder.
 
 ---
 
-## CAP-1 — Berita Jakarta (Pemprov DKI) — sidewalk revitalization figures
+## CAP-1: Berita Jakarta (Pemprov DKI), sidewalk revitalization figures
 - **URL:** https://m.beritajakarta.id/read/73289/revitalisasi-trotoar-bangkitkan-budaya-berjalan-kaki
 - **Publisher:** Berita Jakarta (official Pemprov DKI Jakarta news outlet)
 - **Article date:** 18 October 2019
@@ -22,11 +22,11 @@ in this same `sources/` folder.
 
 ---
 
-## CAP-2 — UGM ETD — Walkability Index Medan Merdeka–Thamrin–Sudirman
+## CAP-2: UGM ETD, Walkability Index Medan Merdeka–Thamrin–Sudirman
 - **URL:** https://etd.repository.ugm.ac.id/penelitian/detail/85217
 - **Title:** Walkability Index Jalur Pedestrian (Trotoar) di Poros Medan Merdeka-Thamrin-Sudirman Jakarta
 - **Author:** Citra Ridhani (advisor: Drs. Joko Christanto, M.Sc.)
-- **Year:** 2015 — Universitas Gadjah Mada, S1 Pembangunan Wilayah
+- **Year:** 2015, Universitas Gadjah Mada, S1 Pembangunan Wilayah
 - **Accessed:** 2026-06-16
 - **Verification level:** Abstract / metadata only. Full thesis NOT downloadable (only abstract,
   ToC, bibliography PDFs available on the repository page).
@@ -43,33 +43,33 @@ in this same `sources/` folder.
 
 ---
 
-## LEADS NOT VERIFIED (do not cite figures — logged as gaps)
+## LEADS NOT VERIFIED (do not cite figures: logged as gaps)
 
-### LEAD-A — ScienceDirect: CBD walkability (road diet) — PAYWALL/BLOCKED
+### LEAD-A · ScienceDirect: CBD walkability (road diet), PAYWALL/BLOCKED
 - **URL:** https://www.sciencedirect.com/science/article/pii/S2590198222001555
-- **Status:** HTTP 403 Forbidden on fetch — full text not retrieved.
+- **Status:** HTTP 403 Forbidden on fetch, full text not retrieved.
 - A web-search summary mentioned "road diet can increase walkability up to 38.98%" and
   "public transport users by 15.41%" for the Sudirman–Thamrin CBD. **These figures are NOT
   verified from the source and must NOT be cited until the article itself is obtained.**
 
-### LEAD-B — Kompas.id sidewalk-coverage articles — PAYWALL
+### LEAD-B: Kompas.id sidewalk-coverage articles, PAYWALL
 - "Baru 8,71 persen ruas jalan DKI yang bertrotoar"
   https://www.kompas.id/artikel/en-catatan-koalisi-pejalan-kaki-baru-871-persen-ruas-jalan-dki-yang-bertrotoar
-  — HTTP 402 Payment Required.
+ , HTTP 402 Payment Required.
 - "Revitalisasi Trotoar Baru 16 Persen dari Total Panjang Jalan"
   https://www.kompas.id/artikel/revitalisasi-trotoar-baru-16-persen-dari-total-panjang-jalan
-  — paywalled.
+ , paywalled.
 - These would be KEY for the "wide Sudirman vs. little sidewalk elsewhere" contrast. **GAP:
   need an accessible copy or alternate primary source.**
 
-### LEAD-C — ITDP "Pedestrian Facility Design Guide: DKI Jakarta 2017-2022"
+### LEAD-C · ITDP "Pedestrian Facility Design Guide: DKI Jakarta 2017-2022"
 - Referenced in search results / ITDP materials; the actual document was not located/downloaded.
 - ITDP page (accessible, not yet mined): https://itdp-indonesia.org/2018/10/pedestrian-first-2017/
 - **GAP:** retrieve the design guide and any ITDP Sudirman corridor assessment.
 
 ---
 
-## CAP-3 — GoodStats (data journalism) — BPS Komuter modal split
+## CAP-3: GoodStats (data journalism), BPS Komuter modal split
 - **URL:** https://data.goodstats.id/statistic/hampir-80-komuter-jabodetabek-memilih-gunakan-kendaraan-pribadi-k2igx
 - **Article date:** 19 September 2024
 - **Accessed:** 2026-06-16
@@ -85,23 +85,23 @@ in this same `sources/` folder.
 
 ---
 
-## CAP-4 — Urun Daya Kota (UDK) — Catatan Kota listing
+## CAP-4: Urun Daya Kota (UDK), Catatan Kota listing
 - **URL:** https://www.urundayakota.org/catatankota
 - **Accessed:** 2026-06-16
 - **Verified:** the article "Membaca Rantai Mobilitas Perempuan di Kota, Bagaimana Menciptakan
   yang Aman & Nyaman Untuknya?" exists on UDK's Catatan Kota.
 - **Exact passage (framing):** "Kota dihadirkan sebagai ruang hidup yang mestinya aman, nyaman,
-  dan inklusif—termasuk bagi perempuan" (with complex daily mobility).
+  dan inklusif, termasuk bagi perempuan" (with complex daily mobility).
 - **Data type:** Qualitative / framing (SENT). **Origin:** NGO/org.
-- **Scope tag:** CONTEXT (general urban / women's mobility) — NOT Sudirman-specific.
+- **Scope tag:** CONTEXT (general urban / women's mobility), NOT Sudirman-specific.
 - **GAP within source:** listing page shows no statistics, no date, no corridor specificity;
   full article body not retrieved. Do not attribute figures to UDK.
 
 ---
 
-## CAP-5 — Karsa City Lab (KCL) — status
+## CAP-5: Karsa City Lab (KCL), status
 - **URLs tried:** https://karsacitylab.org/en/insight/meluruskan-jalan-menghadirkan-keadilan/
-  and https://karsacitylab.org/en/insight/kolaborasi-membangun-jakarta/ — both **HTTP 404**.
+  and https://karsacitylab.org/en/insight/kolaborasi-membangun-jakarta/, both **HTTP 404**.
   Listing https://karsacitylab.org/en/update/ shows only festival/Bappeda items.
 - **Verified (org level, from About/Get-to-Know pages):** KCL is a Jakarta-focused urban lab;
   states a pedestrian- and public-transport-priority, inclusive (women/disability/children)
@@ -109,11 +109,11 @@ in this same `sources/` folder.
 - A search snippet attributed to KCL a "DKI Dishub 2022: >40% of sidewalks in North/East Jakarta
   dominated by motor vehicles" and "only 12% of sidewalk motorbike riders sanctioned (2023)".
   **These figures could NOT be traced to a retrievable KCL page and must NOT be cited.**
-- **Status:** GAP — need a working article URL or the underlying Dishub source.
+- **Status:** GAP, need a working article URL or the underlying Dishub source.
 
 ---
 
-## CAP-6 — ITDP Indonesia — *Panduan Desain Fasilitas Pejalan Kaki: DKI Jakarta 2017-2022* (v2.0)
+## CAP-6 · ITDP Indonesia, *Panduan Desain Fasilitas Pejalan Kaki: DKI Jakarta 2017-2022* (v2.0)
 - **File:** `sources/itdp_panduan_pejalan_kaki_jakarta_v2.pdf` (68 pp., Sept 2019)
 - **Download URL:** https://itdp-indonesia.org/wp-content/uploads/2018/08/Panduan-Fasilitas-Pejalan-Kaki-di-Jakarta-v2.0.pdf
 - **Publication page:** https://itdp-indonesia.org/publication/panduan-desain-fasilitas-pejalan-kaki-dki-jakarta-2017-2022/
@@ -123,7 +123,7 @@ in this same `sources/` folder.
   Vision elements: Lengkap, Aman, Nyaman, Humanis. Method draws on TOD Standard 3.0 (ITDP),
   Global Street Design Guide (NACTO), Access for All. Prioritization: 500 m buffers around
   transit (Transjakarta, KRL, MRT, LRT), ridership, QLUE citizen reports, POIs.
-- **Exact figures — "2.1 DATA DAN FAKTA" (p. 7), with the guide's own source attributions:**
+- **Exact figures, "2.1 DATA DAN FAKTA" (p. 7), with the guide's own source attributions:**
   - "540 kilometer panjang trotoar DKI Jakarta 2015" (Jakarta Dalam Angka 2016)
   - "6956 kilometer panjang jalan DKI Jakarta 2015" (Jakarta Dalam Angka 2016)
     → sidewalk is ~7.8% of road length city-wide (our arithmetic; flag as derived).
@@ -136,11 +136,11 @@ in this same `sources/` folder.
 - **Data type:** POLICY + QUANT. **Origin:** NGO advising government (ITDP / Dinas Bina Marga).
 - **Scope tag:** CORRIDOR-relevant standards + CONTEXT (city-wide data). The 540 vs 6,956 km
   figure is the strongest available proxy for the "wide Sudirman vs. little sidewalk elsewhere"
-  gradient — though it is city-wide, not a back-street measurement.
+  gradient, though it is city-wide, not a back-street measurement.
 
 ---
 
-## CAP-7 — Kompas (Megapolitan) — sidewalks taken over by vehicles (2026)
+## CAP-7: Kompas (Megapolitan), sidewalks taken over by vehicles (2026)
 - **URL:** https://megapolitan.kompas.com/read/2026/05/12/10403171/jakarta-darurat-parkir-trotoar-dikuasai-kendaraan-pungli-tak-kunjung-usai
 - **Date:** 12 May 2026 · **Accessed:** 2026-06-16
 - **Exact passages:**
@@ -154,12 +154,12 @@ in this same `sources/` folder.
 
 ---
 
-## GAP-ROUND 2 (2026-06-16) — results of chasing G4, G5, G6
+## GAP-ROUND 2 (2026-06-16): results of chasing G4, G5, G6
 
-### G5 — BPS Komuter / transport primary
+### G5: BPS Komuter / transport primary
 - **Official primary found but BLOCKED:** *Statistik Transportasi Provinsi DKI Jakarta 2023*
   (BPS DKI), https://jakarta.bps.go.id/.../statistik-transportasi-provinsi-dki-jakarta-2023.html
-  — HTTP 403 on fetch. Silastik Komuter 2019 microdata page exists; 2023 microdata not openly
+ , HTTP 403 on fetch. Silastik Komuter 2019 microdata page exists; 2023 microdata not openly
   pulled.
 - **Corroboration:** a 2nd GoodStats article
   (https://goodstats.id/article/penggunaan-kendaraan-pribadi-berkurang-...-X1IoC) independently
@@ -167,20 +167,20 @@ in this same `sources/` folder.
   2023**. S7's figures therefore have two secondary corroborations; the BPS primary remains
   un-fetched (blocked).
 
-### G4 — ITDP Sudirman-specific assessment
+### G4: ITDP Sudirman-specific assessment
 - **STILL OPEN.** Search returned only academic PEQI/GWI papers (already held as S1/S5/S9) and
   ITDP's general design guide (S6). No public ITDP report specifically *evaluating the Sudirman
   corridor* was located.
 
-### G6 — KCL / Dishub ">40% sidewalks motor-dominated, 12% sanctioned"
-- **SPECIFIC FIGURE STILL UNTRACEABLE — not cited.** No primary Dishub DKI document with those
+### G6: KCL / Dishub ">40% sidewalks motor-dominated, 12% sanctioned"
+- **SPECIFIC FIGURE STILL UNTRACEABLE, not cited.** No primary Dishub DKI document with those
   percentages was found; KCL insight-article URLs remain 404.
 - **Theme corroborated** (not the number): vehicle encroachment on sidewalks is documented by
   CAP-7 (Kompas 2026, city-wide) and S1 (Sudirman seg. 4, motorbikes + PKL).
 
 ---
 
-## CAP-8 — Kompas (Megapolitan) — ojol crowding & pedestrians at Stasiun Sudirman (2025)
+## CAP-8: Kompas (Megapolitan), ojol crowding & pedestrians at Stasiun Sudirman (2025)
 - **URL:** https://megapolitan.kompas.com/read/2025/05/20/09201411/sulit-dapat-ojol-warga-menumpuk-di-luar-stasiun-sudirman
 - **Date:** 20 May 2025 · **Accessed:** 2026-06-16
 - **Reporter observation (exact):**
@@ -195,14 +195,14 @@ in this same `sources/` folder.
     mau 10 menit." (waiting ~07:25–07:35 WIB)
   - Mutia (23): "Tapi memang agak jauh ini, saya harus nunggu agak lama dulu." (ride to Kuningan)
 - **Data type:** Qualitative + Sentiment. **Origin:** News. **Scope:** CORRIDOR-adjacent
-  (Stasiun Sudirman / Jalan Blora / Dukuh Atas node — the northern last-mile area).
-- **Use:** real behavioral evidence — pedestrians crowding sidewalk edges, ojol motorbikes
+  (Stasiun Sudirman / Jalan Blora / Dukuh Atas node, the northern last-mile area).
+- **Use:** real behavioral evidence, pedestrians crowding sidewalk edges, ojol motorbikes
   lined up on the trotoar, last-mile friction. Names two young women (28, 23): broadens the
   "male office worker" profile from S1/S3.
 
 ---
 
-## CAP-9 — Merdeka — Anies: Sudirman–Thamrin sidewalk not for PKL (2018)
+## CAP-9 · Merdeka, Anies: Sudirman–Thamrin sidewalk not for PKL (2018)
 - **URL:** https://www.merdeka.com/jakarta/anies-trotoar-sudirman-thamrin-bukan-tempat-jualan-pkl-buat-pejalan-kaki.html
 - **Official/date:** Gov. Anies Baswedan, 6 March 2018 · **Accessed:** 2026-06-16
 - **Exact passage:** "Trotoar sepanjang Sudirman-Thamrin bukan tempat berjualan PKL, di sini
@@ -210,24 +210,24 @@ in this same `sources/` folder.
 - **Policy detail:** plan to **relocate PKL to side streets behind the office buildings** and
   provide kiosks only for newspapers/transit cards (not food); target before Asian Games 2018.
 - **Data type:** Policy + Sentiment. **Origin:** News (gov statement). **Scope:** CORRIDOR.
-- **Use:** documents the policy that cleared vendors from the main trotoar — and explicitly
+- **Use:** documents the policy that cleared vendors from the main trotoar, and explicitly
   pushed them toward the **back-streets**, i.e. a policy driver of the gradient (G1).
 
 ---
 
-## LEADS (round 3) — not verified by fetch
+## LEADS (round 3): not verified by fetch
 - **Car Free Day (CFD) Sudirman–Thamrin** schedule (Sundays, ~05:30–11:00 WIB; leisure crowd;
   vendor red/yellow/green zones): from search summaries only; media outlets paywalled (402).
   **VERIFY before citing exact times.** Useful for fieldwork *timing* (weekend leisure vs
   weekday commute).
 - **Back-street population (the gradient):** Kampung Karet (Karet Tengsin/Kuningan), Menteng
-  Atas (dense, 11 RW), Setiabudi — dense kampung directly behind the Sudirman towers (search
+  Atas (dense, 11 RW), Setiabudi, dense kampung directly behind the Sudirman towers (search
   summaries; an academic typology PDF on Karet exists on Neliti). **Treat as a field-assumption
   to characterize on the ground**, not as verified data.
 
 ---
 
-## CAP-10 — GoodStats → Korlantas — 2023 traffic crashes (pedestrian)
+## CAP-10: GoodStats → Korlantas, 2023 traffic crashes (pedestrian)
 - **URL:** https://goodstats.id/article/berbagai-jenis-kecelakaan-lalu-lintas-yang-terjadi-sepanjang-tahun-2023-9sxTj
 - **Date:** 12 Nov 2024 · **Accessed:** 2026-06-16 · **Primary:** Korlantas Polri 2023
 - **Exact (verified):** "Kecelakaan yang melibatkan pejalan kaki saat menyeberang … mencapai
@@ -236,18 +236,18 @@ in this same `sources/` folder.
 
 ---
 
-## QUANT LEADS (round 4, 2026-06-16) — benchmarks; verify primaries before citing
-- **Pedestrian fatalities 2023 — VERIFIED (CAP-11):** 10.428 pedestrian victims; **54,84%**
+## QUANT LEADS (round 4, 2026-06-16): benchmarks; verify primaries before citing
+- **Pedestrian fatalities 2023, VERIFIED (CAP-11):** 10.428 pedestrian victims; **54,84%**
   careless crossing (Pusiknas/Korlantas). 8.274 crossing-crashes also verified (CAP-10).
-- **Walking distance to transit — VERIFIED (CAP-12):** 400 m (bus) / 800 m (rail). (San Diego;
+- **Walking distance to transit, VERIFIED (CAP-12):** 400 m (bus) / 800 m (rail). (San Diego;
   cf. ITDP 500 m buffer, S6.)
-- **MRT Jakarta 2024 — VERIFIED (CAP-13):** semester I 2024 = **18,48 juta** penumpang,
+- **MRT Jakarta 2024, VERIFIED (CAP-13):** semester I 2024 = **18,48 juta** penumpang,
   ~**101.581/hari** (Kompas, server-rendered). Annual >40,8 juta still from official page (JS).
-- **Walking speed (benchmark) — STILL VERIFY:** Asian mean ≈ **1,23 m/s**; ID ~**1,2–1,7 m/s**
-  (ScienceDirect S2590198224001854; MDPI 16:4813 — both 403 here). Provisional.
-- **Thermal comfort (benchmark) — STILL VERIFY:** THI comfortable **21–24°C**, uncomfortable
+- **Walking speed (benchmark), STILL VERIFY:** Asian mean ≈ **1,23 m/s**; ID ~**1,2–1,7 m/s**
+  (ScienceDirect S2590198224001854; MDPI 16:4813, both 403 here). Provisional.
+- **Thermal comfort (benchmark), STILL VERIFY:** THI comfortable **21–24°C**, uncomfortable
   **>27°C**; Karyono (Jakarta) ~24–30°C (journal PDFs 403 here). Provisional.
-- **TransJakarta 2024 — STILL VERIFY:** 371,4 juta pelanggan, >1 juta/hari, coverage 91,7%
+- **TransJakarta 2024, STILL VERIFY:** 371,4 juta pelanggan, >1 juta/hari, coverage 91,7%
   (Tempo/TJ; pages JS-rendered). Provisional.
 - **Pedestrian Level of Service (intl. reference, HCM-based):** capacity-zone pedestrian space
   ~**0,46–0,75 m²/ped**; comfortable strolling needs far more. Use as international cross-check
@@ -255,7 +255,7 @@ in this same `sources/` folder.
 
 ---
 
-## CAP-11 — Pusiknas Polri — pedestrian crash victims 2023 (verified via curl)
+## CAP-11: Pusiknas Polri, pedestrian crash victims 2023 (verified via curl)
 - **URL:** https://pusiknas.polri.go.id/detail_artikel/ratusan_pejalan_kaki_jadi_korban_kecelakaan_lalu_lintas
 - **Accessed:** 2026-06-16 (WebFetch failed on SSL; retrieved via `curl -k`, text cleaned)
 - **Exact (verified):** "Bila merujuk pada data Korlantas Polri, sebanyak **10.428 pejalan kaki
@@ -263,12 +263,12 @@ in this same `sources/` folder.
   example "Polda Jateng dengan **152 korban**" (2nd place). Monthly: July 2023 (19 days) 836
   pedestrians; careless-crossing cause 396 (Jul) / 469 (Aug).
 - **Also verified (re-grep):** "menyeberang di sembarang tempat yaitu mencapai **54,84 persen**
-  dari jumlah total seluruh [korban]" — careless crossing is the top cause, exact share confirmed.
+  dari jumlah total seluruh [korban]", careless crossing is the top cause, exact share confirmed.
 - **Data type:** Quantitative. **Origin:** Government (Pusiknas/Korlantas). **Scope:** CONTEXT.
 
 ---
 
-## CAP-12 — City of San Diego — walking distance to transit (TOD norm, verified)
+## CAP-12: City of San Diego, walking distance to transit (TOD norm, verified)
 - **URL:** https://www.sandiego.gov/system/files/webform/pc-meetings/walking_distance_to_transit_factssources.pdf
 - **Accessed:** 2026-06-16 (downloaded + parsed)
 - **Exact (verified):** "400 meters (¼ mile) … most commonly applied for bus"; "800 meters or ½
@@ -279,7 +279,7 @@ in this same `sources/` folder.
 
 ---
 
-## CAP-13 — Kompas (Money) — MRT Jakarta ridership, semester I 2024 (verified)
+## CAP-13: Kompas (Money), MRT Jakarta ridership, semester I 2024 (verified)
 - **URL:** https://money.kompas.com/read/2024/07/11/161200726/mrt-jakarta-layani-18-48-juta-penumpang-sepanjang-semester-i-2024
 - **Accessed:** 2026-06-16 (server-rendered; parsed via curl)
 - **Exact (verified):** MRT Jakarta "telah melayani **18,48 juta** penumpang selama Januari[–Juni

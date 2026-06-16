@@ -1,4 +1,4 @@
-# S6 — ITDP: Panduan Desain Fasilitas Pejalan Kaki: DKI Jakarta 2017–2022 (v2.0)
+# S6 · ITDP: Panduan Desain Fasilitas Pejalan Kaki: DKI Jakarta 2017–2022 (v2.0)
 
 ## Full citation
 Institute for Transportation and Development Policy (ITDP) Indonesia. (2019, September).
@@ -18,13 +18,13 @@ Indonesia. (Update of the "NMT Vision & Guideline.")
 official-track design standard the corridor's revitalization was built against, plus city-wide
 "data dan fakta" that frame the walking problem.
 
-## QUANTITATIVE findings — "2.1 DATA DAN FAKTA" (p. 7), with the guide's own attributions
+## QUANTITATIVE findings: "2.1 DATA DAN FAKTA" (p. 7), with the guide's own attributions
 - **"540 kilometer panjang trotoar DKI Jakarta 2015"** (Jakarta Dalam Angka 2016).
 - **"6956 kilometer panjang jalan DKI Jakarta 2015"** (Jakarta Dalam Angka 2016).
-  - → **Derived:** sidewalk ≈ **7.8%** of road length city-wide (our arithmetic — flag as
+  - → **Derived:** sidewalk ≈ **7.8%** of road length city-wide (our arithmetic, flag as
     derived, not a quoted figure). Closest verified proxy for the "wide-corridor vs.
     little-sidewalk-elsewhere" gradient (G1/G2).
-- **"1 Pedestrian tewas tiap 6 hari di Jakarta"** (Ditlantas Polda Metro Jaya 2014) — pedestrian
+- **"1 Pedestrian tewas tiap 6 hari di Jakarta"** (Ditlantas Polda Metro Jaya 2014), pedestrian
   fatality rate (a Polri-origin figure, via ITDP).
 - **"3513 langkah/hari"** average steps, Indonesians (Stanford University).
 - **">125 micron/m3"** air-pollution particles, Jakarta Utara (Desert Research Institute).
