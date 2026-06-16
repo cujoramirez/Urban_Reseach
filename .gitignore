@@ -53,3 +53,8 @@ investigate/field/photos/*.jpg
 investigate/field/photos/*.jpeg
 investigate/field/photos/*.png
 # (.gitkeep and README.md in photos/ are still tracked.)
+
+# Python virtualenv & caches (local tooling for PDF extraction)
+.venv/
+__pycache__/
+*.pyc

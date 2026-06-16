@@ -16,10 +16,23 @@
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{csquotes}
+\DeclareQuoteAlias{english}{indonesian}
 
-% --- Bibliography (uncomment when refs.bib has entries) ---------------
-% \usepackage[backend=biber,style=apa]{biblatex}
-% \addbibresource{refs.bib}
+% --- Bibliography (Overleaf: set compiler to pdfLaTeX + Biber) --------
+\usepackage[backend=biber,style=apa]{biblatex}
+\usepackage{amsmath}
+\DeclareLanguageMapping{indonesian}{english-apa}
+\DefineBibliographyStrings{indonesian}{%
+  and       = {dan},
+  andothers = {dkk\adddot},
+  from      = {dari},
+  retrieved = {Diakses},
+}
+\setcounter{biburllcpenalty}{9000}
+\setcounter{biburlucpenalty}{9000}
+\setcounter{biburlnumpenalty}{9000}
+\setlength{\emergencystretch}{3em}
+\addbibresource{refs.bib}
 
 % =====================================================================
 \title{%
@@ -31,8 +44,13 @@
 \date{\today}
 
 \begin{document}
+\hypersetup{pageanchor=false}
+\pagenumbering{roman}
 \maketitle
 \tableofcontents
+\clearpage
+\pagenumbering{arabic}
+\hypersetup{pageanchor=true}
 
 % =====================================================================
 \chapter{Pendahuluan}            % BAB I
@@ -43,8 +61,117 @@ Bab ini akan menjelaskan latar belakang dan ruang lingkup penelitian. \textit{(P
 
 % =====================================================================
 \chapter{Tinjauan Pustaka}       % BAB II
-% TODO: Literature review dari desk-research/. Gunakan sitasi dari refs.bib.
-Bab ini akan merangkum studi terkait keterjalankakian (\textit{walkability}). \textit{(Placeholder.)}
+% Disusun BERDASARKAN TEMA, bukan per sumber. Hanya mengutip sumber yang
+% benar-benar terkumpul & terverifikasi (lihat investigate/desk-research/
+% SOURCE-INVENTORY.md, SYNTHESIS.md, dan notes/). Setiap klaim ditandai
+% lingkupnya: [KORIDOR] khusus Sudirman/Thamrin, [SIMPUL] simpul transit
+% pada koridor, atau [KONTEKS] data Jakarta/nasional sebagai latar.
+% CATATAN NETRALITAS: bab ini melaporkan apa kata sumber; tidak boleh
+% menyimpulkan lebih dulu bahwa koridor "nyaman" atau "tidak nyaman".
+
+Bab ini meninjau literatur tentang pengalaman berjalan kaki di koridor Jalan Jenderal
+Sudirman, Jakarta, sebagai dasar perumusan metodologi dan instrumen lapangan. Tinjauan
+disusun menurut tema dan secara eksplisit membedakan bukti yang \emph{khusus koridor} dari
+bukti yang bersifat \emph{konteks} kota atau nasional. Sejauh memungkinkan, setiap angka
+dirujuk ke sumber aslinya; keterbatasan dan kesenjangan dinyatakan secara terbuka.
+
+\section{Konsep dan Pengukuran \textit{Walkability}}
+Kualitas jalur pejalan kaki lazim dinilai melalui indeks terstruktur. Dua pendekatan muncul
+pada studi koridor Sudirman: \emph{Pedestrian Environmental Quality Index} (PEQI), yang menilai
+kelengkapan, keselamatan, dan kenyamanan berdasarkan kondisi fisik sekaligus persepsi pejalan
+kaki \autocite{dwisadana2024}, dan \emph{Global Walkability Index} (GWI) dengan sembilan
+parameter \autocite{ridhani2015,mulyadi2022}. Skala GWI yang digunakan \textcite{mulyadi2022}
+mengategorikan nilai indeks (WI) menjadi ``\textit{highly walkable}'' (WI \(\geq 70\)),
+``\textit{waiting to walk}'' (\(50 < \text{WI} < 70\)), dan ``\textit{not walkable}''
+(WI \(\leq 50\)). Pada tataran kebijakan, \textcite{itdp2019} menurunkan standar
+desain dari kerangka \textit{Complete Streets} (antara lain \textit{TOD Standard} dan
+\textit{Global Street Design Guide}) dengan empat elemen visi: lengkap, aman, nyaman, dan
+humanis. % [KONTEKS/standar]
+Perbedaan metode ini penting: indeks yang berbeda dapat menghasilkan peringkat yang tidak
+langsung dapat diperbandingkan, sehingga perbandingan antarwaktu harus dilakukan dengan hati-hati.
+
+\section{Kondisi Jalur Pejalan Kaki Koridor Sudirman Pasca-Revitalisasi}
+Pada segmen selatan koridor (sekitar Menara Mandiri, GBK/FX, dan Ratu Plaza), kajian PEQI pasca-
+revitalisasi memberi skor kondisi fisik \(64{,}28\) (kelas II) dan skor persepsi \(84{,}70\)
+(kelas I), dengan skor gabungan \(74{,}49\) yang terklasifikasi ``dapat diterima pejalan kaki''
+\autocite{dwisadana2024}. % [KORIDOR — segmen 4]
+Walaupun tergolong dapat diterima, studi yang sama mencatat sejumlah kekurangan konkret:
+penyalahgunaan ruang trotoar oleh sepeda motor dan pedagang kaki lima meskipun telah dipasang
+\textit{bollard}, kekurangan fasilitas peneduh, ketiadaan lampu pejalan kaki pada sebagian
+persimpangan, gangguan kebisingan, serta jarak transit yang dirasa jauh \autocite{dwisadana2024}.
+Bukti perubahan antarwaktu tersedia dari penilaian GWI. Pada 2015 (pra-revitalisasi), indeks
+walkability ruas Sudirman tergolong relatif rendah (sekitar 64, kategori ``\textit{waiting to
+walk}'') dan ruas Thamrin sekitar 71 (kategori ``\textit{walkable}'')
+\autocite{ridhani2015,mulyadi2022}. % [KORIDOR — basis pra-revitalisasi]
+Setelah revitalisasi trotoar dengan konsep \textit{road diet}, \textcite{mulyadi2022} mencatat
+kenaikan walkability hingga \(38{,}98\%\), dengan kelima lokasi survei sepanjang koridor masuk
+kategori ``\textit{highly walkable}'' (WI 84,35--88,95); hambatan utama yang teridentifikasi
+adalah halangan pada trotoar (\textit{obstructions}) dan lebar trotoar. % [KORIDOR]
+Perlu dicatat bahwa \textcite{dwisadana2024} sendiri menafsirkan selisih antara skor persepsi dan
+skor fisik sebagian sebagai keterbatasan metode dan kecenderungan pengguna untuk menerima kondisi
+yang ada selama pergerakannya terwadahi; karena itu, skor persepsi yang tinggi tidak otomatis
+berarti tingkat kenyamanan yang tinggi. Karena PEQI \autocite{dwisadana2024} dan GWI
+\autocite{mulyadi2022} berbeda metode, segmen, dan tahun, peningkatan menurut GWI (2015--2018)
+dan kekurangan yang masih dicatat PEQI (2024) sebaiknya diperlakukan sebagai hipotesis untuk
+diuji di lapangan, bukan sebagai tren yang sudah pasti.
+
+\section{Konektivitas Transit dan Perjalanan \textit{Last-Mile}}
+Aktivitas berjalan kaki di koridor terkonsentrasi di sekitar simpul transit. Pada segmen 4,
+titik keramaian terbentuk di titik integrasi Transjakarta/MRT \autocite{dwisadana2024}; di simpul
+utara, Dukuh Atas, frekuensi berjalan kaki dipengaruhi secara signifikan oleh pendapatan, maksud
+perjalanan, dan kepadatan permukiman \autocite{rakhmatulloh2020}. % [SIMPUL]
+Konteks regional menempatkan berjalan kaki sebagai moda \emph{primer} yang kecil: pada Survei
+Komuter Jabodetabek 2023, gabungan berjalan kaki dan bersepeda berada di bawah 2\% moda komuter,
+sementara kendaraan pribadi mendominasi \autocite{goodstats2024}. % [KONTEKS]
+Sebaliknya, perbaikan fasilitas pejalan kaki di koridor dikaitkan dengan kenaikan pengguna
+angkutan umum: \textcite{mulyadi2022} melaporkan peningkatan penumpang sebesar \(15{,}41\%\)
+(TransJakarta Koridor 1 yang melintasi Sudirman, dari 24.870.678 menjadi 28.703.262
+penumpang/tahun pada 2017--2018). % [KORIDOR]
+Dengan demikian, berjalan kaki di koridor lebih tepat dipahami sebagai perjalanan \textit{last-
+mile} penghubung transit, bukan moda utama lintas-kota.
+
+\section{Keamanan Ruang Publik dan Dimensi Gender}
+Pada tataran nasional, ruang publik jalanan tercatat sebagai lokasi pelecehan seksual luring
+terbanyak dalam survei 4.236 responden di 34 provinsi \autocite{krpa2022}. % [KONTEKS — nasional]
+Perempuan dilaporkan paling banyak mengalaminya, dan kerangka mobilitas perempuan menekankan
+``rantai'' perjalanan harian yang menuntut ruang yang aman dan nyaman
+\autocite{udk_mobilitasperempuan}. % [KONTEKS — pembingkaian]
+Bukti ini bersifat latar: tidak ada rincian khusus untuk koridor Sudirman.
+% GAP: dibutuhkan data keamanan/persepsi keamanan yang spesifik koridor (siang vs malam,
+% dan pengalaman perempuan) — belum tersedia dalam sumber terkumpul.
+
+\section{Penyediaan Trotoar dan Kebijakan Revitalisasi 2017--2022}
+Trotoar Sudirman--Thamrin dibangun ulang selebar 8--12 meter dan rampung pada 2018 sebagai
+bagian dari program revitalisasi yang mencatat 134 km trotoar pada 2017--2019 di bawah Dinas
+Bina Marga DKI Jakarta \autocite{beritajakarta2019}. % [KORIDOR width + KONTEKS program]
+Sebagai latar kota, \textcite{itdp2019} mencatat panjang trotoar DKI Jakarta 540 km dibanding
+panjang jalan 6.956 km (data 2015) — proporsi yang kecil di tingkat kota — serta angka
+keselamatan satu pejalan kaki meninggal setiap enam hari di Jakarta (Ditlantas Polda Metro Jaya,
+2014). % [KONTEKS]
+Di sisi penegakan, penyalahgunaan trotoar oleh kendaraan yang parkir masih menjadi persoalan
+kota yang aktual \autocite{kompas2026trotoar}; hal ini sejalan dengan temuan tingkat koridor
+mengenai sepeda motor dan PKL yang masuk ke jalur pejalan kaki \autocite{dwisadana2024}.
+% [KONTEKS — S10 kota; S1 koridor]
+Kontras antara trotoar utama yang lebar dan rendahnya cakupan trotoar kota menyiratkan adanya
+\emph{gradien} kualitas, tetapi sumber-sumber ini mengukurnya pada skala kota, bukan pada jalan-
+jalan di belakang koridor.
+% GAP: angka kontras Kompas.id ("8,71% ruas jalan DKI bertrotoar"; "revitalisasi baru 16%")
+% berbayar dan belum terverifikasi; gunakan hanya bila sumber primer/terbuka diperoleh.
+
+\section{Kesenjangan dalam Literatur}
+Tinjauan ini memperlihatkan beberapa kesenjangan yang justru menjadi ruang bagi kerja lapangan
+tim. Pertama, tidak ada sumber terkumpul yang mengukur kondisi jalur pejalan kaki di
+\emph{jalan-jalan di belakang} koridor Sudirman — seluruh studi koridor menilai sumbu utama atau
+simpul transit \autocite{dwisadana2024,rakhmatulloh2020,ridhani2015}.
+% GAP: "gradien" trotoar utama vs jalan belakang — INTI penelitian; belum ada di literatur.
+Kedua, makna ``nyaman'' menurut pejalan kaki koridor belum digali secara terbuka; sumber menilai
+parameter yang telah ditetapkan, bukan definisi pengguna.
+Ketiga, hambatan yang membuat fasilitas pejalan kaki yang nyaman sulit diwujudkan belum dibahas;
+sumber kebijakan menjelaskan \emph{apa} yang dibangun, bukan \emph{apa} yang menghambat
+\autocite{beritajakarta2019,itdp2019} — hal yang menjadi fokus wawancara ahli yang direncanakan.
+% GAP: penilaian khusus koridor Sudirman dari ITDP (selain panduan desain) belum diperoleh.
+% CATATAN: temuan road diet (Mulyadi dkk., 2022 / artikel CBD ScienceDirect) sudah diperoleh
+% dan diverifikasi penuh — kini dikutip sebagai \autocite{mulyadi2022}. (Bukan lagi GAP.)
 
 % =====================================================================
 \chapter{Metodologi}             % BAB III
@@ -58,7 +185,7 @@ Bab ini akan menjelaskan metode pengumpulan dan analisis data. \textit{(Placehol
 % atau kesimpulan sebelum data nyata tersedia.
 Bab ini akan memuat hasil dan kesimpulan setelah kerja lapangan. \textit{(Placeholder.)}
 
-% --- Bibliography (uncomment together with biblatex above) -----------
-% \printbibliography
+% --- Daftar Pustaka ---------------------------------------------------
+\printbibliography[title={Daftar Pustaka}]
 
 \end{document}
