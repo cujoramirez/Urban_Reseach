@@ -36,6 +36,16 @@ exact passages in `notes/` and `sources/web-captures.md`).
    on this corridor.
 5. **City-wide, sidewalk provision is thin** (S6: 540 km trotoar vs 6,956 km road, 2015), which
    sets up, but does not measure, the contrast with the wide Sudirman trotoar.
+6. **User-side evidence and local distance thresholds now back the corridor reading.** Apritasari
+   measured pedestrian *satisfaction* with paths, street furniture, and signage along
+   Thamrin–Sudirman (S15); Afkara & Kusuma give Jakarta-specific acceptable walk distances to MRT
+   (~629 m men / 593 m women; 689 m office / 547 m residential, S16); a 2025 Dukuh Atas study
+   pairs with S3 (S19); and pedestrian space gets informally occupied (324 JPO city-wide, S18).
+   Heat/shade comfort is anchored to Sky View Factor on a Jakarta footpath (S17).
+
+> **Cross-validation (parallel branch):** a colleague's independent note on Mulyadi et al. 2022
+> (our S9) reports the same "~39% walkability / ~15% PT" result, corroborating S9's verified
+> 38,98% / 15,41%.
 
 ---
 
@@ -54,6 +64,8 @@ exact passages in `notes/` and `sources/web-captures.md`).
 | Jakarta sidewalk vs road length (2015) | **540 km / 6,956 km** (≈7.8%, derived) | S6 | City context |
 | Pedestrian fatalities | **1 every 6 days** (2014) | S6 (←Ditlantas) | City context |
 | Walking+cycling share of commute modes | **<2%** (2023) | S7 (←BPS) | Jabodetabek context |
+| Acceptable walk distance to MRT | **~629 m men / 593 m women; 689 m office / 547 m residential** | S16 | Jakarta MRT |
+| Pedestrian bridges (JPO) in Jakarta | **324** (2015), mostly near transit | S18 | City context |
 | Harassment in public space, top offline location | **public streets (2,130 of 4,236 resp.)** | S2 | National context |
 
 **What the numbers jointly suggest (neutrally):** on the *main corridor*, measured walkability

@@ -36,6 +36,16 @@ corridor) · `CONTEXT` (broader Jakarta / national, applies only as background).
 | S12 | Merdeka, *Anies: Trotoar Sudirman-Thamrin bukan tempat jualan PKL* | News, 6 Mar 2018 | POLICY, SENT | News (gov statement) | **CORRIDOR** | `sources/web-captures.md` → CAP-9 | Page fetched ✓ |
 | S13 | Bina Marga / PUPR, *Pedoman Perencanaan Teknis Fasilitas Pejalan Kaki* No. 07/P/BM/2023 | National standard, 2023 | QUANT, POLICY | Government (PUPR) | **STANDARD** (benchmark) | `sources/binamarga_07_2023_pedoman_pejalan_kaki.pdf` | Full text ✓ (84 pp) |
 | S14 | GoodStats → Korlantas, 2023 pedestrian crash data | Data journalism, 12 Nov 2024 | QUANT | News/data (primary = Korlantas) | **CONTEXT** (national safety) | `sources/web-captures.md` → CAP-10 | 8.274 crossing-crashes ✓; 10.428/54,84% VERIFY ⚠ |
+| S15 | Apritasari, *User satisfaction on pathway & street furniture, Thamrin–Sudirman*, IJBESR 4(1):61–72 | Journal article, 2020 | QUAL, SENT | Academic (UMJ) | **CORRIDOR** (Thamrin–Sudirman) | `notes/S15-apritasari-2020-user-satisfaction-thamrin-sudirman.md` | Framing ✓; scores VERIFY ⚠ (garbled index) |
+| S16 | Afkara & Kusuma, *Walking distance perception, Jakarta MRT station area*, ISTSDC 2019 (Atlantis) | Conf. paper, 2020 | QUANT | Academic | **CORRIDOR-relevant** (MRT last-mile) | `notes/S16-afkara-2020-walking-distance-mrt.md` | Thresholds ✓ (per authors): 629 m M / 593 m F; 689 office / 547 residential |
+| S17 | Arif & Yola, *Sky View Factor & pedestrian thermal comfort, Jakarta sidewalk* (Springer LNCE) | Book chapter, 2021 | QUANT | Academic | **STANDARD-ish** (thermal/SVF) | `notes/S17-arif-2021-sky-view-factor-thermal.md` | Topic ✓; figures paywalled VERIFY ⚠ |
+| S18 | Putri & Ellisa, *Reclaiming residual spaces beneath pedestrian bridges, Jakarta*, Evergreen 7(1):126–131 | Journal article, 2020 | QUAL | Academic (UI) | **CONTEXT** (informal use; JPO) | `notes/S18-putri-2020-residual-space-jpo.md` | 324 JPO (2015) ✓; case Lenteng Agung |
+| S19 | Napitupulu & Rudiarto, *TOD impact on walkability: Dukuh Atas*, JPWK 21(1):113–129 | Journal article, 2025 | QUAL, QUANT | Academic (UNDIP) | **ADJACENT** (Dukuh Atas) | `notes/S19-napitupulu-2025-tod-dukuh-atas.md` | Full text (diamond OA) ✓; detail extraction pending |
+
+> **Provenance:** S15–S19 + the literature-informed interview bank came from the colleague
+> branch `desk-research/seed-literature` (cherry-picked into `main`, then de-slopped + tagged).
+> Their independent note on Mulyadi et al. 2022 (= our **S9**) reports the same "~39% / ~15%"
+> result, an independent corroboration of S9's verified 38,98% / 15,41%.
 
 ### Key verified figures (quick reference: see notes/ for exact passages)
 - **S1 (CORRIDOR):** PEQI physical-condition score **64.28** (Class II, "sesuai sebagian besar

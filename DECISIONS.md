@@ -71,3 +71,17 @@ replaces. This is our shared memory of *why* the project is the way it is.
   member's lived experience of central Jakarta; it must be actively guarded against, not assumed
   fixed.
 - **Owner:** Team.
+
+### 2026-06-16 · Merge colleague desk-research (branch `desk-research/seed-literature`)
+- **Decision:** Cherry-pick the new research from the colleague branch into `main` rather than a
+  raw `git merge` (the branch forked from the original scaffold and holds outdated README/
+  DECISIONS/guiding-questions/main.tex, so a full merge would revert the evidence base, the
+  cross-validation framework, the field-prep, and the stop-slop pass). Added: 5 source notes as
+  **S15–S19** (Apritasari 2020, Afkara & Kusuma 2020, Arif & Yola 2021, Putri & Ellisa 2020,
+  Napitupulu & Rudiarto 2025), their 5 BibTeX entries, and the literature-informed
+  `pedestrian-interview-bank.md`. De-slopped + tagged + integrated into inventory, framework,
+  and synthesis.
+- **Reasoning:** Their work adds corridor user-satisfaction (S15), Jakarta-specific last-mile
+  distances (S16), thermal/SVF (S17), informal-use framing (S18), and a recent Dukuh Atas study
+  (S19); their Mulyadi 2022 note independently corroborates our S9.
+- **Owner:** Team (sources by colleague; integration on main).

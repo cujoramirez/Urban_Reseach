@@ -25,12 +25,12 @@ For the [audit sheet](../field/instruments/audit-sheet.md) + [tally sheet](../fi
 | **JPO** clearance | min height **5,1 m** | S13 | ✓ |
 | **Pedestrian space / crowding** (LOS) | HCM capacity ~**0,46–0,75 m²/ped** (intl. cross-check) | round-4 lead | ⚠ |
 | **Walking pace** (e.g. hurrying exposed/heat) | Asian mean ≈ **1,23 m/s**; ID ~1,2–1,7 m/s | round-4 lead | ⚠ |
-| **Shade / heat** at a segment | THI: comfortable **21–24°C**, uncomfortable **>27°C** (measure temp/RH on site) | round-4 lead | ⚠ |
+| **Shade / heat** at a segment | THI: comfortable **21–24°C**, uncomfortable **>27°C** (measure temp/RH); Sky View Factor drives footpath thermal comfort | round-4 lead; S17 | ⚠ |
 | **Shade continuity** | guideline shade ~every **300 m**; canopy at crowd points (log longest unshaded gap) | S1 | ✓ |
 | **Climate-coping** (umbrella/parasol use, shade-hugging, rain-sheltering, ojol surge in rain) | no fixed benchmark, count as the **behavioural proxy** for thermal/rain discomfort | observation | n/a |
 | **Walkability** (segment scoring) | GWI: highly-walkable WI≥70 / waiting-to-walk 50–70; PEQI classes | S9, S6 | ✓ |
-| **Last-mile distance** (station→destination) | TOD norm **400 m** (bus/tram) / **800 m** (rail); ITDP 500 m buffer | CAP-12 San Diego; S6 | ✓ |
-| **Encroachment** (motorbikes/PKL on sidewalk) | code: must **not reduce effective width** | S13; cf. S1, S10, S12 | ✓ |
+| **Last-mile distance** (station→destination) | Jakarta MRT acceptable walk **~629 m men / 593 m women; 689 m office / 547 m residential**; TOD norm 400 m bus / 800 m rail; ITDP 500 m | S16 (Jakarta); CAP-12; S6 | ✓ |
+| **Encroachment** (motorbikes/PKL; informal use) | code: must **not reduce effective width**; pedestrian space gets informally occupied (324 JPO, mostly near transit) | S13; S18; cf. S1, S10, S12 | ✓ |
 
 **How to use:** score each segment **against the number** (e.g. width 1.4 m → below the 1.85 m
 standard), and compare the **main-corridor vs back-street pair**. That converts the gradient from
@@ -48,7 +48,8 @@ number we can cross-check the answers against.
 | "What makes it (un)comfortable?" → shade/heat | THI threshold + our on-site temp reading | round-4 lead | ⚠ |
 | Umbrella habit / weather coping | self-reported frequency (selalu→tidak) vs observed umbrella tally (Section F); rain mode-shift to ojol | observation + interview | n/a |
 | Comfort vs tolerance | S1 found perception (84.7) > measured condition (64.3), probe past "it's fine" | S1 | ✓ |
-| Last-mile walk / ojol wait | TOD 400/800 m norm; observed ojol wait (cf. Rika/Mutia) | round-4 lead; S11 | ⚠/✓ |
+| Last-mile walk / ojol wait | Jakarta acceptable-walk ~550–690 m (S16); observed ojol wait (cf. Rika/Mutia) | S16; S11 | ✓ |
+| Facilities & satisfaction (path, furniture, signage) | corridor user-satisfaction model; ask what works/doesn't | S15 | ✓ |
 | Crossing safety feeling | spacing 100–200 m; 8.274 crossing crashes; 10.428 ped victims (2023) | S13; S14 | ✓ |
 | Women's route choice day vs night | KRPA: streets = top harassment site; women 6× more vulnerable; 70,56% worsened | S2 | ✓ |
 | Route knowledge before walking | (gap, no benchmark; this is the team's novel question) | n/a | n/a |

@@ -8,6 +8,10 @@ corridor is (un)comfortable or (un)safe. Keep each street intercept **≤5 minut
 > **Always:** start with the consent line in [`intercept-script.md`](intercept-script.md).
 > Sensitive / after-dark intercepts are **led by Sintani** (per the team plan). Recording needs
 > separate explicit consent.
+>
+> **Companion:** [`pedestrian-interview-bank.md`](pedestrian-interview-bank.md) is a
+> literature-indexed menu of prompts (from the colleague branch), organized by theme and source
+> (S15–S19). Pull from it; this guide stays the persona-by-persona structure.
 
 ---
 
