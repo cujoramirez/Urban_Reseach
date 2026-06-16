@@ -34,19 +34,60 @@
 \setlength{\emergencystretch}{3em}
 \addbibresource{refs.bib}
 
-% =====================================================================
-\title{%
-  Pengalaman Berjalan Kaki di Koridor Sudirman\\[0.4em]
-  \large Urban Innovation Challenge: Challenge Based Learning}
-\author{%
-  Tim \texttt{[NAMA TIM EKSTERNAL: TBD]}\\
-  Apple Developer Academy @ BINUS, Cohort 9}
-\date{\today}
+% --- Running headers/footers (officialness without a heavy template) -----
+\usepackage{fancyhdr}
+\newcommand{\shorttitle}{Riset Berjalan Kaki di Koridor Sudirman}
+\newcommand{\teamname}{Tim Riset Pijak}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize \shorttitle}
+\fancyhead[R]{\footnotesize \teamname}
+\fancyfoot[C]{\footnotesize \thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\fancypagestyle{plain}{\fancyhf{}\fancyfoot[C]{\footnotesize \thepage}%
+  \renewcommand{\headrulewidth}{0pt}}
 
 \begin{document}
 \hypersetup{pageanchor=false}
 \pagenumbering{roman}
-\maketitle
+
+% --- Cover page (team-owned; ADA kept to a small footnote) ---------------
+\begin{titlepage}
+\thispagestyle{empty}
+\centering
+\vspace*{1.5cm}
+% Logo slot (uncomment + drop files in report/ when available):
+% \includegraphics[height=1.6cm]{logo-tim.png}\hspace{1cm}
+\vspace{1.2cm}
+
+{\Large\bfseries Riset Pengalaman Berjalan Kaki di Koridor Sudirman\par}
+\vspace{0.4em}
+{\large\itshape The Walkability of the Sudirman Corridor\par}
+\vspace{1.0cm}
+
+{\large Urban Innovation Challenge (Challenge 4)\par}
+{\normalsize Challenge Based Learning\par}
+\vspace{2.0cm}
+
+{\large\bfseries \teamname\par}
+\vspace{0.8em}
+{\normalsize
+Gading Aditya Perdana \\
+Kenrich Heavenly Sandria \\
+Naufal Ammar Rauf \\
+Jatayu Muhammad Wicaksono \\
+Sintani Gina Lestari \par}
+\vspace{1.2cm}
+
+{\normalsize Mentor: Kak Will Chris\par}
+\vspace{0.4em}
+{\normalsize \today\par}
+
+\vfill
+{\footnotesize Riset mandiri tim. Hak kekayaan intelektual milik tim.
+Dilakukan selama mengikuti Apple Developer Academy @ BINUS (Cohort 9).\par}
+\end{titlepage}
+
 \tableofcontents
 \clearpage
 \pagenumbering{arabic}
