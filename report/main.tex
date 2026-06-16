@@ -310,36 +310,116 @@ sumber kebijakan menjelaskan \emph{apa} yang dibangun, bukan \emph{apa} yang men
 
 % =====================================================================
 \chapter{Metodologi}             % BAB III
-% Kerangka metode + dasar kuantitatif untuk validasi silang. Detail lengkap
-% menyusul; temuan TIDAK ditulis di sini.
-Penelitian lapangan memadukan \textbf{observasi} (audit segmen dan penghitungan pejalan kaki)
-dan \textbf{wawancara} (\textit{street intercept} serta wawancara ahli), lalu memvalidasi-silang
-keduanya terhadap tolok ukur pustaka.
+% Metodologi rinci. Temuan TIDAK ditulis di sini (BAB IV kosong sampai data).
+% Sumber metode: investigate/field/ (instrumen, data-sources-and-methods.md) +
+% investigate/desk-research/COMPUTATIONAL-DIRECTION.md + CROSS-VALIDATION-FRAMEWORK.md.
 
-\textbf{Tolok ukur audit.} Parameter audit mengacu pada standar nasional \autocite{binamarga2023}:
-lebar minimum trotoar 1,85 m, jarak antar penyeberangan 100--200 meter, kelandaian \textit{ramp}
-maksimum 8\% (1:12), ketinggian jembatan penyeberangan minimum 5,1 m, dan satuan arus pejalan
-kaki orang/meter/menit. Standar yang sama menetapkan penyeberangan terlindung diperlukan bila arus
-melebihi 450 orang/jam per meter lebar efektif. Indeks keterjalankakian memakai kerangka PEQI dan
-GWI \autocite{dwisadana2024,mulyadi2022}, ambang jarak berjalan memakai angka spesifik Jakarta
-\autocite{afkara2020walking}, dan konteks keselamatan memakai data kecelakaan pejalan kaki
-nasional \autocite{korlantas2023}.
+\section{Desain Penelitian}
+Penelitian memakai pendekatan \emph{mixed-methods} konvergen yang memadukan tiga sudut bukti:
+(1) \textbf{objektif}, melalui audit terstandar, penghitungan, sensor, dan \emph{computer vision};
+(2) \textbf{teramati}, melalui observasi perilaku pejalan kaki; dan (3) \textbf{dinyatakan},
+melalui wawancara dan skala persepsi tervalidasi. Rancangan intinya adalah \textbf{observasi
+berpasangan} antara trotoar utama koridor Sudirman dan jalan satu blok di belakangnya untuk
+mengukur \emph{gradien} kualitas secara kuantitatif, kesenjangan yang belum terukur dalam
+literatur terkumpul.
 
-\textbf{Dimensi cuaca.} Pengukuran mencakup suhu dan naungan per segmen serta perhitungan
-perilaku mengatasi cuaca, mengingat \emph{Sky View Factor} memengaruhi kenyamanan termal di
-trotoar Jakarta \autocite{arif2021skyview}.
+\section{Ruang Lingkup dan Unit Analisis}
+Unit analisis adalah \textbf{segmen} (satu ruas/blok per sisi jalan, disebut berdasarkan nama
+jalan). Setiap segmen koridor utama dipasangkan dengan segmen jalan di belakangnya, diamati pada
+hari dan jam yang setara. Jendela waktu mencakup puncak pagi (06.00--09.00 WIB), tengah hari yang
+panas (11.00--14.00), puncak sore (15.00--18.30), malam (setelah 18.30), serta akhir pekan / Car
+Free Day. Setiap jendela dicatat kondisi cuacanya. Titik simpul yang diutamakan: Dukuh Atas /
+Stasiun Sudirman, GBK--FX, dan Ratu Plaza / Menara Mandiri.
 
-\textbf{Rancangan inti.} Tim menjalankan \textbf{observasi berpasangan} antara trotoar utama
-Sudirman dan jalan di belakangnya untuk mengukur \emph{gradien} secara kuantitatif. Tiga aliran
-data, observasi, \textit{intercept}, dan wawancara ahli, saling diuji silang terhadap tolok ukur
-pustaka: kesepakatan menguatkan temuan, ketidaksesuaian menjadi wawasan untuk dilaporkan.
+\section{Instrumen}
+\begin{description}
+  \item[Lembar audit segmen.] Parameter fisik diberi skor 0--2 (keberadaan trotoar, lebar
+    efektif, permukaan, halangan, \textit{ramp}/ubin pemandu, penerangan, penyeberangan, peneduh,
+    drainase), dilengkapi titik GPS dan rujukan foto.
+  \item[Lembar penghitungan (\textit{tally}).] Penghitungan 5 menit per jendela (pejalan kaki di
+    trotoar vs badan jalan, arah ke/dari transit, perkiraan kelompok dan gender), inventaris
+    halangan, serta blok cuaca dan perilaku mengatasi cuaca (payung, mencari sisi teduh, berteduh,
+    beralih ke ojol).
+  \item[Skrip \textit{intercept}.] Wawancara jalanan $\leq 5$ menit, diawali persetujuan lisan,
+    pertanyaan terbuka dan dua arah.
+  \item[Panduan wawancara dan bank pertanyaan.] Pertanyaan netral per persona dan wawancara ahli
+    berorientasi hambatan.
+  \item[Skala persepsi tervalidasi.] \emph{ASHRAE} 7 poin untuk sensasi termal, skala persepsi
+    keamanan/kenyamanan, dan sebagian butir \emph{NEWS}.
+\end{description}
 
-\textbf{Sampel dan etika.} Penentuan sampel memakai kuota lintas persona (pekerja kantoran,
-perempuan, pelajar, pengguna transit, PKL/ojol, warga jalan belakang, kelompok mobilitas khusus),
-lokasi, dan waktu. Setiap \textit{intercept} dimulai dengan persetujuan lisan; \textit{intercept}
-sensitif dan malam dipimpin anggota perempuan. Rincian instrumen ada pada lembar audit, lembar
-penghitungan, panduan wawancara, dan bank pertanyaan. \textit{(Detail metode menyusul; bukan
-temuan.)}
+\section{Penentuan Sampel}
+Pengambilan sampel bersifat \emph{nonprobability} dengan kuota yang menyilangkan persona,
+lokasi, dan waktu. Persona mencakup pekerja kantoran, pejalan kaki perempuan (di-\emph{oversample}),
+pelajar, pengguna \emph{last-mile} transit, aktor informal (PKL dan ojol), warga jalan belakang,
+serta kelompok mobilitas khusus. Rekrutmen dilakukan pada titik jeda alami (menunggu ojol,
+penyeberangan, halte, warung), dengan target minimum per sel kuota. Sifat sampel konvenien
+dinyatakan terbuka; representativitas tidak diklaim.
+
+\section{Sumber Data dan Akuisisi}
+\begin{description}
+  \item[Cuaca.] \textbf{Apple WeatherKit} sebagai sumber utama (suhu, suhu terasa, kelembaban,
+    probabilitas hujan, indeks UV, kondisi), dicatat tiap jendela melalui iPhone/Apple Watch agar
+    konsisten antara riset dan purwarupa aplikasi. Cadangan riwayat memakai Open-Meteo dan
+    pembanding resmi BMKG; atribusi WeatherKit ditampilkan pada keluaran.
+  \item[Kualitas udara.] AQI sebagai faktor kenyamanan dan kesehatan.
+  \item[Geometri.] OpenStreetMap untuk trotoar, penyeberangan, tapak dan tinggi bangunan,
+    dilengkapi DEM terbuka.
+  \item[Citra.] Google Street View (Static API) dan ubin citra udara sebagai masukan
+    \emph{computer vision}; tanggal perekaman dicatat.
+  \item[\textit{Sensing walk}.] Pencatat suhu/kelembaban/lux dengan GPS yang dibawa berjalan pada
+    tiap segmen, ditandai per segmen sehingga menyatu dengan audit.
+  \item[Sentimen.] Penambangan ulasan peta dan unggahan media sosial bergeotag (NLP) sebagai
+    lapisan wacana publik.
+\end{description}
+
+\section{Tolok Ukur}
+Parameter audit mengacu pada standar nasional \autocite{binamarga2023}: lebar minimum trotoar
+1,85 m, jarak antar penyeberangan 100--200 meter, kelandaian \textit{ramp} maksimum 8\% (1:12),
+ketinggian jembatan penyeberangan minimum 5,1 m, dan satuan arus pejalan kaki orang/meter/menit.
+Standar yang sama mensyaratkan penyeberangan terlindung bila arus melebihi 450 orang/jam per meter
+lebar efektif. Indeks keterjalankakian memakai kerangka PEQI dan GWI
+\autocite{dwisadana2024,mulyadi2022}; ambang jarak berjalan memakai angka spesifik Jakarta
+\autocite{afkara2020walking}; konteks keselamatan memakai data kecelakaan pejalan kaki nasional
+\autocite{korlantas2023}; ambang kenyamanan termal mengacu pada Sky View Factor dan indeks
+\emph{Temperature-Humidity} \autocite{arif2021skyview}.
+
+\section{Metode Komputasi}
+Tim memanfaatkan kompetensi \emph{computer vision} dan pembelajaran mesin untuk memperluas
+jangkauan dan objektivitas pengukuran.
+\begin{enumerate}
+  \item \textbf{Pemetaan trotoar otomatis.} Segmentasi semantik ubin citra udara (pendekatan
+    \emph{Tile2Net}) menghasilkan poligon trotoar/penyeberangan dan jaringan \emph{centerline}
+    yang dapat dirutekan, untuk mengukur \emph{gradien} pada skala luas \autocite{tile2net2023}.
+    Model dilatih pada kota lain sehingga membutuhkan validasi terhadap audit lapangan di Jakarta.
+  \item \textbf{Fitur streetscape dari citra jalan.} Segmentasi citra \emph{street view}
+    menurunkan proporsi trotoar, ruang hijau, langit, dan halangan sebagai fitur per titik
+    \autocite{walkabilitydl2024}, dengan skema label aksesibilitas dari \emph{Project Sidewalk}
+    \autocite{projectsidewalk2019}.
+  \item \textbf{Lapisan naungan dan kenyamanan termal.} Naungan dihitung dari tapak dan tinggi
+    bangunan serta posisi matahari, mengikuti pendekatan dan metrik \emph{CoolWalks}
+    \autocite{coolwalks2025}, melengkapi pengukuran termal lapangan.
+  \item \textbf{Pemodelan perilaku.} Model pilihan diskret sebagai basis \autocite{afkara2020walking}
+    diperluas dengan model pembelajaran mesin yang dapat ditafsirkan (mis. \emph{gradient boosting}
+    dengan SHAP) memakai fitur hasil \emph{computer vision} dan data lapangan
+    \autocite{routechoiceml2024}.
+\end{enumerate}
+Setiap model diperlakukan sebagai pembangkit hipotesis; kebenaran tingkat koridor tetap berasal
+dari data lapangan dan \emph{ground truth}, bukan dari model semata.
+
+\section{Validasi Silang}
+Setiap klaim diuji dari tiga sudut (objektif, teramati, dinyatakan). Keluaran \emph{computer
+vision} di-\emph{ground-truth} terhadap audit lapangan; bacaan sensor dibandingkan dengan
+WeatherKit; audit yang sama dinilai beberapa pengamat untuk menguji keandalan antar-penilai.
+Kesepakatan antar sudut menguatkan temuan; ketidaksesuaian dilaporkan sebagai wawasan, bukan
+kesalahan.
+
+\section{Etika dan Disiplin Netralitas}
+Setiap \emph{intercept} dimulai dengan persetujuan lisan; perekaman meminta persetujuan terpisah.
+\emph{Intercept} sensitif dan malam dipimpin anggota perempuan (Sintani), dengan sistem
+berpasangan. Wajah pada foto dikaburkan, dan ketentuan layanan dihormati (atribusi WeatherKit,
+ketentuan Google, lisensi OpenStreetMap). Seluruh pertanyaan dijaga netral dan dua arah, asumsi
+dipisahkan secara eksplisit, dan temuan tidak ditulis sebelum data lapangan terkumpul.
 
 % =====================================================================
 \chapter{Hasil \& Kesimpulan}    % BAB IV
