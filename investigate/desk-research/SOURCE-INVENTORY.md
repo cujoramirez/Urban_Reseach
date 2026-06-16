@@ -32,6 +32,8 @@ corridor) · `CONTEXT` (broader Jakarta / national — applies only as backgroun
 | S8 | Urun Daya Kota (UDK) — Catatan Kota: *Membaca Rantai Mobilitas Perempuan di Kota* | Essay/article, date n/a | QUAL, SENT | NGO/org | **CONTEXT** (women's mobility, general) | `sources/web-captures.md` → CAP-4 | Existence + framing ✓; body/figures not retrieved ⚠ |
 | S9 | Mulyadi, Sihombing, Hendrawan, Vitriana & Nugroho — *Walkability and importance assessment of pedestrian facilities on CBD in capital city of Indonesia*, Transp. Res. Interdiscip. Perspect. 16:100695 | Journal article, 2022 | QUANT, QUAL | Academic (BRIN/POLBAN/PUPR) | **CORRIDOR** (Sudirman–Thamrin CBD) | `sources/sciencedirect_cbd_walkability_road_diet.pdf` | Full text ✓ (via institutional access) |
 | S10 | Kompas (Megapolitan) — *Jakarta Darurat Parkir: Trotoar Dikuasai Kendaraan* | News, 12 May 2026 | QUAL, SENT | News | **CONTEXT** (city-wide) | `sources/web-captures.md` → CAP-7 | Page fetched ✓; no figures, not corridor-specific ⚠ |
+| S11 | Kompas (Megapolitan) — *Sulit Dapat Ojol, Warga Menumpuk di Luar Stasiun Sudirman* | News, 20 May 2025 | QUAL, SENT | News | **CORRIDOR-adjacent** (Stasiun Sudirman / Blora / Dukuh Atas) | `sources/web-captures.md` → CAP-8 | Page fetched ✓; named-pedestrian quotes; illustrative not representative ⚠ |
+| S12 | Merdeka — *Anies: Trotoar Sudirman-Thamrin bukan tempat jualan PKL* | News, 6 Mar 2018 | POLICY, SENT | News (gov statement) | **CORRIDOR** | `sources/web-captures.md` → CAP-9 | Page fetched ✓ |
 
 ### Key verified figures (quick reference — see notes/ for exact passages)
 - **S1 (CORRIDOR):** PEQI physical-condition score **64.28** (Class II, "sesuai sebagian besar

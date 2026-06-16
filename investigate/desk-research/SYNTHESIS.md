@@ -68,6 +68,12 @@ measurements — they describe the environment the corridor sits in, not the cor
   and damaged sections even while rating it highly (S5).
 - Walking is chosen for being **free** and for short transit access (S3); it is routine,
   solo, peak-hour, work-oriented movement (S1, S3).
+- **Observed last-mile friction** near Stasiun Sudirman: KRL riders crowd the kerb waiting for
+  ojol while ojol motorbikes line up *on* the trotoar; named young-women commuters describe the
+  wait/distance (S11) — illustrative behaviour, not a sample.
+- **Policy shaped the space:** vendors were cleared from the main trotoar and relocated "to the
+  side streets behind the office buildings" in 2018 (S12) — a plausible driver of the very
+  back-street gradient the fieldwork targets.
 
 ## 4. The SENTIMENT / INTENT picture
 - In S1, surveyed pedestrians **prioritize comfort over safety** and **tend to tolerate/accept**

@@ -177,3 +177,50 @@ in this same `sources/` folder.
   percentages was found; KCL insight-article URLs remain 404.
 - **Theme corroborated** (not the number): vehicle encroachment on sidewalks is documented by
   CAP-7 (Kompas 2026, city-wide) and S1 (Sudirman seg. 4, motorbikes + PKL).
+
+---
+
+## CAP-8 — Kompas (Megapolitan) — ojol crowding & pedestrians at Stasiun Sudirman (2025)
+- **URL:** https://megapolitan.kompas.com/read/2025/05/20/09201411/sulit-dapat-ojol-warga-menumpuk-di-luar-stasiun-sudirman
+- **Date:** 20 May 2025 · **Accessed:** 2026-06-16
+- **Reporter observation (exact):**
+  - "Sejumlah warga memadati tepi trotoar dekat Stasiun Sudirman, Jakarta Pusat, untuk menunggu
+    ojek online (ojol) yang dipesannya pada Selasa (20/5/2025) pagi."
+  - "warga yang merupakan penumpang KRL Commuter Line itu banyak menyebar ke arah Jalan Blora
+    dan menuju Stasiun MRT Dukuh Atas."
+  - "Di Jalan Blora, beberapa pengendara motor berjaket hijau dan kuning tampak memarkirkan
+    kendaraannya secara berderet di tepi trotoar."
+- **Named pedestrians (exact):**
+  - Rika (28): "Ini saya lagi nunggu daritadi, buat pesan ojol masih belum dapat padahal sudah
+    mau 10 menit." (waiting ~07:25–07:35 WIB)
+  - Mutia (23): "Tapi memang agak jauh ini, saya harus nunggu agak lama dulu." (ride to Kuningan)
+- **Data type:** Qualitative + Sentiment. **Origin:** News. **Scope:** CORRIDOR-adjacent
+  (Stasiun Sudirman / Jalan Blora / Dukuh Atas node — the northern last-mile area).
+- **Use:** real behavioral evidence — pedestrians crowding sidewalk edges, ojol motorbikes
+  lined up on the trotoar, last-mile friction. Names two young women (28, 23): broadens the
+  "male office worker" profile from S1/S3.
+
+---
+
+## CAP-9 — Merdeka — Anies: Sudirman–Thamrin sidewalk not for PKL (2018)
+- **URL:** https://www.merdeka.com/jakarta/anies-trotoar-sudirman-thamrin-bukan-tempat-jualan-pkl-buat-pejalan-kaki.html
+- **Official/date:** Gov. Anies Baswedan, 6 March 2018 · **Accessed:** 2026-06-16
+- **Exact passage:** "Trotoar sepanjang Sudirman-Thamrin bukan tempat berjualan PKL, di sini
+  tempat untuk pejalan kaki."
+- **Policy detail:** plan to **relocate PKL to side streets behind the office buildings** and
+  provide kiosks only for newspapers/transit cards (not food); target before Asian Games 2018.
+- **Data type:** Policy + Sentiment. **Origin:** News (gov statement). **Scope:** CORRIDOR.
+- **Use:** documents the policy that cleared vendors from the main trotoar — and explicitly
+  pushed them toward the **back-streets**, i.e. a policy driver of the gradient (G1).
+
+---
+
+## LEADS (round 3) — not verified by fetch
+- **Car Free Day (CFD) Sudirman–Thamrin** schedule (Sundays, ~05:30–11:00 WIB; leisure crowd;
+  vendor red/yellow/green zones): from search summaries only; media outlets paywalled (402).
+  **VERIFY before citing exact times.** Useful for fieldwork *timing* (weekend leisure vs
+  weekday commute).
+- **Back-street population (the gradient):** Kampung Karet (Karet Tengsin/Kuningan), Menteng
+  Atas (dense, 11 RW), Setiabudi — dense kampung directly behind the Sudirman towers (search
+  summaries; an academic typology PDF on Karet exists on Neliti). **Treat as a field-assumption
+  to characterize on the ground**, not as verified data.
