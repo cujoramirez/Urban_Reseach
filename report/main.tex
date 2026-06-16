@@ -1,11 +1,11 @@
 % =====================================================================
-%  Urban Innovation Challenge — Research Report
+%  Urban Innovation Challenge, Research Report
 %  Apple Developer Academy @ BINUS, Cohort 9
 %
 %  Compiled on OVERLEAF (pdfLaTeX). No local build required.
 %  Prose language: Bahasa Indonesia. Technical terms may be English.
 %
-%  NOTE: babel option is 'indonesian' (NOT 'bahasa' — 'bahasa' errors
+%  NOTE: babel option is 'indonesian' (NOT 'bahasa', 'bahasa' errors
 %  on modern babel).
 % =====================================================================
 \documentclass[11pt,a4paper]{report}
@@ -37,9 +37,9 @@
 % =====================================================================
 \title{%
   Pengalaman Berjalan Kaki di Koridor Sudirman\\[0.4em]
-  \large Urban Innovation Challenge --- Challenge Based Learning}
+  \large Urban Innovation Challenge: Challenge Based Learning}
 \author{%
-  Tim \texttt{[NAMA TIM EKSTERNAL --- TBD]}\\
+  Tim \texttt{[NAMA TIM EKSTERNAL: TBD]}\\
   Apple Developer Academy @ BINUS, Cohort 9}
 \date{\today}
 
@@ -56,7 +56,7 @@
 \chapter{Pendahuluan}            % BAB I
 % Latar belakang + framing CBL (Big Idea, Essential Question), tantangan
 % sementara, pertanyaan penelitian (NETRAL), ruang lingkup terkunci, tujuan.
-% CATATAN: bab ini latar & tujuan — BUKAN temuan. Statistik yang dikutip
+% CATATAN: bab ini latar & tujuan, BUKAN temuan. Statistik yang dikutip
 % hanya konteks pustaka, bukan hasil lapangan.
 
 \section{Latar Belakang}
@@ -64,7 +64,7 @@ Proyek ini berangkat dari \emph{Big Idea} ``\emph{Urban Living Experience}'' dal
 \emph{Challenge Based Learning} (CBL). Salah satu wujud paling mendasar dari pengalaman hidup
 perkotaan adalah berjalan kaki. Di Jabodetabek, berjalan kaki dan bersepeda hanya menyumbang
 di bawah 2\% moda komuter, sementara kendaraan pribadi mendominasi \autocite{goodstats2024};
-pada saat yang sama, cakupan trotoar di tingkat kota tergolong rendah --- sekitar 540 km
+pada saat yang sama, cakupan trotoar di tingkat kota tergolong rendah, sekitar 540 km
 trotoar dibanding 6.956 km panjang jalan (data 2015) \autocite{itdp2019}. Berjalan kaki di
 koridor padat-transit karenanya lebih banyak berperan sebagai perjalanan \textit{last-mile}
 penghubung angkutan umum. Koridor Jalan Jenderal Sudirman menjadi kasus yang menarik karena
@@ -89,8 +89,10 @@ instrumen lapangan):
 \begin{enumerate}
   \item Bagaimana cara pejalan kaki bergerak di kawasan Sudirman?
   \item Apakah pejalan kaki menggunakan trotoar yang tersedia, dan apa yang memengaruhinya?
-  \item Apa yang membuat berjalan kaki di sini terasa nyaman --- dan apa yang membuatnya kurang
+  \item Apa yang membuat berjalan kaki di sini terasa nyaman, dan apa yang membuatnya kurang
         nyaman?
+  \item Bagaimana cuaca (panas, hujan) dan ketersediaan peneduh memengaruhi cara, waktu, serta
+        rute orang berjalan, dan bagaimana mereka mengatasinya (payung, berteduh, beralih ke ojol)?
   \item Bagaimana pejalan kaki mengetahui (atau gagal mengetahui) kondisi rute sebelum berjalan?
   \item Saat memilih rute (siang vs malam), faktor apa yang dipertimbangkan, termasuk oleh
         pejalan kaki perempuan?
@@ -154,7 +156,7 @@ langsung dapat diperbandingkan, sehingga perbandingan antarwaktu harus dilakukan
 Pada segmen selatan koridor (sekitar Menara Mandiri, GBK/FX, dan Ratu Plaza), kajian PEQI pasca-
 revitalisasi memberi skor kondisi fisik \(64{,}28\) (kelas II) dan skor persepsi \(84{,}70\)
 (kelas I), dengan skor gabungan \(74{,}49\) yang terklasifikasi ``dapat diterima pejalan kaki''
-\autocite{dwisadana2024}. % [KORIDOR — segmen 4]
+\autocite{dwisadana2024}. % [KORIDOR: segmen 4]
 Walaupun tergolong dapat diterima, studi yang sama mencatat sejumlah kekurangan konkret:
 penyalahgunaan ruang trotoar oleh sepeda motor dan pedagang kaki lima meskipun telah dipasang
 \textit{bollard}, kekurangan fasilitas peneduh, ketiadaan lampu pejalan kaki pada sebagian
@@ -162,7 +164,7 @@ persimpangan, gangguan kebisingan, serta jarak transit yang dirasa jauh \autocit
 Bukti perubahan antarwaktu tersedia dari penilaian GWI. Pada 2015 (pra-revitalisasi), indeks
 walkability ruas Sudirman tergolong relatif rendah (sekitar 64, kategori ``\textit{waiting to
 walk}'') dan ruas Thamrin sekitar 71 (kategori ``\textit{walkable}'')
-\autocite{ridhani2015,mulyadi2022}. % [KORIDOR — basis pra-revitalisasi]
+\autocite{ridhani2015,mulyadi2022}. % [KORIDOR: basis pra-revitalisasi]
 Setelah revitalisasi trotoar dengan konsep \textit{road diet}, \textcite{mulyadi2022} mencatat
 kenaikan walkability hingga \(38{,}98\%\), dengan kelima lokasi survei sepanjang koridor masuk
 kategori ``\textit{highly walkable}'' (WI 84,35--88,95); hambatan utama yang teridentifikasi
@@ -174,12 +176,24 @@ berarti tingkat kenyamanan yang tinggi. Karena PEQI \autocite{dwisadana2024} dan
 \autocite{mulyadi2022} berbeda metode, segmen, dan tahun, peningkatan menurut GWI (2015--2018)
 dan kekurangan yang masih dicatat PEQI (2024) sebaiknya diperlakukan sebagai hipotesis untuk
 diuji di lapangan, bukan sebagai tren yang sudah pasti.
+Dari sisi pengguna, \textcite{apritasari2020satisfaction} menilai kepuasan pejalan kaki terhadap
+jalur, perabot jalan, dan papan penanda di sepanjang Thamrin--Sudirman. Pendekatan ini melengkapi
+walkability yang dinilai ``dari atas'': ia menanyakan langsung apa yang memuaskan dan tidak
+memuaskan pengguna, dan menjadi model bagi sisi \textit{intercept} pada kerja lapangan kami.
+\emph{(Skor kepuasan spesifik masih perlu diverifikasi dari teks penuh.)}
 
 \section{Konektivitas Transit dan Perjalanan \textit{Last-Mile}}
 Aktivitas berjalan kaki di koridor terkonsentrasi di sekitar simpul transit. Pada segmen 4,
 titik keramaian terbentuk di titik integrasi Transjakarta/MRT \autocite{dwisadana2024}; di simpul
 utara, Dukuh Atas, frekuensi berjalan kaki dipengaruhi secara signifikan oleh pendapatan, maksud
-perjalanan, dan kepadatan permukiman \autocite{rakhmatulloh2020}. % [SIMPUL]
+perjalanan, dan kepadatan permukiman \autocite{rakhmatulloh2020}, dan studi yang lebih baru
+mengkaji ulang walkability Dukuh Atas pada radius inti 400 m pasca-MRT \autocite{napitupulu2025tod}.
+% [SIMPUL]
+Untuk koridor MRT, \textcite{afkara2020walking} memberi ambang jarak berjalan yang spesifik
+Jakarta: jarak yang dianggap wajar menuju stasiun sekitar 629 m bagi laki-laki dan 593 m bagi
+perempuan, serta sekitar 689 m di area perkantoran dibanding 547 m di area permukiman. Angka ini
+melokalkan norma TOD umum (400 m bus, 800 m rel) dan menjadi tolok ukur untuk pertanyaan
+\textit{intercept} ``seberapa jauh masih mau berjalan''. % [KORIDOR-relevant]
 Konteks regional menempatkan berjalan kaki sebagai moda \emph{primer} yang kecil: pada Survei
 Komuter Jabodetabek 2023, gabungan berjalan kaki dan bersepeda berada di bawah 2\% moda komuter,
 sementara kendaraan pribadi mendominasi \autocite{goodstats2024}. % [KONTEKS]
@@ -191,56 +205,77 @@ Dengan demikian, berjalan kaki di koridor lebih tepat dipahami sebagai perjalana
 mile} penghubung transit, bukan moda utama lintas-kota. Friksi pada perjalanan \textit{last-
 mile} ini terdokumentasi secara kualitatif di sekitar Stasiun Sudirman, tempat penumpang KRL
 menumpuk di tepi trotoar menunggu ojek daring sementara sepeda motor berderet di tepi jalur
-pejalan kaki \autocite{kompas2025ojol}. % [KORIDOR-adjacent — ilustratif, bukan representatif]
+pejalan kaki \autocite{kompas2025ojol}. % [KORIDOR-adjacent: ilustratif, bukan representatif]
+
+\section{Iklim Mikro, Peneduhan, dan Kenyamanan Termal}
+Panas dan hujan membentuk pengalaman berjalan di koridor tropis ini. \textcite{arif2021skyview}
+menghubungkan \emph{Sky View Factor} (seberapa terbuka langit di atas trotoar) dengan kenyamanan
+termal pejalan kaki pada trotoar Jakarta: makin sedikit naungan, makin besar tekanan panas.
+\textcite{dwisadana2024} mencatat kekurangan fasilitas peneduh di segmen Sudirman dan
+merekomendasikan peneduh kira-kira setiap 300 m serta kanopi pada titik keramaian. Literatur
+kenyamanan termal tropis lazim memakai ambang Temperature--Humidity Index, dengan nilai di atas
+sekitar 27\textdegree C tergolong tidak nyaman \emph{(ambang ini masih perlu diverifikasi dari
+sumber primer)}. Karena itu kerja lapangan kami mengukur suhu dan naungan per segmen, dan mencatat
+perilaku mengatasi cuaca (penggunaan payung untuk panas/hujan, mencari sisi yang teduh, berteduh
+saat hujan, beralih ke ojol) sebagai indikator ketidaknyamanan yang dapat diamati.
+% [KORIDOR/benchmark; S17 + S1]
 
 \section{Keamanan Ruang Publik dan Dimensi Gender}
 Pada tataran nasional, ruang publik jalanan tercatat sebagai lokasi pelecehan seksual luring
-terbanyak dalam survei 4.236 responden di 34 provinsi \autocite{krpa2022}. % [KONTEKS — nasional]
+terbanyak dalam survei 4.236 responden di 34 provinsi \autocite{krpa2022}. % [KONTEKS: nasional]
 Perempuan dilaporkan paling banyak mengalaminya, dan kerangka mobilitas perempuan menekankan
 ``rantai'' perjalanan harian yang menuntut ruang yang aman dan nyaman
-\autocite{udk_mobilitasperempuan}. % [KONTEKS — pembingkaian]
-Bukti ini bersifat latar: tidak ada rincian khusus untuk koridor Sudirman.
+\autocite{udk_mobilitasperempuan}. % [KONTEKS: pembingkaian]
+Data keselamatan nasional menambah konteks: sepanjang 2023 tercatat 10.428 pejalan kaki menjadi
+korban kecelakaan, dengan 54,84\% terkait perilaku menyeberang di sembarang tempat
+\autocite{korlantas2023}. Angka ini menjadikan audit penyeberangan kami (jarak antar
+penyeberangan, sinyal, perilaku menyeberang) relevan terhadap risiko nyata.
+Seluruh bukti ini bersifat latar; tidak ada rincian khusus untuk koridor Sudirman.
 % GAP: dibutuhkan data keamanan/persepsi keamanan yang spesifik koridor (siang vs malam,
-% dan pengalaman perempuan) — belum tersedia dalam sumber terkumpul.
+% dan pengalaman perempuan); belum tersedia dalam sumber terkumpul.
 
 \section{Penyediaan Trotoar dan Kebijakan Revitalisasi 2017--2022}
 Trotoar Sudirman--Thamrin dibangun ulang selebar 8--12 meter dan rampung pada 2018 sebagai
 bagian dari program revitalisasi yang mencatat 134 km trotoar pada 2017--2019 di bawah Dinas
 Bina Marga DKI Jakarta \autocite{beritajakarta2019}. % [KORIDOR width + KONTEKS program]
 Sebagai latar kota, \textcite{itdp2019} mencatat panjang trotoar DKI Jakarta 540 km dibanding
-panjang jalan 6.956 km (data 2015) — proporsi yang kecil di tingkat kota — serta angka
+panjang jalan 6.956 km (data 2015), proporsi yang kecil di tingkat kota, serta angka
 keselamatan satu pejalan kaki meninggal setiap enam hari di Jakarta (Ditlantas Polda Metro Jaya,
 2014). % [KONTEKS]
 Kebijakan pada 2018 menegaskan bahwa trotoar Sudirman--Thamrin diperuntukkan bagi pejalan kaki
 dan bukan untuk PKL, disertai rencana relokasi pedagang ke jalan-jalan di belakang gedung
-perkantoran \autocite{merdeka2018pkl}. % [KORIDOR — kebijakan + pemicu gradien]
+perkantoran \autocite{merdeka2018pkl}. % [KORIDOR: kebijakan + pemicu gradien]
+Ruang pejalan kaki juga kerap ditempati secara informal. \textcite{putri2020residual} mencatat
+324 jembatan penyeberangan orang di Jakarta (data 2015), sebagian besar dekat simpul transit, dan
+menelaah bagaimana ruang sisa di bawahnya dipakai untuk kegiatan yang tidak direncanakan. Temuan
+ini mengingatkan tim untuk mencatat pemanfaatan informal sebagai \emph{temuan} yang netral, bukan
+semata ``halangan'' untuk dihakimi. % [KONTEKS: S18]
 Di sisi penegakan, penyalahgunaan trotoar oleh kendaraan yang parkir masih menjadi persoalan
 kota yang aktual \autocite{kompas2026trotoar}; hal ini sejalan dengan temuan tingkat koridor
 mengenai sepeda motor dan PKL yang masuk ke jalur pejalan kaki \autocite{dwisadana2024}.
-% [KONTEKS — S10 kota; S1 koridor]
-Menariknya, relokasi PKL ``ke jalan-jalan di belakang'' \autocite{merdeka2018pkl} berpotensi
-turut membentuk \emph{gradien} yang menjadi fokus penelitian ini — sebuah dugaan yang harus
-diuji di lapangan, bukan disimpulkan dari kebijakan semata.
-Kontras antara trotoar utama yang lebar dan rendahnya cakupan trotoar kota menyiratkan adanya
-\emph{gradien} kualitas, tetapi sumber-sumber ini mengukurnya pada skala kota, bukan pada jalan-
-jalan di belakang koridor.
+% [KONTEKS: S10 kota; S1 koridor]
+Relokasi PKL ``ke jalan-jalan di belakang'' \autocite{merdeka2018pkl} berpotensi turut membentuk
+\emph{gradien} yang menjadi fokus penelitian ini, sebuah dugaan yang harus diuji di lapangan,
+bukan disimpulkan dari kebijakan semata. Kontras antara trotoar utama yang lebar dan rendahnya
+cakupan trotoar kota menyiratkan adanya gradien kualitas, tetapi sumber-sumber ini mengukurnya
+pada skala kota, bukan pada jalan-jalan di belakang koridor.
 % GAP: angka kontras Kompas.id ("8,71% ruas jalan DKI bertrotoar"; "revitalisasi baru 16%")
 % berbayar dan belum terverifikasi; gunakan hanya bila sumber primer/terbuka diperoleh.
 
 \section{Kesenjangan dalam Literatur}
 Tinjauan ini memperlihatkan beberapa kesenjangan yang justru menjadi ruang bagi kerja lapangan
 tim. Pertama, tidak ada sumber terkumpul yang mengukur kondisi jalur pejalan kaki di
-\emph{jalan-jalan di belakang} koridor Sudirman — seluruh studi koridor menilai sumbu utama atau
-simpul transit \autocite{dwisadana2024,rakhmatulloh2020,ridhani2015}.
-% GAP: "gradien" trotoar utama vs jalan belakang — INTI penelitian; belum ada di literatur.
+\emph{jalan-jalan di belakang} koridor Sudirman; seluruh studi koridor menilai sumbu utama atau
+simpul transit \autocite{dwisadana2024,rakhmatulloh2020,ridhani2015,mulyadi2022}.
+% GAP: "gradien" trotoar utama vs jalan belakang = INTI penelitian; belum ada di literatur.
 Kedua, makna ``nyaman'' menurut pejalan kaki koridor belum digali secara terbuka; sumber menilai
 parameter yang telah ditetapkan, bukan definisi pengguna.
 Ketiga, hambatan yang membuat fasilitas pejalan kaki yang nyaman sulit diwujudkan belum dibahas;
 sumber kebijakan menjelaskan \emph{apa} yang dibangun, bukan \emph{apa} yang menghambat
-\autocite{beritajakarta2019,itdp2019} — hal yang menjadi fokus wawancara ahli yang direncanakan.
+\autocite{beritajakarta2019,itdp2019}, yang menjadi fokus wawancara ahli yang direncanakan.
 % GAP: penilaian khusus koridor Sudirman dari ITDP (selain panduan desain) belum diperoleh.
 % CATATAN: temuan road diet (Mulyadi dkk., 2022 / artikel CBD ScienceDirect) sudah diperoleh
-% dan diverifikasi penuh — kini dikutip sebagai \autocite{mulyadi2022}. (Bukan lagi GAP.)
+% dan diverifikasi penuh, kini dikutip sebagai \autocite{mulyadi2022}. (Bukan lagi GAP.)
 
 % =====================================================================
 \chapter{Metodologi}             % BAB III
@@ -248,16 +283,32 @@ sumber kebijakan menjelaskan \emph{apa} yang dibangun, bukan \emph{apa} yang men
 % menyusul; temuan TIDAK ditulis di sini.
 Penelitian lapangan memadukan \textbf{observasi} (audit segmen dan penghitungan pejalan kaki)
 dan \textbf{wawancara} (\textit{street intercept} serta wawancara ahli), lalu memvalidasi-silang
-keduanya terhadap tolok ukur pustaka. Parameter audit mengacu pada standar nasional
-\autocite{binamarga2023}, antara lain lebar minimum trotoar 1,85 m, jarak antar penyeberangan
-100--200 meter, kelandaian \textit{ramp} maksimum 8\% (1:12), serta satuan arus pejalan kaki
-orang/meter/menit. Indeks keterjalankakian mengikuti kerangka PEQI dan GWI
-\autocite{dwisadana2024,mulyadi2022}, dan konteks keselamatan memakai data kecelakaan pejalan
-kaki nasional \autocite{korlantas2023}. Rancangan inti adalah \textbf{observasi berpasangan}
-antara trotoar utama Sudirman dan jalan di belakangnya untuk mengukur \emph{gradien} secara
-kuantitatif. Rincian instrumen, penentuan sampel (kuota lintas persona, lokasi, dan waktu), serta
-etika (persetujuan lisan; intercept sensitif/malam dipimpin anggota perempuan) dijabarkan pada
-lampiran instrumen. \textit{(Detail metode menyusul; bukan temuan.)}
+keduanya terhadap tolok ukur pustaka.
+
+\textbf{Tolok ukur audit.} Parameter audit mengacu pada standar nasional \autocite{binamarga2023}:
+lebar minimum trotoar 1,85 m, jarak antar penyeberangan 100--200 meter, kelandaian \textit{ramp}
+maksimum 8\% (1:12), ketinggian jembatan penyeberangan minimum 5,1 m, dan satuan arus pejalan
+kaki orang/meter/menit. Standar yang sama menetapkan penyeberangan terlindung diperlukan bila arus
+melebihi 450 orang/jam per meter lebar efektif. Indeks keterjalankakian memakai kerangka PEQI dan
+GWI \autocite{dwisadana2024,mulyadi2022}, ambang jarak berjalan memakai angka spesifik Jakarta
+\autocite{afkara2020walking}, dan konteks keselamatan memakai data kecelakaan pejalan kaki
+nasional \autocite{korlantas2023}.
+
+\textbf{Dimensi cuaca.} Pengukuran mencakup suhu dan naungan per segmen serta perhitungan
+perilaku mengatasi cuaca, mengingat \emph{Sky View Factor} memengaruhi kenyamanan termal di
+trotoar Jakarta \autocite{arif2021skyview}.
+
+\textbf{Rancangan inti.} Tim menjalankan \textbf{observasi berpasangan} antara trotoar utama
+Sudirman dan jalan di belakangnya untuk mengukur \emph{gradien} secara kuantitatif. Tiga aliran
+data, observasi, \textit{intercept}, dan wawancara ahli, saling diuji silang terhadap tolok ukur
+pustaka: kesepakatan menguatkan temuan, ketidaksesuaian menjadi wawasan untuk dilaporkan.
+
+\textbf{Sampel dan etika.} Penentuan sampel memakai kuota lintas persona (pekerja kantoran,
+perempuan, pelajar, pengguna transit, PKL/ojol, warga jalan belakang, kelompok mobilitas khusus),
+lokasi, dan waktu. Setiap \textit{intercept} dimulai dengan persetujuan lisan; \textit{intercept}
+sensitif dan malam dipimpin anggota perempuan. Rincian instrumen ada pada lembar audit, lembar
+penghitungan, panduan wawancara, dan bank pertanyaan. \textit{(Detail metode menyusul; bukan
+temuan.)}
 
 % =====================================================================
 \chapter{Hasil \& Kesimpulan}    % BAB IV
