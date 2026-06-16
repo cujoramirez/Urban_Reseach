@@ -30,8 +30,22 @@ elderly, children, and women.
   > 450 orang/jam/lebar efektif (dalam meter)".
 - **Crossing demand basis:** "arus pejalan kaki yang menyeberang ruas jalan sepanjang 100 meter
   tiap jam-nya" (P = crossings per 100 m per hour).
-- **Table 3** — "Penentuan dimensi trotoar berdasarkan lokasi dan arus pejalan kaki maksimum"
-  (sidewalk dimension by land use + max flow). *(Full table in PDF p.~12 — pull when sizing.)*
+- **Effective width for two wheelchairs / two adults-with-goods passing: min 185 cm (1,85 m).**
+- **Width formula (Persamaan 1): W = (V / 35) + N**, where W = effective min width (m), V =
+  two-way design pedestrian volume (orang/m/menit), N = added width from Tabel 2. If W computes
+  below 1,85 m, **use 1,85 m**.
+- **Tabel 2 (N value):** 1,5 m high pedestrian generation (transit/inclusive service/mall/office/
+  hospital/worship/school); 1,0 m medium; 0,5 m low (residential).
+- **Tabel 3 (dimension by location & max flow) — exact figures:**
+  - **Arterial, CBD / park / school / major generator:** max flow **80 pejalan kaki/menit**;
+    kereb zone 0,15 m; facility lane 1,2 m; building-frontage 0,75 m; **effective 2,75–3,75 m;
+    total 5–6 m.**
+  - **Collector, CBD:** max flow **60 pejalan kaki/menit**; kereb 0,15 m; facility lane 0,9 m;
+    frontage 0,35 m; **effective 2–2,75 m; total 3,5–4 m.**
+- **Crossing warrant (grade-separated/protected) — any one of:** pedestrian volume **>450
+  orang/jam/eff-m** (one side); vehicle volume **>500 kendaraan/jam**; vehicle speed **>40 km/jam**.
+- **Kereb (curb) height classes:** 0–6 cm (speed-limited transit segments); 6–15 cm; 15–20 cm
+  (arterial/collector); 20–25 cm (high-traffic arterial).
 - Bike lane width 1,5 m; bicycle/halte/greenery/trees must **not reduce effective width**.
 
 ## QUALITATIVE / design requirements

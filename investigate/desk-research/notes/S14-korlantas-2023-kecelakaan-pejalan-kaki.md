@@ -18,11 +18,12 @@ interview. Not corridor-specific.
 - **VERIFIED (fetched):** "Kecelakaan yang melibatkan pejalan kaki saat menyeberang … mencapai
   **8.274** di 2023" (Korlantas). Top crash types: loss-of-control 18,961; rear-end 18,638;
   head-on 17,337.
-- **VERIFY ⚠ (search-summary only — Pusiknas page blocked by SSL):** ~**10.428 pejalan kaki**
-  jadi korban kecelakaan 2023; **54,84%** of pedestrian victims linked to **menyeberang
-  sembarangan** (crossing at random places); national totals ~18,357 deaths / 110,528 crashes
-  (one figure) vs ~27,000 deaths / 152,000 crashes (another). **Do not cite these until verified
-  against Pusiknas/Korlantas primary.**
+- **VERIFIED (Pusiknas Polri, via `curl -k` — see CAP-11):** "sebanyak **10.428 pejalan kaki
+  menjadi korban**" in 2023 (Korlantas data); crossing at random places stated as the **top
+  cause**; regional example Polda Jateng 2nd with 152 victims.
+- **VERIFY ⚠ still:** the exact **54,84%** careless-crossing share was not found verbatim on the
+  Pusiknas page (direction confirmed, exact figure not), and national death totals conflict across
+  outlets (~18.357 vs ~27.000). Cite 10.428 + "crossing = top cause"; hold the percentage.
 
 ## Why it matters for fieldwork
 - Backs the **crossing-behaviour observation**: if a large share of pedestrian crashes nationally

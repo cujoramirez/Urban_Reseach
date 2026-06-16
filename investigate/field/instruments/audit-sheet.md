@@ -24,21 +24,28 @@ Use **N/A** only where a parameter genuinely does not apply.
 | # | Parameter | 0 | 1 | 2 | Notes |
 |---|-----------|---|---|---|-------|
 | 1 | **Sidewalk present** (is there a sidewalk at all?) | ☐ | ☐ | ☐ | |
-| 2 | **Effective width ≥ 1.5 m** (clear walkable width, after obstructions) | ☐ | ☐ | ☐ | |
+| 2 | **Effective width** (measure m; std min **1,85 m**: 2≥1,85 / 1=1,2–1,85 / 0<1,2) | ☐ | ☐ | ☐ | width: __ m |
 | 3 | **Surface intact** (no holes, broken tiles, trip hazards) | ☐ | ☐ | ☐ | |
 | 4 | **Obstruction** (0 = heavily blocked, 2 = clear) — note type below | ☐ | ☐ | ☐ | type: |
-| 5 | **Kerb / guiding block** (kerb ramp, tactile guiding block for the blind) | ☐ | ☐ | ☐ | |
+| 5 | **Kerb ramp / guiding block** (ramp slope std **max 8% / 1:12**; tactile guiding block) | ☐ | ☐ | ☐ | slope: __% |
 | 6 | **Lighting** *(night audit)* | ☐ | ☐ | ☐ | |
 | 7 | **Crowd / "eyes on street"** (activity & passive surveillance) | ☐ | ☐ | ☐ | |
-| 8 | **Crossing access within 200 m** (safe place to cross nearby) | ☐ | ☐ | ☐ | |
-| 9 | **Shade** (trees, canopy, shelter from sun/rain) | ☐ | ☐ | ☐ | |
+| 8 | **Crossing access** (std spacing **100–200 m**: 2≤200 m / 0>200 m) | ☐ | ☐ | ☐ | dist: __ m |
+| 9 | **Shade** (trees, canopy, shelter; note feel/temp — THI uncomfortable **>27°C**) | ☐ | ☐ | ☐ | °C: __ |
 | 10 | **Drainage / open gutter** (0 = open/dangerous gutter, 2 = covered/safe) | ☐ | ☐ | ☐ | |
 
 ### Obstruction type (circle all that apply)
 parked motorbikes · parked cars · street vendors · poles/signage · construction ·
 trees/planters · vegetation · other: __________
 
+> **Benchmarks** (national standard, Bina Marga 07/P/BM/2023 = S13): min effective width
+> **1,85 m**; crossing spacing **100–200 m**; ramp max **8% (1:12)**; JPO min height **5,1 m**;
+> a crossing/JPO is *warranted* when pedestrian flow **>450 orang/jam per effective-metre** (or
+> vehicles >500/jam, or speed >40 km/jam). CBD arterial design flow ≈ **80 ped/min**, effective
+> width 2,75–3,75 m. See `desk-research/CROSS-VALIDATION-FRAMEWORK.md`.
+
 ## Quick summary
 
 - **Total score (0–20):** ______
+- **Measured effective width:** ______ m  (vs 1,85 m standard)
 - **One-line impression:** ____________________________________________

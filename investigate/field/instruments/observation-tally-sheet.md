@@ -45,6 +45,7 @@ Mark each person once. "Road" = walking in the carriageway/gutter, not the sidew
 | Poles / signage / construction |  |  |  |
 | Other: __________ |  |  |  |
 - Narrowest **effective** walkable width observed: ______ m, at: ______________
+  *(national min standard **1,85 m** — flag if below; S13)*
 
 ## D. Behaviour event log (neutral — record event + apparent trigger, not a verdict)
 | Time | Event (what happened) | Apparent trigger (or "none") | Photo/GPS |
@@ -58,8 +59,12 @@ Mark each person once. "Road" = walking in the carriageway/gutter, not the sidew
 
 ## E. Crossings & shade (quick check)
 - Nearest safe crossing within 200 m? ☐ yes ☐ no — type: ☐ zebra ☐ JPO ☐ pelican
+  *(std spacing **100–200 m**; S13)*
 - Pedestrian signal present & working? ☐ yes ☐ no   Median refuge? ☐ yes ☐ no
+- Crossing/JPO warranted here? (ped flow **>450/jam/eff-m**, veh **>500/jam**, or **>40 km/jam**)
+  ☐ yes ☐ no
 - Shade along segment: ☐ none ☐ patchy ☐ mostly shaded (trees/canopy/buildings)
+  On-site temp/feel: ______ °C *(THI uncomfortable **>27°C**)*
 
 ## F. One-line neutral impression
 (What you actually saw — keep interpretation out: that's for synthesis.)

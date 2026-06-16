@@ -256,3 +256,28 @@ in this same `sources/` folder.
 - **Pedestrian Level of Service (intl. reference, HCM-based):** capacity-zone pedestrian space
   ~**0,46–0,75 m²/ped**; comfortable strolling needs far more. Use as international cross-check
   alongside the national Bina Marga unit (orang/m/menit). **VERIFY** exact thresholds.
+
+---
+
+## CAP-11 — Pusiknas Polri — pedestrian crash victims 2023 (verified via curl)
+- **URL:** https://pusiknas.polri.go.id/detail_artikel/ratusan_pejalan_kaki_jadi_korban_kecelakaan_lalu_lintas
+- **Accessed:** 2026-06-16 (WebFetch failed on SSL; retrieved via `curl -k`, text cleaned)
+- **Exact (verified):** "Bila merujuk pada data Korlantas Polri, sebanyak **10.428 pejalan kaki
+  menjadi korban**." Top cause stated as pedestrians "menyeberang di sembarang tempat"; regional
+  example "Polda Jateng dengan **152 korban**" (2nd place). Monthly: July 2023 (19 days) 836
+  pedestrians; careless-crossing cause 396 (Jul) / 469 (Aug).
+- **Note:** the "54,84%" careless-crossing share (from an earlier search summary) was **not**
+  located verbatim on this page — keep it as approximate/VERIFY; the *direction* (crossing = top
+  cause) is confirmed.
+- **Data type:** Quantitative. **Origin:** Government (Pusiknas/Korlantas). **Scope:** CONTEXT.
+
+---
+
+## CAP-12 — City of San Diego — walking distance to transit (TOD norm, verified)
+- **URL:** https://www.sandiego.gov/system/files/webform/pc-meetings/walking_distance_to_transit_factssources.pdf
+- **Accessed:** 2026-06-16 (downloaded + parsed)
+- **Exact (verified):** "400 meters (¼ mile) … most commonly applied for bus"; "800 meters or ½
+  mile is most commonly applied for [rail]"; "15 minutes (3/4 mile) to take a bus." Usage drop:
+  beyond ½ mile, San Diego transit use falls 74% (to 4.2%).
+- **Data type:** Quantitative (planning norm). **Origin:** Government (US, planning reference).
+  **Scope:** STANDARD/benchmark (international). Cross-check with ITDP 500 m buffer (S6).
