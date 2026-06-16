@@ -47,6 +47,21 @@ corridor) · `CONTEXT` (broader Jakarta / national, applies only as background).
 > Their independent note on Mulyadi et al. 2022 (= our **S9**) reports the same "~39% / ~15%"
 > result, an independent corroboration of S9's verified 38,98% / 15,41%.
 
+### Method / AI-CV-ML sources (how to research + build; see `COMPUTATIONAL-DIRECTION.md`)
+These are method/tool sources for a data-science pathway, not Sudirman findings. Scope = METHOD.
+
+| # | Source (short) | Type & year | Stream | File | Verification |
+|---|----------------|-------------|--------|------|--------------|
+| S20 | Wolf, Vierø & Szell, *CoolWalks*, Sci Rep 15:14911 | Journal, 2025 | shade-aware routing | `notes/S20-coolwalks-2025-shaded-routing.md` | Full text ✓ (arXiv/Sci Rep, OA) |
+| S21 | *Comprehensive walkability assessment using big data + deep learning*, Sci Rep | Journal, 2024 | CV walkability from imagery | `notes/S21-naturesr-2024-walkability-deep-learning.md` | Method ✓ (OA); authors/figures VERIFY ⚠ |
+| S22 | Saha et al., *Project Sidewalk*, CHI 2019 | Conf. + tool | CV + crowdsourced accessibility | `notes/S22-project-sidewalk-2019.md` | Tool/schema ✓; current stats VERIFY ⚠ |
+| S23 | Hosseini et al., *Mapping the walk (Tile2Net)*, CEUS 101:101950 | Journal + OSS, 2023 | CV sidewalk-network mapping | `notes/S23-tile2net-2023-sidewalk-mapping.md` | Method + repo ✓ (open source) |
+| S24 | *Pedestrian Route Choice Behaviors by ML*, IJGI 13(5):146 | Journal, 2024 | interpretable ML route choice | `notes/S24-mdpi-2024-route-choice-ml.md` | Exists/OA ✓; figures VERIFY ⚠ |
+
+> **Direction:** S20–S24 underpin `COMPUTATIONAL-DIRECTION.md`, which maps the team's CV/AI
+> (Gading) and robotics (Kenrich) skills to executable methods and a comfort-aware app, kept
+> HELD until the Friday refinement. They build on S16's open question (model the pathway itself).
+
 ### Key verified figures (quick reference: see notes/ for exact passages)
 - **S1 (CORRIDOR):** PEQI physical-condition score **64.28** (Class II, "sesuai sebagian besar
   standar desain"); PEQI pedestrian-perception score **84.70** (Class I, "optimal"); combined

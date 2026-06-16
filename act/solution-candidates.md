@@ -8,6 +8,11 @@ A candidate direction exists, **comfort-aware pedestrian navigation** (a native 
 but it is *not* decided. It must earn its place from what the fieldwork shows, and may be
 reshaped or replaced once the challenge statement is refined.
 
+> **Computational pathway:** the method route for this (CV to measure the gradient, a shade/
+> comfort layer, interpretable ML, then a routable network for the app) is worked out in
+> [`../investigate/desk-research/COMPUTATIONAL-DIRECTION.md`](../investigate/desk-research/COMPUTATIONAL-DIRECTION.md),
+> grounded in S20–S24. Still HELD: the data leads, the method follows.
+
 ---
 
 ## Candidate ideas (parking lot: not decisions)
