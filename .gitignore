@@ -58,3 +58,6 @@ investigate/field/photos/*.png
 .venv/
 __pycache__/
 *.pyc
+
+# Source PDFs: kept locally for the team, NOT pushed (keep remote lean)
+investigate/desk-research/sources/*.pdf
