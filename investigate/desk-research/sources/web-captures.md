@@ -237,22 +237,18 @@ in this same `sources/` folder.
 ---
 
 ## QUANT LEADS (round 4, 2026-06-16) — benchmarks; verify primaries before citing
-- **Pedestrian fatalities 2023 (Pusiknas Polri):** ~10.428 pedestrian victims; **54,84%** linked
-  to careless crossing. **VERIFY** — https://pusiknas.polri.go.id/detail_artikel/ratusan_pejalan_kaki_jadi_korban_kecelakaan_lalu_lintas
-  (SSL error on fetch). Only the 8.274 crossing-crash figure is verified (CAP-10).
-- **Walking speed (benchmark):** Asian pedestrian mean ≈ **1,23 m/s**; Indonesia among the
-  slower, range ~**1,2–1,7 m/s** (ScienceDirect review S2590198224001854; MDPI Sustainability
-  16:4813). **VERIFY** primary. Useful to benchmark observed pace (e.g. hurrying in heat).
-- **Walking distance to transit (TOD norm):** ~**400 m** (≈¼ mile, bus/tram) and ~**800 m**
-  (≈½ mile, rail), ≈10-min walk; "walkable" ≈ 5-min/400–800 m. Multiple planning sources;
-  cf. ITDP 500 m transit buffer (S6, verified). **VERIFY** exact citation.
-- **Thermal comfort (benchmark):** THI categories — comfortable **21–24°C**, moderate 25–27°C,
-  uncomfortable **>27°C**; Karyono (Jakarta) comfort ~24–30°C; Indonesian neutral ~22,8–25,8°C
-  @70% RH. **VERIFY** primaries (Karyono; THI source). Benchmark for the shade/heat observation.
-- **MRT Jakarta 2024 ridership:** >**40,8 juta**/yr, ~**111.534**/day avg (jakartamrt.co.id,
-  official); July 2024 124.657/day. **VERIFY** (official page JS-rendered, fetch returned empty).
-- **TransJakarta 2024:** **371,4 juta** pelanggan, >**1 juta**/day, population coverage 91,7%
-  (Tempo / TJ Laporan Kinerja 2024). **VERIFY** primary.
+- **Pedestrian fatalities 2023 — VERIFIED (CAP-11):** 10.428 pedestrian victims; **54,84%**
+  careless crossing (Pusiknas/Korlantas). 8.274 crossing-crashes also verified (CAP-10).
+- **Walking distance to transit — VERIFIED (CAP-12):** 400 m (bus) / 800 m (rail). (San Diego;
+  cf. ITDP 500 m buffer, S6.)
+- **MRT Jakarta 2024 — VERIFIED (CAP-13):** semester I 2024 = **18,48 juta** penumpang,
+  ~**101.581/hari** (Kompas, server-rendered). Annual >40,8 juta still from official page (JS).
+- **Walking speed (benchmark) — STILL VERIFY:** Asian mean ≈ **1,23 m/s**; ID ~**1,2–1,7 m/s**
+  (ScienceDirect S2590198224001854; MDPI 16:4813 — both 403 here). Provisional.
+- **Thermal comfort (benchmark) — STILL VERIFY:** THI comfortable **21–24°C**, uncomfortable
+  **>27°C**; Karyono (Jakarta) ~24–30°C (journal PDFs 403 here). Provisional.
+- **TransJakarta 2024 — STILL VERIFY:** 371,4 juta pelanggan, >1 juta/hari, coverage 91,7%
+  (Tempo/TJ; pages JS-rendered). Provisional.
 - **Pedestrian Level of Service (intl. reference, HCM-based):** capacity-zone pedestrian space
   ~**0,46–0,75 m²/ped**; comfortable strolling needs far more. Use as international cross-check
   alongside the national Bina Marga unit (orang/m/menit). **VERIFY** exact thresholds.
@@ -266,9 +262,8 @@ in this same `sources/` folder.
   menjadi korban**." Top cause stated as pedestrians "menyeberang di sembarang tempat"; regional
   example "Polda Jateng dengan **152 korban**" (2nd place). Monthly: July 2023 (19 days) 836
   pedestrians; careless-crossing cause 396 (Jul) / 469 (Aug).
-- **Note:** the "54,84%" careless-crossing share (from an earlier search summary) was **not**
-  located verbatim on this page — keep it as approximate/VERIFY; the *direction* (crossing = top
-  cause) is confirmed.
+- **Also verified (re-grep):** "menyeberang di sembarang tempat yaitu mencapai **54,84 persen**
+  dari jumlah total seluruh [korban]" — careless crossing is the top cause, exact share confirmed.
 - **Data type:** Quantitative. **Origin:** Government (Pusiknas/Korlantas). **Scope:** CONTEXT.
 
 ---
@@ -281,3 +276,13 @@ in this same `sources/` folder.
   beyond ½ mile, San Diego transit use falls 74% (to 4.2%).
 - **Data type:** Quantitative (planning norm). **Origin:** Government (US, planning reference).
   **Scope:** STANDARD/benchmark (international). Cross-check with ITDP 500 m buffer (S6).
+
+---
+
+## CAP-13 — Kompas (Money) — MRT Jakarta ridership, semester I 2024 (verified)
+- **URL:** https://money.kompas.com/read/2024/07/11/161200726/mrt-jakarta-layani-18-48-juta-penumpang-sepanjang-semester-i-2024
+- **Accessed:** 2026-06-16 (server-rendered; parsed via curl)
+- **Exact (verified):** MRT Jakarta "telah melayani **18,48 juta** penumpang selama Januari[–Juni
+  2024]"; first-half 2024 daily average "**101.581 per hari**"; June 2024 peak 3,53 juta/month.
+- **Data type:** Quantitative. **Origin:** News (figures from PT MRT Jakarta). **Scope:** CONTEXT
+  (transit ridership; Anies-interview + last-mile context).
