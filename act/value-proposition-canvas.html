@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Value Proposition Canvas - Tim Riset Pijak</title>
+<style>
+  :root{
+    --ink:#1b1d22; --muted:#646b76; --line:#e3e1db; --bg:#f5f3ee;
+    --map:#3b4a63; --profile:#1f6f66;
+    --g:#1f6f66; --gbg:#ffffff;
+    --b:#5d6b82; --bbg:#ffffff;
+    --h:#b9791b; --hbg:#fff8ec;
+    --a:#7b6ba0; --abg:#f4f1f8;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.4; padding:32px 28px 60px;
+  }
+  .wrap{max-width:1280px; margin:0 auto}
+  header h1{font-size:24px; margin:0 0 4px; letter-spacing:-.01em}
+  header .sub{color:var(--muted); font-size:14px; margin:0 0 2px}
+  .prov{font-size:12.5px; color:#9a6a16; background:#fff5e3; border:1px solid #f0dcb0;
+    display:inline-block; padding:4px 10px; border-radius:6px; margin-top:10px}
+  .legend{display:flex; gap:16px; flex-wrap:wrap; margin:16px 0 26px; font-size:12.5px; color:var(--muted)}
+  .legend span{display:inline-flex; align-items:center; gap:7px}
+  .key{width:16px; height:16px; border-radius:4px; display:inline-block}
+  .key.g{background:var(--gbg); border-left:4px solid var(--g); border-top:1px solid var(--line); border-right:1px solid var(--line); border-bottom:1px solid var(--line)}
+  .key.b{background:var(--bbg); border-left:4px solid var(--b); border-top:1px solid var(--line); border-right:1px solid var(--line); border-bottom:1px solid var(--line)}
+  .key.h{background:var(--hbg); border:1.5px dashed var(--h)}
+  .key.a{background:var(--abg); border:1.5px dashed var(--a)}
+
+  .canvas{display:flex; gap:0; align-items:stretch}
+  .shape{flex:1; min-width:0}
+  .fit{width:64px; display:flex; flex-direction:column; align-items:center; justify-content:center; color:var(--muted); font-size:11px}
+  .fit .arrow{font-size:26px; line-height:1; color:#b7b2a8}
+
+  .shape h2{font-size:13px; text-transform:uppercase; letter-spacing:.08em; margin:0 0 10px; color:#fff; padding:8px 12px; border-radius:8px 8px 0 0}
+  .map h2{background:var(--map)}
+  .profile h2{background:var(--profile)}
+  .glyph{display:inline-block; vertical-align:middle; margin-right:8px}
+  .glyph.sq{width:12px;height:12px;background:#fff;border-radius:2px}
+  .glyph.ci{width:13px;height:13px;background:#fff;border-radius:50%}
+
+  .box{background:#fbfaf7; border:1.5px solid #d7d4cc; padding:14px}
+  .map .box{border-radius:0 0 14px 14px}
+  .profile .box{border-radius:0 0 200px 200px / 0 0 60px 60px}
+  .map .box{border-radius:14px; border-top-left-radius:0}
+  .profile .box{border-radius:50% / 14%; border-top:none}
+  /* keep recognizable shapes but readable */
+  .map-shell{border:2px solid var(--map); border-radius:14px; overflow:hidden}
+  .profile-shell{border:2px solid var(--profile); border-radius:46% / 8%; overflow:hidden}
+
+  .seg{padding:12px 14px; border-top:1px dashed #e0ddd5}
+  .seg:first-of-type{border-top:none}
+  .seg .lbl{font-size:11.5px; font-weight:700; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); margin:0 0 9px}
+  .chips{display:flex; flex-direction:column; gap:6px}
+  .chip{font-size:12.5px; padding:7px 9px 7px 11px; border-radius:7px; position:relative; background:#fff}
+  .chip.g{border:1px solid var(--line); border-left:4px solid var(--g)}
+  .chip.b{border:1px solid var(--line); border-left:4px solid var(--b)}
+  .chip.h{border:1.5px dashed var(--h); background:var(--hbg)}
+  .chip.a{border:1.5px dashed var(--a); background:var(--abg)}
+  .chip .t{font-size:10.5px; color:var(--muted); display:block; margin-top:2px}
+  .chip.h .t{color:#9a6a16}
+  .chip.a .t{color:#6a5b8c}
+
+  .seg-head-g{background:#eef5f3}
+  .seg-head-h{background:#fbf2e2}
+
+  h3.section{margin:46px 0 6px; font-size:16px}
+  .hypbanner{background:repeating-linear-gradient(45deg,#fbf1df,#fbf1df 12px,#f6ead2 12px,#f6ead2 24px);
+    border:1.5px solid #e6cf9f; border-radius:10px; padding:10px 14px; font-size:13px; color:#8a5f12; margin-bottom:14px}
+  .authority .canvas{opacity:.97}
+  .foot{margin-top:40px; border-top:1px solid var(--line); padding-top:16px; font-size:12.5px; color:var(--muted)}
+  .foot b{color:var(--ink)}
+  .foot ul{margin:8px 0 0; padding-left:18px}
+  .foot li{margin:3px 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Value Proposition Canvas</h1>
+    <p class="sub">Tim Riset Pijak &middot; Sudirman corridor, Dukuh Atas to Semanggi</p>
+    <p class="sub">Osterwalder canvas. Left (Value Map) is the solution. Right (Customer Profile) is the customer.</p>
+    <span class="prov">Provisional: built on personas pending team review. Value side is bets to test, not commitments.</span>
+    <div class="legend">
+      <span><i class="key g"></i> Grounded in a Day-1 respondent (Rxx / Nxx)</span>
+      <span><i class="key b"></i> Team board, consistent with Day-1</span>
+      <span><i class="key h"></i> Hypothesis, to test (Day-2 / Sat)</span>
+      <span><i class="key a"></i> Borrowed from comparable products</span>
+    </div>
+  </header>
+
+  <h3 class="section">VPC 1 &middot; The commuter in a rush, as pedestrian-reporter</h3>
+  <div class="canvas">
+
+    <!-- VALUE MAP (square) -->
+    <div class="shape map">
+      <h2><span class="glyph sq"></span>Value Map (the solution: report-while-you-walk)</h2>
+      <div class="map-shell">
+        <div class="seg">
+          <p class="lbl">Gain creators</p>
+          <div class="chips">
+            <div class="chip h">Awareness and predictability, see conditions ahead<span class="t">hyp &middot; serves the "satisfied" state (board)</span></div>
+            <div class="chip h">Feeling heard: clustering + status + authority priority<span class="t">hyp &middot; serves N11, N12</span></div>
+            <div class="chip h">Cooler, presentable arrival via shade and timing<span class="t">hyp &middot; serves heat findings</span></div>
+            <div class="chip h">Safer feeling via environmental awareness, not danger labels<span class="t">hyp &middot; serves R09</span></div>
+            <div class="chip a">Recognition for the super-reporter tier<span class="t">hyp / analog</span></div>
+          </div>
+        </div>
+        <div class="seg">
+          <p class="lbl">Products and services</p>
+          <div class="chips">
+            <div class="chip h">Pedestrian-first, sidewalk-level map, Dukuh Atas to Semanggi<span class="t">hyp &middot; method: tile2net</span></div>
+            <div class="chip h">In-situ reporting: pin a problem while walking, plus photo<span class="t">hyp: Day-2</span></div>
+            <div class="chip h">Clustering: co-located reports collapse into one counted card<span class="t">hyp</span></div>
+            <div class="chip h">Status per report: acknowledged, in progress, done<span class="t">hyp &middot; the evidenced JAKI gap</span></div>
+            <div class="chip h">Comfort and condition layer: shade, surface, lighting and isolation<span class="t">hyp</span></div>
+            <div class="chip h">Authority view: prioritised most-reported map<span class="t">hyp</span></div>
+          </div>
+        </div>
+        <div class="seg">
+          <p class="lbl">Pain relievers</p>
+          <div class="chips">
+            <div class="chip h">Shade and timing layer eases the heat<span class="t">hyp &middot; pain: R02, R03, R05, R07, R11</span></div>
+            <div class="chip h">Surface, obstruction and ramp flags warn before you hit them<span class="t">hyp &middot; pain: R05, R10, N11, N12, R12</span></div>
+            <div class="chip h">Lighting and isolation flags, plus a peopled-route option<span class="t">hyp &middot; pain: R09</span></div>
+            <div class="chip h">Status and clustering ease the not-heard pain<span class="t">hyp &middot; pain: N11, N12</span></div>
+            <div class="chip h">Condition awareness eases unpredictability<span class="t">hyp &middot; pain: board</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fit"><span class="arrow">&#8644;</span><span>fit?</span></div>
+
+    <!-- CUSTOMER PROFILE (circle) -->
+    <div class="shape profile">
+      <h2><span class="glyph ci"></span>Customer Profile (the commuter in a rush)</h2>
+      <div class="profile-shell">
+        <div class="seg">
+          <p class="lbl">Gains</p>
+          <div class="chips">
+            <div class="chip b">On time and predictable, no nasty surprise<span class="t">board</span></div>
+            <div class="chip g">Stay cool: shade, or a cooler time or route<span class="t">R02, R03, R04</span></div>
+            <div class="chip g">Safe, gentle crossings<span class="t">R05, R10</span></div>
+            <div class="chip g">Order on the path when crowded<span class="t">N02</span></div>
+            <div class="chip g">Feel safe alone or at night<span class="t">R09, N02</span></div>
+            <div class="chip b">Awareness and predictability about what is ahead<span class="t">board</span></div>
+            <div class="chip g">Feel heard: a report acknowledged and prioritised<span class="t">N11, N12 inverse &middot; hyp: Day-2</span></div>
+          </div>
+        </div>
+        <div class="seg">
+          <p class="lbl">Customer jobs</p>
+          <div class="chips">
+            <div class="chip g">Walk the last mile to work and back, on time<span class="t">R03, R05, R06, R08, R10</span></div>
+            <div class="chip b">Walk out for lunch midday and back<span class="t">board</span></div>
+            <div class="chip g">Cross safely at the zebra crossing or JPO<span class="t">R05, R10</span></div>
+            <div class="chip g">Stay comfortable, not overheated or soaked<span class="t">R02, R03, R05, R07</span></div>
+            <div class="chip g">Move with the flow, not alone<span class="t">R05, R06 &middot; social</span></div>
+            <div class="chip g">Feel a problem I hit could be acted on<span class="t">N11, N12 &middot; for this persona hyp: Day-2</span></div>
+          </div>
+        </div>
+        <div class="seg">
+          <p class="lbl">Pains</p>
+          <div class="chips">
+            <div class="chip g">Heat and no shade, arrive sweaty<span class="t">R02, R03, R05, R07, R11</span></div>
+            <div class="chip g">Rush-hour crush, chaos, tidak tertib<span class="t">N02</span></div>
+            <div class="chip g">Kerb-to-zebra ramp too high, steep, slippery<span class="t">R05, R10</span></div>
+            <div class="chip g">Ojol riding the trotoar, near-misses<span class="t">R12, N11</span></div>
+            <div class="chip g">Broken, uneven surface underfoot<span class="t">N11, N12</span></div>
+            <div class="chip g">Path partly blocked by vendors or sitters<span class="t">R12</span></div>
+            <div class="chip g">Night isolation at the JPO and parking after 22:00<span class="t">R09, N11</span></div>
+            <div class="chip b">Not knowing the corridor condition before or during the walk<span class="t">board</span></div>
+            <div class="chip g">I report a problem and hear nothing back<span class="t">N11, N12 &middot; this persona hyp: Day-2</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- AUTHORITY -->
+  <div class="authority">
+    <h3 class="section">VPC 2 &middot; The authority and city</h3>
+    <div class="hypbanner"><b>Whole canvas is a hypothesis.</b> No one on this side was interviewed. Drawn from the JAKI competitor board and corridor workers. Validate or rewrite after the Anies interview.</div>
+    <div class="canvas">
+      <div class="shape map">
+        <h2><span class="glyph sq"></span>Value Map (authority)</h2>
+        <div class="map-shell">
+          <div class="seg">
+            <p class="lbl">What it offers</p>
+            <div class="chips">
+              <div class="chip h">Prioritised, clustered report map, filters by location, type and status<span class="t">hyp &middot; board: "tidak ada filter status, lokasi, jenis"</span></div>
+              <div class="chip h">A most-reported equals act-first signal<span class="t">hyp</span></div>
+              <div class="chip h">A shared view that makes jurisdiction visible<span class="t">hyp &middot; R01, N05</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="fit"><span class="arrow">&#8644;</span><span>fit?</span></div>
+      <div class="shape profile">
+        <h2><span class="glyph ci"></span>Customer Profile (authority)</h2>
+        <div class="profile-shell">
+          <div class="seg">
+            <p class="lbl">Jobs</p>
+            <div class="chips">
+              <div class="chip h">Keep the corridor safe, orderly and maintained<span class="t">hyp &middot; R01, R12</span></div>
+              <div class="chip h">Respond to reports within the one-week SLA<span class="t">hyp &middot; board</span></div>
+              <div class="chip h">Put limited resources where they matter most<span class="t">hyp</span></div>
+              <div class="chip h">Avoid the tunjangan kinerja penalty<span class="t">hyp &middot; board</span></div>
+            </div>
+          </div>
+          <div class="seg">
+            <p class="lbl">Pains</p>
+            <div class="chips">
+              <div class="chip h">Cannot see or prioritise what matters across many reports<span class="t">hyp &middot; board</span></div>
+              <div class="chip h">Scattered or duplicate reports are hard to triage<span class="t">hyp: Sat</span></div>
+              <div class="chip h">Jurisdiction gaps: Dishub vs Satpol PP vs operators<span class="t">R01, R12, N05</span></div>
+              <div class="chip h">Pressure of the SLA plus the pay-cut penalty<span class="t">hyp &middot; board</span></div>
+            </div>
+          </div>
+          <div class="seg">
+            <p class="lbl">Gains</p>
+            <div class="chips">
+              <div class="chip h">Clear prioritisation, know where to act first<span class="t">hyp</span></div>
+              <div class="chip h">Fewer wasted cycles<span class="t">hyp</span></div>
+              <div class="chip h">Demonstrable responsiveness to citizens<span class="t">hyp</span></div>
+              <div class="chip h">Cross-agency clarity on who owns what<span class="t">hyp</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="foot">
+    <b>Reading the colours:</b> the Customer Profile (right) comes out mostly solid, we know the customer.
+    The Value Map (left) is almost all dashed, the solution is still a set of bets. That gap is the work
+    Saturday and Day-2 have to close.
+    <ul>
+      <li><b>Three leaps that would sink the concept, in order:</b> (1) people actually report in-situ while walking (Day-2); (2) the JAKI gap is status and visibility, not duplicates; (3) comfort and shade routing is wanted enough to use (Sat).</li>
+      <li><b>Good samaritan:</b> a contributor tier inside VPC 1, not its own canvas, and the reason the authority side matters.</li>
+      <li>Not a commitment to build. Not leaning on the duplicate-backlog premise. Not a crime map: safety is environmental factors only, never criminality or named offenders.</li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>

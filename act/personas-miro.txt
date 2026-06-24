@@ -1,0 +1,295 @@
+MIRO PASTE SHEET: PERSONAS + JOURNEY
+How to use: select the lines under one [box] heading (skip the heading itself),
+copy, paste into Miro, and choose "create one sticky per line". Tags in parens
+are the evidence source. Source of truth is act/personas.md.
+
+
+====================================================================
+PERSONA 1: THE COMMUTER IN A RUSH (PRIMARY)
+====================================================================
+
+[One sentence]
+A daily transit commuter who walks the Sudirman last mile under time pressure, and just wants to reach work or home without the heat, the rush-hour crush, or a nasty surprise underfoot.
+
+[Demografi]
+Office workers, students, transit users, roughly 19 to 40, normal mobility (R03, R05, R06, R08, R10, N02)
+Commute Mon to Fri from across Jabodetabek: Bogor and Cileungsi by LRT, Pondok Aren by TJ (R08, R05)
+The walk is the last leg of a KRL / MRT / TJ / LRT trip, not a choice (R03, R08)
+
+[What do I do?]
+Walk from the station or halte to the office, and back (R03, R05, R08)
+Walk out to grab lunch around midday (board)
+Walk the last leg of a transit commute (R06, R08, R10)
+
+[Why do I do it?]
+It is the commute; the station is close and the walk is short (R08, board)
+Cheaper than the alternatives (board)
+Faster than sitting in rush-hour traffic (board)
+It keeps me a bit healthier (board)
+
+[What do I want?]
+To get there comfortably and predictably (board)
+Shade on the exposed stretches (R03, R05)
+Order and ketertiban when it is crowded (N02)
+Even paths and a safe, gentle crossing (R05, R10)
+
+[What is stopping me?]
+Too hot, not enough shade (R02, R03, R05, R07, R11)
+Rush-hour crush and obstacles on the path (N02)
+The kerb-to-zebra ramp is too high and slippery; a friend fell (R05, R10)
+Ojol riding onto the trotoar (R12)
+Broken and uneven spots underfoot (N11, N12)
+The trotoar partly blocked by vendors or people sitting (R12)
+
+[What convinces me? external]
+Origin and destination are close (board)
+Plenty of transit options (board)
+Walking alongside other people, not alone (R05, R06)
+
+[What or who informs me?]
+Google Maps or Apple Maps (board)
+A weather app (board)
+Asking people, or social media (board)
+Which of these, and how, is a Day-2 question (hyp: Day-2)
+
+[Where am I?]
+The main Sudirman trotoar, Dukuh Atas to Semanggi (R03, R05, R08)
+Stations, halte and the JPO (R05, R08)
+
+[What is my day-to-day?]
+Around 6 AM, transit in, then walk the last leg (R08, board)
+12 to 1 PM, walk out for lunch (board)
+Roughly 5 to 9 PM, transit home (board, N02)
+
+[Their current solution and why it falls short]
+Google / Apple Maps: routes me, knows nothing about shade, heat or path condition (board)
+Weather app: tells me the temperature, does not help the walk (board)
+Asking people / social media: slow and hit or miss (board)
+JAKI: a civic complaint channel, not something I check before a walk (board)
+Whether this persona reports anything today is unproven (hyp: Day-2)
+
+[Other personas that interact]
+Ojol driver: helps save time, but ngetem and rides onto the trotoar (R12)
+PKL: affordable food, but blocks the pedestrian lane (R12)
+Other pedestrians: crowding, slow walkers, chaos at rush hour (N02)
+Public-facility worker: keeps the space maintained and watched (R01, R12)
+
+
+====================================================================
+PERSONA 2: THE UNHURRIED REGULAR (WELL-BEING WALKER)
+====================================================================
+
+[One sentence]
+A regular who walks Sudirman by choice, for health or because they enjoy the leafy, revitalised corridor, and for whom the heat is the one thing spoiling an otherwise good walk.
+
+[Demografi]
+From elderly daily exercisers to younger people walking off-peak or against the rush (R02, R03, R04, R07)
+Not time-pressured; they value the environment itself (R04, R02)
+
+[What do I do?]
+Walk for exercise or leisure, often off-peak or against the flow (R04, R03)
+Long loops, for example Thamrin City to Semanggi to HI and back (R04)
+
+[Why do I do it?]
+I enjoy it; the corridor is adem and shaded (R04, R02)
+It keeps me healthy (R04)
+The buffer from the main road keeps it pollution-free (R10)
+
+[What do I want?]
+Keep the shaded, leafy environment (R02, R04)
+More canopy or shade on the hot stretches (R03)
+A walk that stays cool and comfortable (R02)
+
+[What is stopping me?]
+Midday heat on the exposed stretches (R04, R03, R02)
+Trees not yet effective by day (R11)
+Dark under the foliage at night, plus mosquitoes (R11)
+
+[What convinces me? external]
+Shade and trees (R02, R04)
+Quiet; it feels safer and nicer when not crowded (R03)
+Police presence around (R04)
+
+[What or who informs me?]
+My own experience: I pick the cooler hours and the shadier route (R03, R04)
+How I decide, in detail, is a Day-2 question (hyp: Day-2)
+
+[Where am I?]
+The main trotoar, on the shaded stretches (R04, R02)
+Off-peak or counter-flow times (R03)
+
+[What is my day-to-day?]
+Daily or several times a week, at times I choose (R04, R03)
+For example a 1.5 hour morning loop, or a weekly walk when it is quiet (R04, R03)
+
+[Their current solution and why it falls short]
+I time the walk and pick the route by my own experience (R03, R04)
+I cope with the heat by seeking shade and choosing cooler hours (R02, R04)
+No tool tells me whether a stretch is shaded or pleasant right now
+
+[Other personas that interact]
+Other pedestrians: a bit of company is nice, but crowding spoils the quiet I prefer (R03)
+PKL: some of us like buying a snack along the way (R12)
+The greenery and trees: the reason I am here, something I actively value (R02, R10)
+
+
+====================================================================
+PERSONA 3: THE CORRIDOR WORKER (GROUND-LEVEL OBSERVER)
+====================================================================
+
+[One sentence]
+Someone who works the corridor all day, sees every broken kerb, ojol near-miss and night-time risk first-hand, and has stopped expecting anything to happen when they report it.
+
+[Demografi]
+Security guards, transit-operator staff (MITJ), Satpol PP, vendors (R01, R09, R12, N05, N11, N12)
+On the corridor for full shifts, including at night (R09, R12)
+
+[What do I do?]
+Work shifts on the corridor: guard, patrol, enforce, operate, or sell (R01, R09, R12, N11)
+Mobile plotting across posts: Polda Bawah, Summitmas, Patung Pemuda (R12)
+
+[Why do I do it?]
+It is the job (R01, R12)
+Keep the area safe and orderly (R12)
+Some of us care about the public and the place (N12)
+
+[What do I want?]
+Real cooperation across operators and agencies, not buck-passing (R01)
+Motorbike compliance so they stop using the trotoar as a shortcut (R12)
+Problems actually fixed when we flag them (N11, N12)
+
+[What is stopping me?]
+Responsibility gaps between zones and agencies (R01, N05, R12)
+Reports to government ignored, gak pernah digubris (N11, N12)
+Ojol violations I have no authority to enforce (R12)
+Night isolation spots I cannot cover (R09)
+
+[What convinces me? external]
+Clear ownership and jurisdiction (R01)
+Visible follow-up when something is reported (N11, N12)
+What would make them trust a channel again is a Day-2 question (hyp: Day-2)
+
+[What or who informs me?]
+First-hand daily observation (R09, R12)
+Word of mouth among workers (N11)
+Tried the official government channel and got nothing back (N11, N12)
+
+[Where am I?]
+My post: the MRT/KAI area, the JPO, the Kendal tunnel, the parking (R01, R09, R12, N11)
+On shift, including nights (R09, R12)
+
+[What is my day-to-day?]
+Full shifts, including night (R09)
+Mobile patrols and plotting; I see the same problems on repeat (R12)
+
+[Their current solution and why it falls short]
+I reported the broken, uneven infrastructure to government. It was ignored (N11, N12)
+No feedback, no status, no sense of being heard (N12)
+Whether they would use a new reporting tool is still unproven (hyp: Day-2)
+
+[Other personas that interact]
+Ojol: violate the trotoar and tunnel, near-misses (R12, N11)
+PKL: I have to keep them in order, but pedestrians like them (R12)
+Other operators (KAI, MRT, police): do not coordinate across zones (R01, N05)
+The public and pedestrians: the people I am here to protect
+
+
+====================================================================
+HYPOTHESIS PERSONA (ARCHETYPE, NOT OBSERVED IN DAY-1):
+THE GOOD-SAMARITAN REPORTER
+Label every sticky as a hypothesis. We never met this person; borrowed from
+Waze / Google Local Guides / OSM power contributors, plus a teammate anecdote.
+====================================================================
+
+[One sentence]
+The rare person who reports problems for everyone, not just themselves, and keeps doing it; the 1% who generate most of the signal the rest rely on.
+
+[Why it matters and the catch]
+Crowdsourced apps run on a tiny minority who create most content, the 90-9-1 pattern (analog)
+If they do not show up, a report-while-you-walk app has nothing to show (hyp)
+We have not confirmed one exists on this corridor (hyp)
+Nearest real candidate: the corridor worker, the activated version of that latent observer (inference from N11, N12)
+
+[What do I do?]
+Report hazards, obstructions and conditions for strangers (analog)
+Mark a whole route, not just my own problem (teammate anecdote) (hyp)
+
+[Why do I do it?]
+Help other people and the place (hyp)
+Recognition and contribution (analog) (hyp)
+Civic pride (hyp)
+
+[What do I want?]
+My reports actually seen and acted on (connects to N11, N12)
+To know I made a difference (hyp)
+
+[What is stopping me?]
+Reports go nowhere, I burn out, no follow-up kills it (grounded risk: N11, N12)
+No recognition or feedback loop (analog) (hyp)
+
+[What convinces me? external]
+Visible impact, reports acted on (analog) (hyp)
+Community or status recognition (analog) (hyp)
+
+[What or who informs me?]
+My own constant observation, I am the source others rely on (hyp)
+
+[Where am I?]
+All over the corridor, often, high exposure (hyp)
+
+[What is my day-to-day?]
+Frequently present, habitually reporting (hyp)
+
+[Relationship to other personas]
+I generate the signal the commuter and any newcomer consume; two-sided value depends on me (hyp)
+
+[How to test if this persona is real]
+Day-2 probe: pernah lapor atau nandain buat orang lain, bukan masalah sendiri? mau jadi orang kayak gitu? apa yang bikin terus ngelakuinnya? (hyp: Day-2)
+Watch for people who already do it: RT/RW or community WA groups, local-issue X accounts (hyp: Day-2)
+Authority-side follow-up matters most here; without it they quit (hyp)
+
+
+====================================================================
+UNTESTED / BLINDSPOTS (one sticky each, keep these visible)
+====================================================================
+Back-street gradient: almost unsampled, one contact only (hyp: Sat)
+Women at night: second-hand from male informants, one woman felt safe at 01:00, mixed (hyp: Sat)
+Reporting while walking: the pain is real, the wish to report in-situ is not proven (hyp: Day-2)
+Newcomers / first-timers: zero Day-1 evidence
+People with disabilities: inferred from the ramp hazard only (hyp: Sat)
+Rain behaviour: dry day, untested (hyp: Sat)
+Good-samaritan power-reporter: real in crowdsourced apps, never seen here, see hypothesis persona below (hyp: Day-2)
+
+
+====================================================================
+USER JOURNEY: PRIMARY PERSONA (THE COMMUTER IN A RUSH)
+Lay these as a grid in Miro: rows = time of day, columns = Before / Trigger / During / After.
+====================================================================
+
+[PAGI: commute in]
+Before: get off the transit, start the last leg on the corridor (R08, board)
+Trigger: rush hour (board, N02)
+During: crush and obstacles on the path, banyak rintangan (N02, board)
+After: made it, but worn out (board)
+Feeling: lelah, resah
+
+[SIANG: lunch walk]
+Before: leave the office to grab lunch (board)
+Trigger: harsh midday sun, vehicle fumes (board, R02, R10)
+During: walk and queue for food in the heat (board)
+After: sweat-soaked shirt, bau matahari, malu and kesal (board)
+Feeling: kepanasan, frustasi
+
+[SORE: commute home]
+Before: leave the office to go home (board)
+Trigger: rush hour again (board)
+During: crush and chaos in the transit (board)
+After: drained, the energy went into the journey (board)
+Feeling: lelah, drained
+
+[MALEM: late home  (hyp: Sat, weakest row)]
+Before: leave the office late (board)
+Trigger: walking alone, the trotoar quiet, broken spots hard to see (board, R09, N11)
+During: anxious walking alone (board scenario; N02 felt safe, R09 says risk is real but falling)
+After: risk of tripping on an unseen broken kerb (board, N11, N12)
+Feeling: anxiety, uncertainty

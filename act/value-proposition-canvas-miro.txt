@@ -1,0 +1,118 @@
+MIRO PASTE SHEET: VALUE PROPOSITION CANVAS
+How to use: select the lines under one [box] heading (skip the heading), copy,
+paste into Miro, choose "create one sticky per line". In Miro, lay the Customer
+Profile as the circle (jobs / pains / gains) and the Value Map as the square
+(products and services / pain relievers / gain creators).
+Tag key: (Rxx)/(Nxx) grounded Day-1; (board) team board; (hyp) a bet to test;
+(analog) from comparable products. Source of truth: value-proposition-canvas.md.
+Scope: Dukuh Atas to Semanggi. Provisional until personas pass morning review.
+
+
+====================================================================
+VPC 1 (PRIMARY, GROUNDED): THE COMMUTER IN A RUSH, AS PEDESTRIAN-REPORTER
+CUSTOMER PROFILE (left side, grounded)
+====================================================================
+
+[Customer jobs: functional]
+Walk the last mile from the transit node to work and back, on time (R03, R05, R06, R08, R10)
+Walk out for lunch midday and back (board)
+Cross the road safely at the zebra crossing or JPO (R05, R10)
+Stay comfortable while walking, not overheated or soaked (R02, R03, R05, R07)
+
+[Customer jobs: social]
+Move with the flow, not alone, not standing out (R05, R06)
+Arrive presentable, not drenched in sweat (board)
+
+[Customer jobs: emotional]
+Feel safe and at ease, especially alone or after dark (R09, N02)
+Feel that a problem I hit could actually be acted on (via workers N11, N12; for this persona hyp: Day-2)
+
+[Pains]
+Heat and no shade on exposed stretches, arrive sweaty (R02, R03, R05, R07, R11)
+Rush-hour crush, obstacles, chaos, tidak tertib (N02)
+Kerb-to-zebra ramp too high, steep, slippery, fear of falling (R05, R10)
+Ojol riding the trotoar, near-misses (R12, N11)
+Broken, uneven surface underfoot (N11, N12)
+Path partly blocked by vendors or people sitting (R12)
+Night isolation at the JPO and parking after 22:00, lit but empty (R09, N11)
+Not knowing the corridor condition before or during the walk (board)
+I report a problem and nothing happens, I hear nothing back (N11, N12; this persona hyp: Day-2)
+
+[Gains]
+Get there on time and predictably, no nasty surprise (board)
+Stay cool: shade, or knowing the cooler time or shadier route (R02, R03, R04)
+Safe, gentle crossings (R05, R10)
+Order on the path when it is crowded (N02)
+Feel safe when alone or at night (R09, N02)
+Arrive presentable (board)
+Awareness and predictability about what is ahead (board)
+Feel heard: a flagged problem acknowledged and prioritised (N11, N12 inverse; hyp: Day-2)
+
+
+====================================================================
+VPC 1: VALUE MAP (right side, every sticky is a bet to test)
+====================================================================
+
+[Products and services]
+A pedestrian-first, sidewalk-level map of Dukuh Atas to Semanggi, not road-derived (hyp; tile2net)
+In-situ reporting: pin a problem while walking, photo plus location (hyp: Day-2)
+Clustering: co-located reports collapse into one card with a count, tap to see all (hyp)
+Status on each report: acknowledged, in progress, done (hyp; the evidenced JAKI gap)
+Comfort and condition layer: shade and heat, surface condition, lighting and isolation flags (hyp)
+Authority view: a prioritised map of the most-reported spots (hyp)
+
+[Pain relievers]
+Shade and timing layer eases the heat pain (hyp, pain: R02, R03, R05, R07, R11)
+Surface, obstruction and ramp flags warn before you hit them (hyp, pain: R05, R10, N11, N12, R12)
+Lighting and isolation flags plus peopled-route option ease night isolation, environmental not crime (hyp, pain: R09)
+Report status plus clustering ease the not-heard pain (hyp, pain: N11, N12)
+Condition awareness before and during the walk eases unpredictability (hyp, pain: board)
+
+[Gain creators]
+Awareness and predictability, see conditions ahead (hyp, gain: board)
+Feeling heard, clustering plus status plus authority prioritisation (hyp, gain: N11, N12)
+Cooler, presentable arrival via shade and timing guidance (hyp, gain: heat findings)
+A safer feeling via environmental awareness, not danger labelling (hyp, gain: R09)
+Contribution and recognition for the super-reporter tier (hyp; analog)
+
+[Fit check, biggest unproven leaps]
+People will actually report in-situ while walking, if false the concept stalls (hyp: Day-2)
+The JAKI gap is status and visibility, not duplicates (mostly evidenced vs not evidenced)
+Comfort and shade routing is wanted enough to be used, not just nice to hear (hyp: Sat)
+
+
+====================================================================
+VPC 2 (AUTHORITY AND CITY): FLAGGED HYPOTHESIS, VALIDATE WITH ANIES
+We interviewed no one on this side. Do not present as evidence.
+====================================================================
+
+[Customer jobs: authority]
+Keep the corridor safe, orderly and maintained (R01, R12; hyp)
+Respond to citizen reports within the SLA, one week (board; hyp)
+Put limited maintenance and enforcement resources where they matter most (hyp)
+Avoid the tunjangan kinerja penalty for un-actioned reports (board; hyp)
+
+[Pains: authority]
+Cannot easily see or prioritise what matters most across many reports (board; hyp)
+Scattered or duplicate reports are hard to triage (hyp: Sat)
+Jurisdiction gaps: Dishub vs Satpol PP vs transit operators (R01, R12, N05)
+Pressure of the one-week SLA plus the pay-cut penalty (board; hyp)
+
+[Gains: authority]
+Clear prioritisation, know where to act first (hyp)
+Fewer wasted cycles (hyp)
+Demonstrable responsiveness to citizens (hyp)
+Cross-agency clarity on who owns what (hyp)
+
+[Value map: authority]
+Prioritised, clustered report map with filters by location, type and status (hyp, board: no filter)
+A most-reported equals act-first signal (hyp)
+A shared view that makes jurisdiction visible (hyp, R01, N05)
+
+
+====================================================================
+NOTES TO KEEP ON THE BOARD
+====================================================================
+Good samaritan is not its own canvas: it is a contributor tier in VPC 1 and the reason the authority side matters (hyp; analog)
+This VPC is a map of bets, not a commitment to build
+Not a crime map: safety only as environmental factors (lighting, isolation, sightlines), never criminality or named offenders
