@@ -1,0 +1,9 @@
+{"elements": [
+  {"type": "way", "id": 1, "nodes": [10, 11],
+   "tags": {"highway": "footway", "footway": "sidewalk", "name": "Jl. Jenderal Sudirman"},
+   "geometry": [{"lon": 106.820, "lat": -6.200}, {"lon": 106.820, "lat": -6.201}]},
+  {"type": "way", "id": 2, "nodes": [12, 13],
+   "tags": {"highway": "footway", "footway": "crossing"},
+   "geometry": [{"lon": 106.700, "lat": -6.300}, {"lon": 106.701, "lat": -6.301}]},
+  {"type": "node", "id": 20, "lon": 106.821, "lat": -6.2005, "tags": {"amenity": "bench"}}
+]}
