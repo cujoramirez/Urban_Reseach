@@ -1,0 +1,5 @@
+{"type": "FeatureCollection", "features": [
+  {"type": "Feature", "geometry": {"type": "LineString",
+    "coordinates": [[106.820, -6.200], [106.820, -6.201]]},
+   "properties": {"segment_id": "SUD-N-03"}}
+]}
