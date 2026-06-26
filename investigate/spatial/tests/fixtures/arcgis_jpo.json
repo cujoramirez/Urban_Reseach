@@ -1,0 +1,6 @@
+{"type": "FeatureCollection", "features": [
+  {"type": "Feature", "geometry": {"type": "Point", "coordinates": [106.815, -6.218]},
+   "properties": {"NAMA": "JPO Semanggi"}},
+  {"type": "Feature", "geometry": {"type": "Point", "coordinates": [106.700, -6.300]},
+   "properties": {"NAMA": "JPO Outside"}}
+]}
