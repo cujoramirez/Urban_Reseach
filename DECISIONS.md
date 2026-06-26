@@ -277,3 +277,20 @@ replaces. This is our shared memory of *why* the project is the way it is.
   as Miro paste sheets (`*-miro.txt`) and a visual canvas (`value-proposition-canvas.html` plus two
   PNGs). Personas remain provisional pending team review.
 - **Owner:** Team.
+
+### 2026-06-25 · Spatial pedestrian-network foundation built (`investigate/spatial/`)
+
+- **Decision:** Built `investigate/spatial/` — an OpenSidewalks-aligned, routable, accessibility-
+  and shade-tagged pedestrian-network pipeline for the Sudirman corridor, sourced
+  **field > OSM > Jakarta Satu** (Esri tiles / Tile2Net gap-fill and shade modeling deferred to
+  later plans). Edge schema mirrors the field audit sheet 1:1; provenance + precedence on every
+  feature; a per-named-street walkability "gradient" table and a networkx shade-aware routing proof.
+- **Scope note:** the working bbox spans Bundaran HI → Semanggi (this session's HI–Semanggi
+  request), which *contains* the 2026-06-24 Dukuh Atas–Semanggi pilot; it can be tightened to that
+  pilot by editing one constant (`BBOX` in `geo.py`) without code changes.
+- **Reasoning:** serves the research (quantifies the trotoar-vs-back-street gradient) and doubles
+  as the seed dataset for the eventual native iOS app. Reports stay problem-level; product/stack
+  framing lives in `investigate/spatial/` + `act/architecture-notes.md`, not the report.
+- **Refs:** `docs/superpowers/specs/2026-06-25-sudirman-pedestrian-network-design.md`,
+  `docs/superpowers/plans/2026-06-25-pedestrian-network-foundation.md`.
+- **Owner:** Team.

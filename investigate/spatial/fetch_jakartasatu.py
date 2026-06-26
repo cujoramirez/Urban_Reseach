@@ -54,6 +54,7 @@ def arcgis_lines_to_edges(geojson: Dict[str, Any], kind: str) -> List[Edge]:
 
 def fetch_geojson(url: str) -> Dict[str, Any]:
     import requests
-    r = requests.get(url, timeout=60)
+    headers = {"User-Agent": "TimRisetPijak-Walkability/1.0 (urban walkability research)"}
+    r = requests.get(url, headers=headers, timeout=60)
     r.raise_for_status()
     return r.json()

@@ -5,6 +5,8 @@ from .geo import line_in_bbox, in_bbox, BBOX
 
 OVERPASS_ENDPOINTS = ["https://overpass-api.de/api/interpreter",
                       "https://overpass.kumi.systems/api/interpreter"]
+# Overpass requires a meaningful User-Agent (else 406/429). Be a good citizen.
+HEADERS = {"User-Agent": "TimRisetPijak-Walkability/1.0 (urban walkability research)"}
 
 
 def build_query(bbox=BBOX) -> str:
@@ -69,11 +71,13 @@ def osm_to_nodes(osm_json: Dict[str, Any]) -> List[Node]:
 
 def fetch_overpass(query: str, endpoints: List[str] = None) -> Dict[str, Any]:
     import requests
+    last = "no endpoints tried"
     for url in (endpoints or OVERPASS_ENDPOINTS):
         try:
-            r = requests.post(url, data={"data": query}, timeout=90)
+            r = requests.post(url, data={"data": query}, headers=HEADERS, timeout=90)
             if r.status_code == 200:
                 return r.json()
-        except requests.RequestException:
-            continue
-    raise RuntimeError("all Overpass endpoints failed")
+            last = f"{url} -> HTTP {r.status_code}"
+        except requests.RequestException as ex:
+            last = f"{url} -> {type(ex).__name__}"
+    raise RuntimeError(f"all Overpass endpoints failed (last: {last})")
