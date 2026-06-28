@@ -62,6 +62,23 @@ These are method/tool sources for a data-science pathway, not Sudirman findings.
 > (Gading) and robotics (Kenrich) skills to executable methods and a comfort-aware app, kept
 > HELD until the Friday refinement. They build on S16's open question (model the pathway itself).
 
+### Accessibility-standards baseline (S25–S29; see `ACCESSIBILITY-BASELINE.md`)
+The standards baseline for the Act-stage accessibility pivot (Persona 4, place-accessibility audit).
+Scope = **STANDARD** (binding/reference) or **FRAMEWORK** (rights/philosophy).
+
+| # | Source (short) | Type & year | Origin | Scope | File | Verification |
+|---|----------------|-------------|--------|-------|------|--------------|
+| S25 | ISO 21542:2021, *Building construction — Accessibility and usability of the built environment* | International standard, 2021 | ISO | **STANDARD** (international, buildings) | `notes/S25-iso-21542-2021-accessibility.md` | Scope ✓ (iso.org + ANSI); dimensional clauses paywalled ⚠ |
+| S26 | *2010 ADA Standards for Accessible Design* (U.S. DOJ / Access Board) | National standard, 2010 | Government (US) | **STANDARD** (international ref., dimensions) | `notes/S26-ada-2010-standards.md` | Figures ✓ (ada.gov / access-board) |
+| S27 | UN *Convention on the Rights of Persons with Disabilities*, Art. 9 (Accessibility) | Treaty, 2006 | UN | **FRAMEWORK** (rights; ID ratified via UU 19/2011) | `notes/S27-uncrpd-2006-article9.md` | Art. 9 text ✓ (un.org) |
+| S28 | Connell, Mace et al., *The Principles of Universal Design v2.0* | Design framework, 1997 | Academic (NCSU CUD) | **FRAMEWORK** (philosophy) | `notes/S28-universal-design-7-principles.md` | 7 principles ✓ (canonical); NCSU page fetch failed ⚠ |
+| S29 | Permen PUPR No. 14/PRT/M/2017, *Persyaratan Kemudahan Bangunan Gedung* | National regulation, 2017 | Government (PUPR) | **STANDARD** (Indonesia, binding) | `notes/S29-permenpupr-14-2017-kemudahan-bangunan.md` | Ramp/width/bordes/curb ✓ (BPK/JDIH); toilet dims in figures ⚠ |
+
+> **Baseline rule:** for Indonesia the **binding** standard is **Permen PUPR 14/2017** (buildings) +
+> **Bina Marga 07/2023** (S13, pedestrian facilities); **ISO 21542 / ADA 2010** are international
+> references where local specs are silent; **CRPD (S27) + Universal Design (S28)** are the rights/
+> philosophy frame. Consolidated thresholds in `ACCESSIBILITY-BASELINE.md`.
+
 ### Key verified figures (quick reference: see notes/ for exact passages)
 - **S1 (CORRIDOR):** PEQI physical-condition score **64.28** (Class II, "sesuai sebagian besar
   standar desain"); PEQI pedestrian-perception score **84.70** (Class I, "optimal"); combined
