@@ -40,3 +40,34 @@ finding before it counts.
 
 > **Discipline:** if the fieldwork shows a pain point is minor, its row dies. The data leads; the
 > app follows. Revisit after the Friday refinement.
+
+---
+
+## Solution statement (Act-stage v2 — 2026-06-28, accessibility pivot)
+
+> Working direction after fieldwork + mentoring (Kak Ica and Ci Jessi, 2026-06-26). The *statement*
+> targets permanent mobility disability; the user base stays broad (curb-cut effect). Persona still
+> thinly evidenced (see `personas.md` Persona 4) — a direction to validate, not a commitment.
+
+**ID:** "Untuk **pengguna dengan disabilitas mobilitas permanen (mis. pengguna kursi roda) di kawasan
+Dukuh Atas–Sudirman** yang **ingin bepergian secara mandiri tetapi tidak tahu tempat mana yang
+benar-benar bisa diakses — ada ramp, toilet difabel, lift, dan kursi yang cukup**, aplikasi kami
+**[Pijak]** menawarkan **peta fasilitas yang menunjukkan tingkat aksesibilitas tiap tempat (ramp,
+toilet difabel, lift, ketersediaan & jarak antar-kursi) sebelum mereka berangkat.** Berbeda dengan
+**Google/Apple Maps yang hanya tahu rute kendaraan dan tidak memberi tahu apakah suatu tempat ramah
+kursi roda**, **[Pijak]** **memberi tahu kondisi aksesibilitas tiap lokasi lebih dulu — sehingga
+pengguna bisa merencanakan perjalanan mandiri tanpa harus survei langsung.**"
+
+**EN:** "For **people with permanent mobility disabilities (e.g. wheelchair users) around Dukuh
+Atas–Sudirman** who **want to travel independently but can't tell which places are actually
+accessible — ramps, accessible toilets, lifts, and enough seating**, our app **[Pijak]** offers **a
+facility map that shows each place's accessibility before they set out.** Unlike **Google/Apple Maps,
+which only know vehicle routes and never tell you if a place is wheelchair-friendly**, **[Pijak]**
+**tells you each location's accessibility up front — so users can plan an independent trip without
+surveying it in person.**"
+
+- **[Pijak]** is a placeholder app name (team brand).
+- Per the mentor, routing is at most a light **recommendation** ("to reach X, take this TJ, exit this
+  door"), not turn-by-turn and not from-home.
+- Broad user base (curb-cut): permanent → also benefits temporary (crutches), situational (stroller,
+  luggage), and lansia.

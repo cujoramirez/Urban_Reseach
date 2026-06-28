@@ -36,8 +36,9 @@ we get to invent now.
   report in the moment, on foot, is not proven. The Day-2 guide is built to test it. `(hyp: Day-2)`
 - **Newcomers / first-timers.** Zero Day-1 evidence. We interviewed only regulars, so a
   first-timer persona would be invented.
-- **People with disabilities / varied mobility.** Inferred only from the ramp hazard (R05, R10);
-  no respondents with disabilities. `(hyp: Sat)`
+- **People with disabilities / varied mobility.** Now the Act-stage focus (see **Persona 4**),
+  but still thin: one caregiver (KIca) + one accessibility expert (CJ), no permanent wheelchair
+  user interviewed yet. `(validate: @accessibility.leisure, Anies)`
 - **Rain behaviour.** Day 1 was dry (0 mm). Untested. `(hyp: Sat)`
 - **The good-samaritan power-reporter.** A real pattern in crowdsourced map apps, but never
   observed on this corridor. Treated as a hypothesis archetype at the end of Part 1, not a
@@ -274,6 +275,57 @@ to government that go nowhere. (N11, N12)
 - PKL: 🚧 I have to keep them in order. 👍 but pedestrians like them. (R12)
 - Other operators (KAI, MRT, police): 🚧 do not coordinate across zones. (R01, N05)
 - The public and pedestrians: 👍 the people I am here to protect.
+
+---
+
+## Persona 4 (Act-stage focus): The independent traveler with a permanent mobility disability
+
+> **Evidence note (read first).** This is the team's Act-stage focus (pivot 2026-06-26..28) but is
+> still **thinly grounded**: it comes from one *caregiver* interview (Kak Ica, about her elderly
+> father — post-op ankle, walks short distances with a cane, uses a wheelchair for long walks)
+> `(KIca)` and one *accessibility expert* (Ci Jessi, mentoring) `(CJ)`. We have **not yet interviewed
+> a permanent wheelchair user directly** — that is the open validation (via @accessibility.leisure on
+> IG and the pending Anies resource). Treat as a direction to validate, not proof.
+
+**One sentence:** Someone with a permanent mobility limitation who wants to go out *independently* but
+cannot tell, before leaving, which places are actually passable — so today they either survey the
+place in person first or stay home.
+
+**Demografi (thinly grounded):** Wheelchair users and others with permanent lower-limb mobility
+limitation. By the **curb-cut effect** the benefit extends to lansia (KIca's father), temporary
+(crutches/cast) and situational (stroller, luggage) users `(CJ)`.
+
+### Actions, Motivations and Pains
+
+**What do I do?**
+- Plan the trip *before* leaving: check Maps photos/reviews and social media; sometimes survey the
+  place in person first. `(KIca)`
+- Pick destinations by **"dekat, datar, kenal"** — near, flat, familiar (a lansia principle Kak Ica
+  heard at a JFF talk). `(KIca)`
+
+**What do I want?**
+- To go independently, without being told "don't go alone, there's a helper". `(CJ)`
+- To know up front whether a place has a ramp, an accessible toilet, a lift, and **enough seating
+  close together** (benches ~every 200 m, like Taman Situ Lembang, let her father pace himself:
+  "still okay? lanjut. still okay? lanjut"). `(KIca, CJ)`
+
+**What is stopping me?**
+- No way to know a place is accessible without surveying it in person. `(KIca)`
+- Stairs at stations with no or distant lift (Tanah Abang lift far from the platform; Palmerah high
+  stairs; Manggarai avoided entirely — "horor"). `(KIca)`
+- Heat and fatigue with too few rest points; uncertain toilet sanitation. `(KIca)`
+- Buildings that *look* accessible but are not (main entrance with no ramp; being physically carried
+  by staff — which destroys the independence they want). `(CJ)`
+
+### Their current solution (and why it falls short)
+- Google/Apple Maps + reviews + social media: do not say whether a place is wheelchair-accessible, so
+  the plan can fail on arrival (Tanah Abang lift far from platform; GBK closed for a marathon). ✗ `(KIca)`
+- Manual in-person survey by the caregiver before every outing — high effort, not scalable. ✗ `(KIca)`
+
+### How we validate this persona (do not skip)
+- DM and, if possible, interview **@accessibility.leisure** (how they source and verify accessible places).
+- Reach a **permanent wheelchair user directly** — the missing primary voice.
+- The **Anies** guiding resource is still pending.
 
 ---
 

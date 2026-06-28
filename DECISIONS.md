@@ -294,3 +294,26 @@ replaces. This is our shared memory of *why* the project is the way it is.
 - **Refs:** `docs/superpowers/specs/2026-06-25-sudirman-pedestrian-network-design.md`,
   `docs/superpowers/plans/2026-06-25-pedestrian-network-foundation.md`.
 - **Owner:** Team.
+
+### 2026-06-28 · Act-stage pivot to accessibility (permanent mobility disability), facility-mapping-first
+
+- **Decision:** After the Kak Ica caregiver interview and Ci Jessi mentoring (both 2026-06-26), the
+  team sharpened the Act-stage direction:
+  - **Primary persona → permanent mobility disability** (`act/personas.md` Persona 4), with
+    temporary/situational/lansia covered via the **curb-cut effect**; statement written for
+    "permanent" but the user base kept broad.
+  - **Facility mapping FIRST** (which places are accessible: ramp, accessible toilet, lift, seating)
+    over pedestrian **routing**; routing demoted to a recommendation ("to reach X take this TJ, exit
+    this door"), not turn-by-turn, not from-home. (Mentor: routes too dynamic; facilities permanent.)
+  - **Reporting/crowdsourcing deprioritised** (mentor not bought in; Tune Map precedent).
+  - **Scope tightened toward Dukuh Atas**; polish a small area first.
+- **Evidence status (honest):** persona is thinly grounded — a caregiver (KIca) + an expert (CJ), no
+  permanent wheelchair user interviewed yet. Validation pending via @accessibility.leisure (IG) and
+  the Anies resource. Present as direction-to-validate, not proof.
+- **Build note:** `investigate/spatial/` data is reused as the facility layer + a sidewalk
+  "indication" layer (blue=sidewalk / gray=none), not a turn-by-turn router. New `facility_map.py`
+  → `data/dukuh_atas_facilities.geojson`: OSM has the skeleton (sidewalks, 58 crossings, 4 lifts) but
+  **0 benches / 0 accessible toilets / 0 tactile paving** mapped — the survey gap. App confirmed
+  native (Xcode/MapKit/WeatherKit, Reality Composer for shade), not Unity.
+- **Refs:** `act/solution-candidates.md` (solution statement v2), `act/architecture-notes.md`.
+- **Owner:** Team.
