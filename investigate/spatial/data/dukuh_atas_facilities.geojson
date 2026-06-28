@@ -1,0 +1,7285 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8280203,
+      -6.202674
+     ],
+     [
+      106.828008,
+      -6.2033126
+     ],
+     [
+      106.8279879,
+      -6.2040224
+     ],
+     [
+      106.827993,
+      -6.2040919
+     ],
+     [
+      106.8280022,
+      -6.2042166
+     ],
+     [
+      106.8280118,
+      -6.2043311
+     ],
+     [
+      106.8280149,
+      -6.2043683
+     ],
+     [
+      106.8280571,
+      -6.2045235
+     ],
+     [
+      106.8280611,
+      -6.2045384
+     ],
+     [
+      106.8281343,
+      -6.2047055
+     ],
+     [
+      106.8281546,
+      -6.2047459
+     ],
+     [
+      106.8282301,
+      -6.2048956
+     ],
+     [
+      106.8282831,
+      -6.2049806
+     ],
+     [
+      106.8284557,
+      -6.2052575
+     ],
+     [
+      106.8285078,
+      -6.2053411
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "Jalan Kuningan Flyover",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8279013,
+      -6.2026046
+     ],
+     [
+      106.8279321,
+      -6.2023635
+     ],
+     [
+      106.8279696,
+      -6.2021163
+     ],
+     [
+      106.8280116,
+      -6.2018135
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "Jalan Haji Oemar Said Cokroaminoto",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8246722,
+      -6.2025438
+     ],
+     [
+      106.8247883,
+      -6.2025709
+     ],
+     [
+      106.8249044,
+      -6.202598
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "Jalan Kendal",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8201078,
+      -6.2004957
+     ],
+     [
+      106.8201431,
+      -6.2002856
+     ],
+     [
+      106.8202229,
+      -6.1998512
+     ],
+     [
+      106.8202489,
+      -6.1995491
+     ],
+     [
+      106.8202605,
+      -6.1993709
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "Jalan Martapura",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.82249,
+      -6.2016879
+     ],
+     [
+      106.8223966,
+      -6.2016665
+     ],
+     [
+      106.8221484,
+      -6.2016096
+     ],
+     [
+      106.8218718,
+      -6.2015462
+     ],
+     [
+      106.8201903,
+      -6.2011607
+     ],
+     [
+      106.8199289,
+      -6.2011008
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "Jalan Talang Betutu",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.820324,
+      -6.1993827
+     ],
+     [
+      106.8203624,
+      -6.1993861
+     ],
+     [
+      106.8205551,
+      -6.1994009
+     ],
+     [
+      106.8206262,
+      -6.1994092
+     ],
+     [
+      106.8212539,
+      -6.1994642
+     ],
+     [
+      106.8217259,
+      -6.199547
+     ],
+     [
+      106.821958,
+      -6.1995877
+     ],
+     [
+      106.8223627,
+      -6.1996474
+     ],
+     [
+      106.822782,
+      -6.1996781
+     ],
+     [
+      106.82286,
+      -6.1996838
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "Jalan Kota Bumi",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8193731,
+      -6.1960729
+     ],
+     [
+      106.81937,
+      -6.1964072
+     ],
+     [
+      106.8193622,
+      -6.1970462
+     ],
+     [
+      106.819354,
+      -6.1976645
+     ],
+     [
+      106.8193533,
+      -6.1977208
+     ],
+     [
+      106.8193475,
+      -6.1980179
+     ],
+     [
+      106.8193468,
+      -6.198047
+     ],
+     [
+      106.8193428,
+      -6.198091
+     ],
+     [
+      106.8193348,
+      -6.198329
+     ],
+     [
+      106.8193317,
+      -6.1984101
+     ],
+     [
+      106.8192903,
+      -6.1988715
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "Jalan Kebon Sayur",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8270254,
+      -6.2027285
+     ],
+     [
+      106.8266061,
+      -6.2023038
+     ],
+     [
+      106.826559,
+      -6.2022598
+     ],
+     [
+      106.8261682,
+      -6.2018678
+     ],
+     [
+      106.8257794,
+      -6.2014864
+     ],
+     [
+      106.8252355,
+      -6.2009022
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "Jalan Rembang",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8255293,
+      -6.2006295
+     ],
+     [
+      106.8252355,
+      -6.2009022
+     ],
+     [
+      106.8251597,
+      -6.2010031
+     ],
+     [
+      106.8250926,
+      -6.2012942
+     ],
+     [
+      106.8250252,
+      -6.2015863
+     ],
+     [
+      106.824953,
+      -6.2019059
+     ],
+     [
+      106.8249417,
+      -6.2022111
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "Jalan Kudus",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8239938,
+      -6.2016059
+     ],
+     [
+      106.8239786,
+      -6.2016729
+     ],
+     [
+      106.823913,
+      -6.2019469
+     ],
+     [
+      106.8238791,
+      -6.2020802
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "Jalan Pati",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8195741,
+      -6.2084558
+     ],
+     [
+      106.8195789,
+      -6.208413
+     ],
+     [
+      106.8196131,
+      -6.2081329
+     ],
+     [
+      106.8196253,
+      -6.2079674
+     ],
+     [
+      106.8196371,
+      -6.2076337
+     ],
+     [
+      106.8196,
+      -6.2075528
+     ],
+     [
+      106.8195584,
+      -6.2074937
+     ],
+     [
+      106.8195386,
+      -6.2074666
+     ],
+     [
+      106.8195252,
+      -6.2074324
+     ],
+     [
+      106.8194847,
+      -6.2070936
+     ],
+     [
+      106.8194695,
+      -6.2069264
+     ],
+     [
+      106.8194763,
+      -6.2067401
+     ],
+     [
+      106.8194667,
+      -6.2063973
+     ],
+     [
+      106.8194451,
+      -6.2061888
+     ],
+     [
+      106.8194253,
+      -6.2059411
+     ],
+     [
+      106.8194092,
+      -6.2057758
+     ],
+     [
+      106.8193662,
+      -6.2056398
+     ],
+     [
+      106.8193471,
+      -6.2054905
+     ],
+     [
+      106.8193515,
+      -6.2052491
+     ],
+     [
+      106.8193568,
+      -6.2049238
+     ],
+     [
+      106.8193381,
+      -6.2044869
+     ],
+     [
+      106.8193359,
+      -6.2044427
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "Jalan Pasar Baru Timur V",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8229899,
+      -6.2043037
+     ],
+     [
+      106.8226578,
+      -6.2044683
+     ],
+     [
+      106.8226119,
+      -6.2048398
+     ],
+     [
+      106.8223485,
+      -6.2048043
+     ],
+     [
+      106.822054,
+      -6.2047643
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "Jembatan Penyeberangan Multiguna Dukuh Atas",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8283761,
+      -6.2054999
+     ],
+     [
+      106.8282987,
+      -6.2053587
+     ],
+     [
+      106.8280795,
+      -6.2049423
+     ],
+     [
+      106.8279423,
+      -6.2046229
+     ],
+     [
+      106.8278473,
+      -6.2042533
+     ],
+     [
+      106.8278332,
+      -6.2039975
+     ],
+     [
+      106.8278443,
+      -6.203637
+     ],
+     [
+      106.8278542,
+      -6.2033519
+     ],
+     [
+      106.8278673,
+      -6.2030955
+     ],
+     [
+      106.8279,
+      -6.2026392
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "Jalan Kuningan Flyover",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.823424,
+      -6.199872
+     ],
+     [
+      106.8234244,
+      -6.1999169
+     ],
+     [
+      106.823425,
+      -6.199968
+     ],
+     [
+      106.8234361,
+      -6.2003265
+     ],
+     [
+      106.8234305,
+      -6.2005428
+     ],
+     [
+      106.8234028,
+      -6.2008926
+     ],
+     [
+      106.823383,
+      -6.2011099
+     ],
+     [
+      106.8233545,
+      -6.2013092
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "Jalan Blora",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8213473,
+      -6.1977025
+     ],
+     [
+      106.8207832,
+      -6.197145
+     ],
+     [
+      106.8207389,
+      -6.197105
+     ],
+     [
+      106.8207114,
+      -6.197085
+     ],
+     [
+      106.8206705,
+      -6.1970697
+     ],
+     [
+      106.820417,
+      -6.1970824
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "Jalan Baturaja",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8227741,
+      -6.2001125
+     ],
+     [
+      106.8228058,
+      -6.2001175
+     ],
+     [
+      106.8229157,
+      -6.200135
+     ],
+     [
+      106.8229232,
+      -6.2002508
+     ],
+     [
+      106.8229087,
+      -6.2004534
+     ],
+     [
+      106.8229463,
+      -6.2004578
+     ],
+     [
+      106.8229085,
+      -6.2006848
+     ],
+     [
+      106.8228493,
+      -6.2007211
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8245785,
+      -6.2094849
+     ],
+     [
+      106.8245316,
+      -6.2093409
+     ],
+     [
+      106.8243867,
+      -6.208845
+     ],
+     [
+      106.82432,
+      -6.2086522
+     ],
+     [
+      106.8242875,
+      -6.2085583
+     ],
+     [
+      106.8242639,
+      -6.2083428
+     ],
+     [
+      106.8242472,
+      -6.208209
+     ],
+     [
+      106.8242271,
+      -6.2079104
+     ],
+     [
+      106.8242817,
+      -6.2073042
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "Jalan Setiabudi Barat",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8276071,
+      -6.2028489
+     ],
+     [
+      106.8276009,
+      -6.2028181
+     ],
+     [
+      106.8275675,
+      -6.2027016
+     ],
+     [
+      106.8275199,
+      -6.2025965
+     ],
+     [
+      106.8274943,
+      -6.2025593
+     ],
+     [
+      106.8274773,
+      -6.2025367
+     ],
+     [
+      106.8273496,
+      -6.2023907
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "Jalan Purworejo",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.820417,
+      -6.1970824
+     ],
+     [
+      106.820185,
+      -6.1971024
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "Jalan Baturaja",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.814949,
+      -6.1989923
+     ],
+     [
+      106.8151579,
+      -6.1989749
+     ],
+     [
+      106.8152893,
+      -6.1989749
+     ],
+     [
+      106.8153685,
+      -6.1989749
+     ],
+     [
+      106.8154275,
+      -6.1989703
+     ],
+     [
+      106.8154868,
+      -6.1989636
+     ],
+     [
+      106.8155817,
+      -6.1989536
+     ],
+     [
+      106.8156337,
+      -6.1989486
+     ],
+     [
+      106.8157037,
+      -6.1989356
+     ],
+     [
+      106.8158196,
+      -6.1989017
+     ],
+     [
+      106.8160999,
+      -6.198915
+     ],
+     [
+      106.8163895,
+      -6.1989603
+     ],
+     [
+      106.8166376,
+      -6.1989603
+     ],
+     [
+      106.8168187,
+      -6.198959
+     ],
+     [
+      106.8171106,
+      -6.198959
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "Jalan Dukuh Pinggir IV",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8192903,
+      -6.1988715
+     ],
+     [
+      106.8195205,
+      -6.1989289
+     ],
+     [
+      106.8197834,
+      -6.1990316
+     ],
+     [
+      106.8200623,
+      -6.1991682
+     ],
+     [
+      106.8201978,
+      -6.1992482
+     ],
+     [
+      106.8202247,
+      -6.1992774
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "Jalan Kota Bumi Ujung",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8201431,
+      -6.2002856
+     ],
+     [
+      106.8200898,
+      -6.2002785
+     ],
+     [
+      106.8198388,
+      -6.2002468
+     ],
+     [
+      106.8192204,
+      -6.2001568
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "Jalan Martapura II",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8192406,
+      -6.1994909
+     ],
+     [
+      106.8195753,
+      -6.1995365
+     ],
+     [
+      106.8198918,
+      -6.1995471
+     ],
+     [
+      106.8202157,
+      -6.199552
+     ],
+     [
+      106.8202489,
+      -6.1995491
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "Jalan Martapura IV",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8187836,
+      -6.2003875
+     ],
+     [
+      106.8187586,
+      -6.2004794
+     ],
+     [
+      106.8187184,
+      -6.2007034
+     ],
+     [
+      106.8187118,
+      -6.2011188
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "Jalan Martapura I",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8187118,
+      -6.2011188
+     ],
+     [
+      106.8193348,
+      -6.2012215
+     ],
+     [
+      106.8194796,
+      -6.2012228
+     ],
+     [
+      106.819666,
+      -6.2011881
+     ],
+     [
+      106.8197626,
+      -6.2011615
+     ],
+     [
+      106.819873,
+      -6.2011034
+     ],
+     [
+      106.819909,
+      -6.2011017
+     ],
+     [
+      106.8199289,
+      -6.2011008
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "Jalan Talang Betutu Ujung",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.820185,
+      -6.1971024
+     ],
+     [
+      106.8202092,
+      -6.197419
+     ],
+     [
+      106.8202226,
+      -6.197681
+     ],
+     [
+      106.820248,
+      -6.1979963
+     ],
+     [
+      106.8202635,
+      -6.1983036
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "Jalan Baturaja",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8192204,
+      -6.2001568
+     ],
+     [
+      106.8192146,
+      -6.1999018
+     ],
+     [
+      106.8192146,
+      -6.1998228
+     ],
+     [
+      106.8192147,
+      -6.1997783
+     ],
+     [
+      106.8192199,
+      -6.1995961
+     ],
+     [
+      106.8192322,
+      -6.1995312
+     ],
+     [
+      106.8192406,
+      -6.1994909
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8194847,
+      -6.2070936
+     ],
+     [
+      106.8188614,
+      -6.2070779
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8191054,
+      -6.2053414
+     ],
+     [
+      106.819088,
+      -6.205472
+     ],
+     [
+      106.8190545,
+      -6.2055774
+     ],
+     [
+      106.8190354,
+      -6.2057795
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8196253,
+      -6.2079674
+     ],
+     [
+      106.819434,
+      -6.2079665
+     ],
+     [
+      106.8193898,
+      -6.2077506
+     ],
+     [
+      106.8192194,
+      -6.2077312
+     ],
+     [
+      106.8189405,
+      -6.2077226
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8193471,
+      -6.2054905
+     ],
+     [
+      106.8191819,
+      -6.2054807
+     ],
+     [
+      106.819088,
+      -6.205472
+     ],
+     [
+      106.8189231,
+      -6.2054814
+     ],
+     [
+      106.8186005,
+      -6.2054845
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8196371,
+      -6.2076337
+     ],
+     [
+      106.8195453,
+      -6.2076279
+     ],
+     [
+      106.8193522,
+      -6.2076252
+     ],
+     [
+      106.8191658,
+      -6.2075959
+     ],
+     [
+      106.8189351,
+      -6.2076012
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8194092,
+      -6.2057758
+     ],
+     [
+      106.8192476,
+      -6.2057827
+     ],
+     [
+      106.8190354,
+      -6.2057795
+     ],
+     [
+      106.8189177,
+      -6.2057494
+     ],
+     [
+      106.8188734,
+      -6.205732
+     ],
+     [
+      106.8188558,
+      -6.2057292
+     ],
+     [
+      106.8188355,
+      -6.2057305
+     ],
+     [
+      106.8187997,
+      -6.2057452
+     ],
+     [
+      106.8187638,
+      -6.2057632
+     ],
+     [
+      106.8187246,
+      -6.2057774
+     ],
+     [
+      106.8186294,
+      -6.2057862
+     ],
+     [
+      106.81862,
+      -6.2057832
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8177912,
+      -6.198407
+     ],
+     [
+      106.817814,
+      -6.1982843
+     ],
+     [
+      106.8178609,
+      -6.1981843
+     ],
+     [
+      106.8178877,
+      -6.1981383
+     ],
+     [
+      106.8179038,
+      -6.1980836
+     ],
+     [
+      106.8179092,
+      -6.198053
+     ],
+     [
+      106.8179112,
+      -6.1980123
+     ],
+     [
+      106.8179159,
+      -6.1979216
+     ],
+     [
+      106.8179186,
+      -6.197819
+     ],
+     [
+      106.8179031,
+      -6.197651
+     ],
+     [
+      106.817877,
+      -6.1972323
+     ],
+     [
+      106.8178582,
+      -6.196823
+     ],
+     [
+      106.8178555,
+      -6.196515
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "Jalan Talang Betutu Ujung",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8216999,
+      -6.2077428
+     ],
+     [
+      106.8217229,
+      -6.2077492
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8230977,
+      -6.2021981
+     ],
+     [
+      106.8230821,
+      -6.2021993
+     ],
+     [
+      106.823066,
+      -6.2021982
+     ],
+     [
+      106.8227116,
+      -6.2021141
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "Jalan Kendal",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8241231,
+      -6.1991212
+     ],
+     [
+      106.8240181,
+      -6.1990147
+     ],
+     [
+      106.823974,
+      -6.1989685
+     ],
+     [
+      106.8238751,
+      -6.1988641
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "Jalan Purworejo",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8202247,
+      -6.1992774
+     ],
+     [
+      106.820236,
+      -6.1992989
+     ],
+     [
+      106.8202605,
+      -6.1993709
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "Jalan Kota Bumi Ujung",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8255811,
+      -6.2005814
+     ],
+     [
+      106.8241231,
+      -6.1991212
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "Jalan Purworejo",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8177825,
+      -6.2056117
+     ],
+     [
+      106.8178392,
+      -6.205873
+     ],
+     [
+      106.8178625,
+      -6.2058684
+     ],
+     [
+      106.8178968,
+      -6.2058622
+     ],
+     [
+      106.8179047,
+      -6.2058163
+     ],
+     [
+      106.8179063,
+      -6.2057728
+     ],
+     [
+      106.8179019,
+      -6.2057282
+     ],
+     [
+      106.8178897,
+      -6.2056824
+     ],
+     [
+      106.8178658,
+      -6.2056373
+     ],
+     [
+      106.8178368,
+      -6.2055996
+     ],
+     [
+      106.8178046,
+      -6.205607
+     ],
+     [
+      106.8177825,
+      -6.2056117
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8179743,
+      -6.2059028
+     ],
+     [
+      106.8179673,
+      -6.2058704
+     ],
+     [
+      106.8179752,
+      -6.205809
+     ],
+     [
+      106.817978,
+      -6.2057597
+     ],
+     [
+      106.8179742,
+      -6.2057115
+     ],
+     [
+      106.8179602,
+      -6.2056724
+     ],
+     [
+      106.8179417,
+      -6.2056291
+     ],
+     [
+      106.8179002,
+      -6.2055673
+     ],
+     [
+      106.817892,
+      -6.205529
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8177959,
+      -6.2055661
+     ],
+     [
+      106.8177281,
+      -6.2055807
+     ],
+     [
+      106.8175288,
+      -6.2056238
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.81787,
+      -6.2059033
+     ],
+     [
+      106.8177967,
+      -6.2059198
+     ],
+     [
+      106.8175989,
+      -6.2059642
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8177926,
+      -6.2055502
+     ],
+     [
+      106.8177801,
+      -6.2054886
+     ],
+     [
+      106.817828,
+      -6.2054786
+     ],
+     [
+      106.8178787,
+      -6.2054681
+     ],
+     [
+      106.8180587,
+      -6.2054307
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.817828,
+      -6.2054786
+     ],
+     [
+      106.8178146,
+      -6.2054154
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8178745,
+      -6.2059237
+     ],
+     [
+      106.8178874,
+      -6.2059831
+     ],
+     [
+      106.8179384,
+      -6.2059721
+     ],
+     [
+      106.817988,
+      -6.2059614
+     ],
+     [
+      106.8181643,
+      -6.2059235
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8178146,
+      -6.2054154
+     ],
+     [
+      106.8178067,
+      -6.2053778
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.817892,
+      -6.205529
+     ],
+     [
+      106.8178787,
+      -6.2054681
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8179743,
+      -6.2059028
+     ],
+     [
+      106.817988,
+      -6.2059614
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8179384,
+      -6.2059721
+     ],
+     [
+      106.8179507,
+      -6.2060327
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8179507,
+      -6.2060327
+     ],
+     [
+      106.8179593,
+      -6.2060748
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8169637,
+      -6.206401
+     ],
+     [
+      106.8170058,
+      -6.206555
+     ],
+     [
+      106.8170496,
+      -6.2066883
+     ],
+     [
+      106.8170934,
+      -6.2068227
+     ],
+     [
+      106.8171426,
+      -6.2069508
+     ],
+     [
+      106.8172641,
+      -6.2072438
+     ],
+     [
+      106.8172869,
+      -6.2072971
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "Jalan Kyai Haji Mas Mansyur",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8238751,
+      -6.1988641
+     ],
+     [
+      106.823789,
+      -6.1987738
+     ],
+     [
+      106.8234522,
+      -6.1984532
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "Jalan Purworejo",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8233545,
+      -6.2013092
+     ],
+     [
+      106.8234314,
+      -6.2013186
+     ],
+     [
+      106.8235222,
+      -6.2013284
+     ],
+     [
+      106.8237393,
+      -6.2013448
+     ],
+     [
+      106.8238073,
+      -6.2013529
+     ],
+     [
+      106.8239616,
+      -6.2013827
+     ],
+     [
+      106.8239941,
+      -6.2013934
+     ],
+     [
+      106.824014,
+      -6.2014025
+     ],
+     [
+      106.8240269,
+      -6.2014185
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "Jalan Juana",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.826559,
+      -6.2022598
+     ],
+     [
+      106.8268944,
+      -6.2019345
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8270254,
+      -6.2027285
+     ],
+     [
+      106.8270794,
+      -6.2027995
+     ],
+     [
+      106.827085,
+      -6.2028334
+     ],
+     [
+      106.827051,
+      -6.2030403
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "Jalan Rembang",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8187118,
+      -6.2011188
+     ],
+     [
+      106.818337,
+      -6.2010395
+     ],
+     [
+      106.8181258,
+      -6.2010058
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "Jalan Talang Betutu Ujung",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8194714,
+      -6.2043794
+     ],
+     [
+      106.8194807,
+      -6.2043986
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8164551,
+      -6.2043117
+     ],
+     [
+      106.8175425,
+      -6.2041284
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "Jalan Karet Pasar Baru Timur 3",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.818814,
+      -6.204506
+     ],
+     [
+      106.8188399,
+      -6.2047959
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8187836,
+      -6.2003875
+     ],
+     [
+      106.8182709,
+      -6.2003508
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "Jalan Martapura I",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8171106,
+      -6.198959
+     ],
+     [
+      106.8171727,
+      -6.198959
+     ],
+     [
+      106.8176181,
+      -6.1989922
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "Jalan Dukuh Pinggir IV",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8202635,
+      -6.1983036
+     ],
+     [
+      106.8202957,
+      -6.1988516
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "Jalan Baturaja",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8233782,
+      -6.2001295
+     ],
+     [
+      106.8233611,
+      -6.2001301
+     ],
+     [
+      106.8233411,
+      -6.2001307
+     ],
+     [
+      106.8232829,
+      -6.2001327
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.823425,
+      -6.199968
+     ],
+     [
+      106.8233782,
+      -6.1999696
+     ],
+     [
+      106.8233782,
+      -6.2001295
+     ],
+     [
+      106.8233795,
+      -6.2003308
+     ],
+     [
+      106.8234361,
+      -6.2003265
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8177541,
+      -6.202184
+     ],
+     [
+      106.817777,
+      -6.2023372
+     ],
+     [
+      106.8177998,
+      -6.2023795
+     ],
+     [
+      106.8178469,
+      -6.2024102
+     ],
+     [
+      106.817898,
+      -6.2024187
+     ],
+     [
+      106.8180145,
+      -6.202402
+     ],
+     [
+      106.8180523,
+      -6.2023702
+     ],
+     [
+      106.8180735,
+      -6.2023309
+     ],
+     [
+      106.8180674,
+      -6.202238
+     ],
+     [
+      106.8180864,
+      -6.2021885
+     ],
+     [
+      106.8181235,
+      -6.2021618
+     ],
+     [
+      106.8181531,
+      -6.2021618
+     ],
+     [
+      106.8181776,
+      -6.2021682
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8217773,
+      -6.207745
+     ],
+     [
+      106.8217166,
+      -6.2077318
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8176181,
+      -6.1989922
+     ],
+     [
+      106.8177651,
+      -6.1990032
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "Jalan Dukuh Pinggir IV",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8272365,
+      -6.202263
+     ],
+     [
+      106.8268944,
+      -6.2019345
+     ],
+     [
+      106.8255811,
+      -6.2005814
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "Jalan Purworejo",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8273496,
+      -6.2023907
+     ],
+     [
+      106.8272556,
+      -6.2022845
+     ],
+     [
+      106.8272365,
+      -6.202263
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "Jalan Purworejo",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8232216,
+      -6.2021788
+     ],
+     [
+      106.8232321,
+      -6.202186
+     ],
+     [
+      106.8232439,
+      -6.2021909
+     ],
+     [
+      106.8235812,
+      -6.2022826
+     ],
+     [
+      106.8238155,
+      -6.2023426
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "Jalan Kendal",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8233545,
+      -6.2013092
+     ],
+     [
+      106.8232009,
+      -6.2021219
+     ],
+     [
+      106.8232002,
+      -6.202137
+     ],
+     [
+      106.8232021,
+      -6.2021482
+     ],
+     [
+      106.8232066,
+      -6.2021597
+     ],
+     [
+      106.8232134,
+      -6.2021703
+     ],
+     [
+      106.8232216,
+      -6.2021788
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "Jalan Blora",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8250483,
+      -6.202734
+     ],
+     [
+      106.8254727,
+      -6.202837
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8232216,
+      -6.2021788
+     ],
+     [
+      106.8232059,
+      -6.2022455
+     ],
+     [
+      106.8232633,
+      -6.2022599
+     ],
+     [
+      106.823439,
+      -6.2023014
+     ],
+     [
+      106.8234286,
+      -6.2023397
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8229599,
+      -6.1995747
+     ],
+     [
+      106.8229714,
+      -6.1995546
+     ],
+     [
+      106.8229749,
+      -6.1994838
+     ],
+     [
+      106.8229723,
+      -6.1993538
+     ],
+     [
+      106.8229641,
+      -6.1989812
+     ],
+     [
+      106.8229632,
+      -6.1988977
+     ],
+     [
+      106.8229563,
+      -6.1987032
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8229352,
+      -6.1977646
+     ],
+     [
+      106.8229463,
+      -6.1977538
+     ],
+     [
+      106.822943,
+      -6.1976896
+     ],
+     [
+      106.822939,
+      -6.1976203
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8234544,
+      -6.1976913
+     ],
+     [
+      106.8234046,
+      -6.1976466
+     ],
+     [
+      106.8233212,
+      -6.1975795
+     ],
+     [
+      106.8233128,
+      -6.1975796
+     ],
+     [
+      106.823304,
+      -6.1975798
+     ],
+     [
+      106.8232299,
+      -6.197581
+     ],
+     [
+      106.8231616,
+      -6.1975824
+     ],
+     [
+      106.8231212,
+      -6.1975833
+     ],
+     [
+      106.8231236,
+      -6.1976889
+     ],
+     [
+      106.8230975,
+      -6.197689
+     ],
+     [
+      106.8230317,
+      -6.1976894
+     ],
+     [
+      106.8229934,
+      -6.1976895
+     ],
+     [
+      106.822943,
+      -6.1976896
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8220343,
+      -6.204906
+     ],
+     [
+      106.8221066,
+      -6.2049189
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8223485,
+      -6.2048043
+     ],
+     [
+      106.8223318,
+      -6.2049448
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "Jembatan Penyeberangan Orang Dukuh Atas",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8226753,
+      -6.2004291
+     ],
+     [
+      106.8227,
+      -6.2003138
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8225259,
+      -6.2011206
+     ],
+     [
+      106.8225515,
+      -6.2010023
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8223631,
+      -6.2018685
+     ],
+     [
+      106.8223405,
+      -6.2019641
+     ],
+     [
+      106.8223726,
+      -6.2019716
+     ],
+     [
+      106.8223908,
+      -6.2019757
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8225195,
+      -6.2020714
+     ],
+     [
+      106.8225432,
+      -6.2019539
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8228295,
+      -6.2004665
+     ],
+     [
+      106.8228596,
+      -6.2004708
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8226505,
+      -6.2015062
+     ],
+     [
+      106.8226442,
+      -6.2015435
+     ],
+     [
+      106.8227013,
+      -6.2015553
+     ],
+     [
+      106.8227351,
+      -6.2015626
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8227221,
+      -6.201619
+     ],
+     [
+      106.8226912,
+      -6.201612
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8228799,
+      -6.201713
+     ],
+     [
+      106.8228497,
+      -6.2017053
+     ],
+     [
+      106.8228236,
+      -6.2016987
+     ],
+     [
+      106.8227679,
+      -6.2016846
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8225811,
+      -6.2019319
+     ],
+     [
+      106.8225756,
+      -6.2019594
+     ],
+     [
+      106.8226039,
+      -6.2019653
+     ],
+     [
+      106.8226394,
+      -6.2019718
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8225897,
+      -6.2020364
+     ],
+     [
+      106.8225803,
+      -6.2020845
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8227759,
+      -6.2016481
+     ],
+     [
+      106.8227679,
+      -6.2016846
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8229087,
+      -6.2004534
+     ],
+     [
+      106.822878,
+      -6.2004496
+     ],
+     [
+      106.8228596,
+      -6.2004708
+     ],
+     [
+      106.8228508,
+      -6.2005412
+     ],
+     [
+      106.8228493,
+      -6.2007211
+     ],
+     [
+      106.8228123,
+      -6.2008528
+     ],
+     [
+      106.8227834,
+      -6.2010201
+     ],
+     [
+      106.8227608,
+      -6.2011868
+     ],
+     [
+      106.8227351,
+      -6.2013143
+     ],
+     [
+      106.8227084,
+      -6.2013949
+     ],
+     [
+      106.8227013,
+      -6.2015553
+     ],
+     [
+      106.8226912,
+      -6.201612
+     ],
+     [
+      106.8226345,
+      -6.2018122
+     ],
+     [
+      106.8226039,
+      -6.2019653
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8226547,
+      -6.2006818
+     ],
+     [
+      106.8227109,
+      -6.2006949
+     ],
+     [
+      106.8227591,
+      -6.2007056
+     ],
+     [
+      106.8228001,
+      -6.2007127
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8225095,
+      -6.2013488
+     ],
+     [
+      106.8225623,
+      -6.2013609
+     ],
+     [
+      106.8226034,
+      -6.2013688
+     ],
+     [
+      106.8226481,
+      -6.2013784
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8199289,
+      -6.2011008
+     ],
+     [
+      106.8200926,
+      -6.2005637
+     ],
+     [
+      106.8201078,
+      -6.2004957
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "Jalan Martapura",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8174487,
+      -6.2076908
+     ],
+     [
+      106.8175185,
+      -6.2078809
+     ],
+     [
+      106.8176235,
+      -6.2082737
+     ],
+     [
+      106.8176677,
+      -6.2085233
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "Jalan Kyai Haji Mas Mansyur",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8228368,
+      -6.2032303
+     ],
+     [
+      106.8228883,
+      -6.2030066
+     ],
+     [
+      106.8230334,
+      -6.2023679
+     ],
+     [
+      106.8230595,
+      -6.2022547
+     ],
+     [
+      106.823104,
+      -6.2020508
+     ],
+     [
+      106.8231724,
+      -6.2017523
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8226735,
+      -6.204344
+     ],
+     [
+      106.8226773,
+      -6.2043125
+     ],
+     [
+      106.8226949,
+      -6.2043147
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8220076,
+      -6.2092922
+     ],
+     [
+      106.8219831,
+      -6.2092196
+     ],
+     [
+      106.8219723,
+      -6.2091614
+     ],
+     [
+      106.8219908,
+      -6.2090435
+     ],
+     [
+      106.8220403,
+      -6.2088586
+     ],
+     [
+      106.8220478,
+      -6.2088306
+     ],
+     [
+      106.8220894,
+      -6.2088429
+     ],
+     [
+      106.8221418,
+      -6.2086285
+     ],
+     [
+      106.8221152,
+      -6.2086204
+     ],
+     [
+      106.8221679,
+      -6.2083972
+     ],
+     [
+      106.8222103,
+      -6.2081842
+     ],
+     [
+      106.8222304,
+      -6.208068
+     ],
+     [
+      106.8222552,
+      -6.2079283
+     ],
+     [
+      106.8222885,
+      -6.2079312
+     ],
+     [
+      106.8222935,
+      -6.2078916
+     ],
+     [
+      106.8223144,
+      -6.2077517
+     ],
+     [
+      106.8222934,
+      -6.2077468
+     ],
+     [
+      106.822307,
+      -6.2076633
+     ],
+     [
+      106.8223697,
+      -6.2071923
+     ],
+     [
+      106.8223774,
+      -6.207133
+     ],
+     [
+      106.8224097,
+      -6.2069032
+     ],
+     [
+      106.8224378,
+      -6.2066822
+     ],
+     [
+      106.8225333,
+      -6.2059002
+     ],
+     [
+      106.8225831,
+      -6.2053909
+     ],
+     [
+      106.8226379,
+      -6.204911
+     ],
+     [
+      106.8226434,
+      -6.2048622
+     ],
+     [
+      106.8226603,
+      -6.204715
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8226603,
+      -6.204715
+     ],
+     [
+      106.8226726,
+      -6.204627
+     ],
+     [
+      106.8226794,
+      -6.2045785
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8233625,
+      -6.1997797
+     ],
+     [
+      106.8233611,
+      -6.2001301
+     ],
+     [
+      106.8233613,
+      -6.2003619
+     ],
+     [
+      106.8233459,
+      -6.2006529
+     ],
+     [
+      106.823312,
+      -6.201025
+     ],
+     [
+      106.8232704,
+      -6.2012568
+     ],
+     [
+      106.8232232,
+      -6.2015146
+     ],
+     [
+      106.8231724,
+      -6.2017523
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8226794,
+      -6.2045785
+     ],
+     [
+      106.8226852,
+      -6.204537
+     ],
+     [
+      106.8227158,
+      -6.2043178
+     ],
+     [
+      106.8226949,
+      -6.2043147
+     ],
+     [
+      106.822722,
+      -6.2041355
+     ],
+     [
+      106.8227882,
+      -6.2037572
+     ],
+     [
+      106.822849,
+      -6.203427
+     ],
+     [
+      106.8228466,
+      -6.2034146
+     ],
+     [
+      106.8228165,
+      -6.2033559
+     ],
+     [
+      106.8228147,
+      -6.2033438
+     ],
+     [
+      106.8228368,
+      -6.2032303
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8214302,
+      -6.2089654
+     ],
+     [
+      106.8215028,
+      -6.2087341
+     ],
+     [
+      106.8215069,
+      -6.2087209
+     ],
+     [
+      106.8215415,
+      -6.2086107
+     ],
+     [
+      106.8216354,
+      -6.2082561
+     ],
+     [
+      106.8216526,
+      -6.2081923
+     ],
+     [
+      106.8216743,
+      -6.2081014
+     ],
+     [
+      106.8217074,
+      -6.2081093
+     ],
+     [
+      106.8217718,
+      -6.2077774
+     ],
+     [
+      106.8217773,
+      -6.207745
+     ],
+     [
+      106.821785,
+      -6.2076976
+     ],
+     [
+      106.8218119,
+      -6.2075418
+     ],
+     [
+      106.8218268,
+      -6.2074547
+     ],
+     [
+      106.8218594,
+      -6.207186
+     ],
+     [
+      106.8219118,
+      -6.2066967
+     ],
+     [
+      106.8219419,
+      -6.206416
+     ],
+     [
+      106.821954,
+      -6.2062971
+     ],
+     [
+      106.8219714,
+      -6.2061265
+     ],
+     [
+      106.8219937,
+      -6.2059065
+     ],
+     [
+      106.8220017,
+      -6.2058283
+     ],
+     [
+      106.8220238,
+      -6.2056408
+     ],
+     [
+      106.8220772,
+      -6.2051871
+     ],
+     [
+      106.8221066,
+      -6.2049189
+     ],
+     [
+      106.8221371,
+      -6.2046777
+     ],
+     [
+      106.8221465,
+      -6.2045204
+     ],
+     [
+      106.8221291,
+      -6.2044511
+     ],
+     [
+      106.8221118,
+      -6.2044256
+     ],
+     [
+      106.8220795,
+      -6.2043778
+     ],
+     [
+      106.8219869,
+      -6.2043111
+     ],
+     [
+      106.8219132,
+      -6.2042844
+     ],
+     [
+      106.8216178,
+      -6.2042761
+     ],
+     [
+      106.8204473,
+      -6.2042453
+     ],
+     [
+      106.8200762,
+      -6.2042329
+     ],
+     [
+      106.8199126,
+      -6.2042921
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8221118,
+      -6.2044256
+     ],
+     [
+      106.8221282,
+      -6.2043644
+     ],
+     [
+      106.8221502,
+      -6.2042929
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8221502,
+      -6.2042929
+     ],
+     [
+      106.822282,
+      -6.2038178
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.822282,
+      -6.2038178
+     ],
+     [
+      106.8222556,
+      -6.2037678
+     ],
+     [
+      106.8222448,
+      -6.2037474
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8224706,
+      -6.2031555
+     ],
+     [
+      106.8225568,
+      -6.2028765
+     ],
+     [
+      106.8225801,
+      -6.2027997
+     ],
+     [
+      106.8225995,
+      -6.2027299
+     ],
+     [
+      106.8226706,
+      -6.2024049
+     ],
+     [
+      106.8228236,
+      -6.2016987
+     ],
+     [
+      106.8228321,
+      -6.2016604
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8228321,
+      -6.2016604
+     ],
+     [
+      106.8228765,
+      -6.2014462
+     ],
+     [
+      106.8229315,
+      -6.2011568
+     ],
+     [
+      106.8229811,
+      -6.2008102
+     ],
+     [
+      106.8230066,
+      -6.2006035
+     ],
+     [
+      106.8230213,
+      -6.2003102
+     ],
+     [
+      106.82302,
+      -6.2000916
+     ],
+     [
+      106.823016,
+      -6.1999196
+     ],
+     [
+      106.8230133,
+      -6.1998703
+     ],
+     [
+      106.823011,
+      -6.1998442
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8222448,
+      -6.2037474
+     ],
+     [
+      106.8222569,
+      -6.2037167
+     ],
+     [
+      106.822273,
+      -6.2036274
+     ],
+     [
+      106.8223038,
+      -6.203534
+     ],
+     [
+      106.8223682,
+      -6.2033954
+     ],
+     [
+      106.8224165,
+      -6.2033101
+     ],
+     [
+      106.8224706,
+      -6.2031555
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8221536,
+      -6.2036367
+     ],
+     [
+      106.8221523,
+      -6.2036767
+     ],
+     [
+      106.8221523,
+      -6.2037287
+     ],
+     [
+      106.8221684,
+      -6.2037554
+     ],
+     [
+      106.8221925,
+      -6.2037674
+     ],
+     [
+      106.822214,
+      -6.203766
+     ],
+     [
+      106.8222448,
+      -6.2037474
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.823011,
+      -6.1998442
+     ],
+     [
+      106.8229989,
+      -6.1998147
+     ],
+     [
+      106.8229684,
+      -6.1997925
+     ],
+     [
+      106.8229247,
+      -6.1997915
+     ],
+     [
+      106.8228769,
+      -6.1998177
+     ],
+     [
+      106.8228444,
+      -6.1998541
+     ],
+     [
+      106.822821,
+      -6.2000036
+     ],
+     [
+      106.8228058,
+      -6.2001175
+     ],
+     [
+      106.8228088,
+      -6.2002098
+     ],
+     [
+      106.8228088,
+      -6.2003189
+     ],
+     [
+      106.8227895,
+      -6.2004735
+     ],
+     [
+      106.8227732,
+      -6.2005786
+     ],
+     [
+      106.8227645,
+      -6.2006213
+     ],
+     [
+      106.8227649,
+      -6.2006351
+     ],
+     [
+      106.8227679,
+      -6.2006461
+     ],
+     [
+      106.8227901,
+      -6.200672
+     ],
+     [
+      106.8228013,
+      -6.200704
+     ],
+     [
+      106.8228001,
+      -6.2007127
+     ],
+     [
+      106.822712,
+      -6.2011205
+     ],
+     [
+      106.8226615,
+      -6.2013176
+     ],
+     [
+      106.8226481,
+      -6.2013784
+     ],
+     [
+      106.8225943,
+      -6.2014909
+     ],
+     [
+      106.8225669,
+      -6.2015639
+     ],
+     [
+      106.8225244,
+      -6.2017433
+     ],
+     [
+      106.8224736,
+      -6.2019945
+     ],
+     [
+      106.8224609,
+      -6.2020581
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8223908,
+      -6.2019757
+     ],
+     [
+      106.8224242,
+      -6.2019835
+     ],
+     [
+      106.8224736,
+      -6.2019945
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8223726,
+      -6.2019716
+     ],
+     [
+      106.822428,
+      -6.2017328
+     ],
+     [
+      106.8224271,
+      -6.201716
+     ],
+     [
+      106.8224067,
+      -6.2016976
+     ],
+     [
+      106.8223899,
+      -6.2016914
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8223899,
+      -6.2016914
+     ],
+     [
+      106.8223966,
+      -6.2016665
+     ],
+     [
+      106.8224058,
+      -6.2016316
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8224058,
+      -6.2016316
+     ],
+     [
+      106.8224138,
+      -6.201621
+     ],
+     [
+      106.8224288,
+      -6.2016158
+     ],
+     [
+      106.8224457,
+      -6.2015999
+     ],
+     [
+      106.8224545,
+      -6.2015753
+     ],
+     [
+      106.8225095,
+      -6.2013488
+     ],
+     [
+      106.8225819,
+      -6.2010273
+     ],
+     [
+      106.8225713,
+      -6.201015
+     ],
+     [
+      106.8225515,
+      -6.2010023
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8225515,
+      -6.2010023
+     ],
+     [
+      106.8225594,
+      -6.2009642
+     ],
+     [
+      106.8225749,
+      -6.2008828
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8225749,
+      -6.2008828
+     ],
+     [
+      106.8226072,
+      -6.2008882
+     ],
+     [
+      106.8226177,
+      -6.2008685
+     ],
+     [
+      106.8226547,
+      -6.2006818
+     ],
+     [
+      106.8226971,
+      -6.2004738
+     ],
+     [
+      106.8227233,
+      -6.200337
+     ],
+     [
+      106.8227208,
+      -6.2003245
+     ],
+     [
+      106.8227112,
+      -6.2003163
+     ],
+     [
+      106.8227,
+      -6.2003138
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8226491,
+      -6.2003058
+     ],
+     [
+      106.8226572,
+      -6.2002561
+     ],
+     [
+      106.8226644,
+      -6.2002115
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8227,
+      -6.2003138
+     ],
+     [
+      106.8226491,
+      -6.2003058
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8226644,
+      -6.2002115
+     ],
+     [
+      106.8226865,
+      -6.2002034
+     ],
+     [
+      106.8226982,
+      -6.2001918
+     ],
+     [
+      106.8227111,
+      -6.2001314
+     ],
+     [
+      106.8227799,
+      -6.1997391
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8227799,
+      -6.1997391
+     ],
+     [
+      106.822782,
+      -6.1996781
+     ],
+     [
+      106.8227846,
+      -6.199601
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8229533,
+      -6.198606
+     ],
+     [
+      106.8229787,
+      -6.1985942
+     ],
+     [
+      106.8229914,
+      -6.1985726
+     ],
+     [
+      106.8229796,
+      -6.1982105
+     ],
+     [
+      106.8229718,
+      -6.1980085
+     ],
+     [
+      106.8229642,
+      -6.1979287
+     ],
+     [
+      106.8229476,
+      -6.1978764
+     ],
+     [
+      106.8228938,
+      -6.197805
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8229563,
+      -6.1987032
+     ],
+     [
+      106.8229541,
+      -6.1986338
+     ],
+     [
+      106.8229533,
+      -6.198606
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8225581,
+      -6.199601
+     ],
+     [
+      106.8227846,
+      -6.199601
+     ],
+     [
+      106.8228582,
+      -6.1995929
+     ],
+     [
+      106.8229434,
+      -6.1995836
+     ],
+     [
+      106.8229599,
+      -6.1995747
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8231212,
+      -6.1975833
+     ],
+     [
+      106.8231177,
+      -6.197368
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8228921,
+      -6.19756
+     ],
+     [
+      106.8229067,
+      -6.1975482
+     ],
+     [
+      106.8229189,
+      -6.1975348
+     ],
+     [
+      106.8229282,
+      -6.1975213
+     ],
+     [
+      106.8229359,
+      -6.197506
+     ],
+     [
+      106.8229413,
+      -6.1974902
+     ],
+     [
+      106.8229451,
+      -6.1974693
+     ],
+     [
+      106.8229436,
+      -6.1974044
+     ],
+     [
+      106.8229383,
+      -6.197068
+     ],
+     [
+      106.8228834,
+      -6.1959995
+     ],
+     [
+      106.822883,
+      -6.1957812
+     ],
+     [
+      106.8228726,
+      -6.1957331
+     ],
+     [
+      106.8228565,
+      -6.1956993
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8233625,
+      -6.1997797
+     ],
+     [
+      106.8233805,
+      -6.19977
+     ],
+     [
+      106.823455,
+      -6.1997371
+     ],
+     [
+      106.8234804,
+      -6.1997472
+     ],
+     [
+      106.8234907,
+      -6.199752
+     ],
+     [
+      106.8235353,
+      -6.1997725
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8234509,
+      -6.1996351
+     ],
+     [
+      106.8234533,
+      -6.1996943
+     ],
+     [
+      106.823455,
+      -6.1997371
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8234236,
+      -6.198537
+     ],
+     [
+      106.823378,
+      -6.1985436
+     ],
+     [
+      106.8233558,
+      -6.1985722
+     ],
+     [
+      106.8233499,
+      -6.1986035
+     ],
+     [
+      106.8233511,
+      -6.1986847
+     ],
+     [
+      106.8233546,
+      -6.1987892
+     ],
+     [
+      106.8233712,
+      -6.1995256
+     ],
+     [
+      106.8233765,
+      -6.1995696
+     ],
+     [
+      106.823394,
+      -6.1995976
+     ],
+     [
+      106.8234181,
+      -6.1996202
+     ],
+     [
+      106.8234509,
+      -6.1996351
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8234544,
+      -6.1976913
+     ],
+     [
+      106.8234521,
+      -6.1977584
+     ],
+     [
+      106.8234468,
+      -6.1979107
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8234236,
+      -6.198537
+     ],
+     [
+      106.8234314,
+      -6.1984353
+     ],
+     [
+      106.8234395,
+      -6.1983294
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8234468,
+      -6.1979107
+     ],
+     [
+      106.8234395,
+      -6.1983294
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8232999,
+      -6.1956913
+     ],
+     [
+      106.8232916,
+      -6.1957926
+     ],
+     [
+      106.8232998,
+      -6.1962947
+     ],
+     [
+      106.8233003,
+      -6.1963308
+     ],
+     [
+      106.8233015,
+      -6.1963745
+     ],
+     [
+      106.8233038,
+      -6.1965395
+     ],
+     [
+      106.8233212,
+      -6.1975795
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8234509,
+      -6.1996351
+     ],
+     [
+      106.8234852,
+      -6.1996349
+     ],
+     [
+      106.8235375,
+      -6.1996242
+     ],
+     [
+      106.8235858,
+      -6.1995776
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8264712,
+      -6.2051562
+     ],
+     [
+      106.8264869,
+      -6.2050745
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8259668,
+      -6.2050121
+     ],
+     [
+      106.8259567,
+      -6.2050555
+     ],
+     [
+      106.8262528,
+      -6.2051149
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8240269,
+      -6.2014185
+     ],
+     [
+      106.8240259,
+      -6.201444
+     ],
+     [
+      106.8239938,
+      -6.2016059
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "Jalan Pati",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8238791,
+      -6.2020802
+     ],
+     [
+      106.8238155,
+      -6.2023426
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "Jalan Pati",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.827773,
+      -6.2032296
+     ],
+     [
+      106.8279778,
+      -6.2032736
+     ],
+     [
+      106.8284332,
+      -6.2033904
+     ],
+     [
+      106.8285209,
+      -6.203411
+     ],
+     [
+      106.8290217,
+      -6.2035383
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "Jalan Latuharhari SH",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8276415,
+      -6.2030185
+     ],
+     [
+      106.8276071,
+      -6.2028489
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "Jalan Purworejo",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8232005,
+      -6.2022687
+     ],
+     [
+      106.8231918,
+      -6.2023066
+     ],
+     [
+      106.8230784,
+      -6.2022816
+     ],
+     [
+      106.8226921,
+      -6.2021962
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8226921,
+      -6.2021962
+     ],
+     [
+      106.8226187,
+      -6.2021802
+     ],
+     [
+      106.8225522,
+      -6.2021658
+     ],
+     [
+      106.8223431,
+      -6.2021203
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8247927,
+      -6.2027943
+     ],
+     [
+      106.8253359,
+      -6.202924
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8227116,
+      -6.2021141
+     ],
+     [
+      106.8226367,
+      -6.2020972
+     ],
+     [
+      106.8225803,
+      -6.2020845
+     ],
+     [
+      106.8225195,
+      -6.2020714
+     ],
+     [
+      106.8224609,
+      -6.2020581
+     ],
+     [
+      106.8224097,
+      -6.202047
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "Jalan Kendal",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8232002,
+      -6.202137
+     ],
+     [
+      106.8231711,
+      -6.2021654
+     ],
+     [
+      106.8231369,
+      -6.202184
+     ],
+     [
+      106.8230977,
+      -6.2021981
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "Jalan Kendal",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8226367,
+      -6.2020972
+     ],
+     [
+      106.8226187,
+      -6.2021802
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8155958,
+      -6.2008423
+     ],
+     [
+      106.8156485,
+      -6.2008542
+     ],
+     [
+      106.8162282,
+      -6.2009855
+     ],
+     [
+      106.8163034,
+      -6.2009878
+     ],
+     [
+      106.8165148,
+      -6.2010352
+     ],
+     [
+      106.8166099,
+      -6.2010401
+     ],
+     [
+      106.8177453,
+      -6.20129
+     ],
+     [
+      106.8184306,
+      -6.2014395
+     ],
+     [
+      106.8215772,
+      -6.2021213
+     ],
+     [
+      106.8217089,
+      -6.2021917
+     ],
+     [
+      106.8224349,
+      -6.2023526
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.822939,
+      -6.1976203
+     ],
+     [
+      106.8229136,
+      -6.1975895
+     ],
+     [
+      106.8228921,
+      -6.19756
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8228938,
+      -6.197805
+     ],
+     [
+      106.8229167,
+      -6.1977826
+     ],
+     [
+      106.8229352,
+      -6.1977646
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8184349,
+      -6.2014176
+     ],
+     [
+      106.8184306,
+      -6.2014395
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8230595,
+      -6.2022547
+     ],
+     [
+      106.8230833,
+      -6.2022605
+     ],
+     [
+      106.8232537,
+      -6.2022986
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8232255,
+      -6.2024125
+     ],
+     [
+      106.8230571,
+      -6.2023734
+     ],
+     [
+      106.8230334,
+      -6.2023679
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8177622,
+      -6.2012119
+     ],
+     [
+      106.8177453,
+      -6.20129
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8232059,
+      -6.2022455
+     ],
+     [
+      106.8232005,
+      -6.2022687
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8202605,
+      -6.1993709
+     ],
+     [
+      106.820324,
+      -6.1993827
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "Jalan Kota Bumi",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8176497,
+      -6.1998972
+     ],
+     [
+      106.8176577,
+      -6.1997851
+     ],
+     [
+      106.8177168,
+      -6.1993676
+     ],
+     [
+      106.8177416,
+      -6.1991763
+     ],
+     [
+      106.8177651,
+      -6.1990032
+     ],
+     [
+      106.8177764,
+      -6.1986003
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "Jalan Talang Betutu Ujung",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8177764,
+      -6.1986003
+     ],
+     [
+      106.8177912,
+      -6.198407
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "Jalan Talang Betutu Ujung",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8298985,
+      -6.2046468
+     ],
+     [
+      106.8276527,
+      -6.2041268
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "Jalan Galunggung",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8273126,
+      -6.2022566
+     ],
+     [
+      106.8272556,
+      -6.2022845
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "Jalan Sumenep",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8249044,
+      -6.202598
+     ],
+     [
+      106.8270418,
+      -6.2030921
+     ],
+     [
+      106.8275566,
+      -6.203195
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "Jalan Kendal",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8238155,
+      -6.2023426
+     ],
+     [
+      106.8246722,
+      -6.2025438
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "Jalan Kendal",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.827051,
+      -6.2030403
+     ],
+     [
+      106.8270462,
+      -6.2030674
+     ],
+     [
+      106.8270418,
+      -6.2030921
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "Jalan Rembang",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8172869,
+      -6.2072971
+     ],
+     [
+      106.8174487,
+      -6.2076908
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "sidewalk",
+    "has_sidewalk": "yes",
+    "name": "Jalan Kyai Haji Mas Mansyur",
+    "stroke": "#1565c0",
+    "stroke-width": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8217229,
+      -6.2077492
+     ],
+     [
+      106.8222616,
+      -6.2078398
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8222616,
+      -6.2078398
+     ],
+     [
+      106.8222798,
+      -6.207843
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8249901,
+      -6.2048384
+     ],
+     [
+      106.8249438,
+      -6.2048308
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8249956,
+      -6.2048101
+     ],
+     [
+      106.8249901,
+      -6.2048384
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8249901,
+      -6.2048384
+     ],
+     [
+      106.8251111,
+      -6.20486
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8253762,
+      -6.204904
+     ],
+     [
+      106.8254533,
+      -6.2048597
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8228657,
+      -6.1973709
+     ],
+     [
+      106.822854,
+      -6.1973692
+     ],
+     [
+      106.8228423,
+      -6.1973711
+     ],
+     [
+      106.8228318,
+      -6.1973766
+     ],
+     [
+      106.8228235,
+      -6.197385
+     ],
+     [
+      106.8228183,
+      -6.1973956
+     ],
+     [
+      106.8228166,
+      -6.1974072
+     ],
+     [
+      106.8228185,
+      -6.1974188
+     ],
+     [
+      106.822824,
+      -6.1974293
+     ],
+     [
+      106.8228325,
+      -6.1974375
+     ],
+     [
+      106.8228431,
+      -6.1974427
+     ],
+     [
+      106.8228548,
+      -6.1974444
+     ],
+     [
+      106.8228665,
+      -6.1974424
+     ],
+     [
+      106.822877,
+      -6.197437
+     ],
+     [
+      106.8228853,
+      -6.1974285
+     ],
+     [
+      106.8228905,
+      -6.197418
+     ],
+     [
+      106.8228923,
+      -6.1974063
+     ],
+     [
+      106.8228903,
+      -6.1973947
+     ],
+     [
+      106.8228848,
+      -6.1973843
+     ],
+     [
+      106.8228763,
+      -6.1973761
+     ],
+     [
+      106.8228657,
+      -6.1973709
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      106.8229436,
+      -6.1974044
+     ],
+     [
+      106.8228923,
+      -6.1974063
+     ]
+    ]
+   },
+   "properties": {
+    "layer": "path",
+    "has_sidewalk": "unknown",
+    "name": "",
+    "stroke": "#9e9e9e",
+    "stroke-width": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8232299,
+     -6.197581
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8222556,
+     -6.2037678
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8234533,
+     -6.1996943
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8249962,
+     -6.2027072
+    ]
+   },
+   "properties": {
+    "facility": "toilet",
+    "label": "Toilet",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#1565c0",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8233221,
+     -6.1984889
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8222993,
+     -6.207126
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8222231,
+     -6.2076475
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.822292,
+     -6.2071807
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8178956,
+     -6.2019497
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8229383,
+     -6.197068
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.822307,
+     -6.2076633
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8194807,
+     -6.2043986
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8194714,
+     -6.2043794
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8204957,
+     -6.2042007
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8227109,
+     -6.2006949
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8226505,
+     -6.2015062
+    ]
+   },
+   "properties": {
+    "facility": "elevator",
+    "label": "Lift",
+    "accessible": "designated",
+    "name": "Elevator Akses D",
+    "marker-color": "#6a1b9a",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8225927,
+     -6.2007909
+    ]
+   },
+   "properties": {
+    "facility": "elevator",
+    "label": "Lift",
+    "accessible": "designated",
+    "name": "Elevator Akses B-C",
+    "marker-color": "#6a1b9a",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8229136,
+     -6.1975895
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8229167,
+     -6.1977826
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8230317,
+     -6.1976894
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8230975,
+     -6.197689
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8231616,
+     -6.1975824
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8224242,
+     -6.2019835
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8225594,
+     -6.2009642
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8223966,
+     -6.2016665
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8226572,
+     -6.2002561
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8227591,
+     -6.2007056
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8226034,
+     -6.2013688
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8225623,
+     -6.2013609
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8223697,
+     -6.2071923
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8223774,
+     -6.207133
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8233805,
+     -6.19977
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8226726,
+     -6.204627
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8226379,
+     -6.204911
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8218825,
+     -6.207552
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8218569,
+     -6.2077073
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8220391,
+     -6.2061336
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8220212,
+     -6.206303
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8220084,
+     -6.2064226
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8219792,
+     -6.206698
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8221391,
+     -6.2051942
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8220619,
+     -6.2059166
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8222136,
+     -6.2045519
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8224383,
+     -6.2033319
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8221282,
+     -6.2043644
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.822782,
+     -6.1996781
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8229541,
+     -6.1986338
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8229978,
+     -6.1978553
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8230178,
+     -6.1986341
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8230237,
+     -6.199004
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8230347,
+     -6.1996851
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8234907,
+     -6.199752
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8234521,
+     -6.1977584
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8234314,
+     -6.1984353
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8223637,
+     -6.2020361
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8220903,
+     -6.2056467
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8200799,
+     -6.2015903
+    ]
+   },
+   "properties": {
+    "facility": "water",
+    "label": "Drinking water",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#00838f",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8233908,
+     -6.202277
+    ]
+   },
+   "properties": {
+    "facility": "water",
+    "label": "Drinking water",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#00838f",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8274773,
+     -6.2025367
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8275018,
+     -6.2052526
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.817985,
+     -6.2025441
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8184108,
+     -6.2045106
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8187983,
+     -6.2045079
+    ]
+   },
+   "properties": {
+    "facility": "crossing",
+    "label": "Crossing",
+    "accessible": "unknown",
+    "name": "",
+    "marker-color": "#607d8b",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8249438,
+     -6.2048308
+    ]
+   },
+   "properties": {
+    "facility": "elevator",
+    "label": "Lift",
+    "accessible": "designated",
+    "name": "",
+    "marker-color": "#6a1b9a",
+    "marker-size": "small"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8250834,
+     -6.2045657
+    ]
+   },
+   "properties": {
+    "facility": "elevator",
+    "label": "Lift",
+    "accessible": "designated",
+    "name": "",
+    "marker-color": "#6a1b9a",
+    "marker-size": "small"
+   }
+  }
+ ]
+}
