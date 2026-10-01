@@ -1,0 +1,26 @@
+% =====================================================================
+%  Shared setup for the affinity-map handout.
+%  \input this in the PREAMBLE of any document that includes
+%  affinity-map-body.tex (the standalone handout AND main_id.tex).
+%  Adds only packages/colours/macros not already guaranteed by the parent.
+% =====================================================================
+\usepackage{xcolor}
+\usepackage[most]{tcolorbox}
+\usepackage{pgfplots}\pgfplotsset{compat=1.17}
+\usepackage{booktabs}
+\usepackage{enumitem}
+
+\definecolor{ink}{HTML}{1A1A1A}
+\definecolor{pos}{HTML}{1D7A4D}
+\definecolor{neg}{HTML}{C2392B}
+\definecolor{mix}{HTML}{B8860B}
+\definecolor{accent}{HTML}{2257B5}
+\definecolor{heat}{HTML}{E8743B}
+\definecolor{soft}{HTML}{E3E3E3}
+
+% horizontal coloured bar of a given width
+\providecommand{\sbar}[2]{\textcolor{#1}{\rule{#2}{7pt}}}
+% inline coloured tag pill
+\providecommand{\tg}[2]{\,\colorbox{#1}{\footnotesize\textcolor{white}{\bfseries #2}}}
+% lightweight internal section rule (so it doesn't pollute the report's \section numbering)
+\providecommand{\sect}[1]{\vspace{4pt}\par{\large\bfseries #1}\par\vspace{1pt}{\color{ink}\hrule}\vspace{5pt}}

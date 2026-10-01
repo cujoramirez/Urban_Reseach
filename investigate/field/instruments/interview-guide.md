@@ -119,21 +119,17 @@ Heat and rain are a likely pain point (shade was a named shortfall, S1). These a
    apakah berguna? Informasi apa yang paling Anda butuhkan? *(neutral; probes the value of
    route-condition info without proposing a product)*
 
-## Expert / policy interview (obstacle-oriented): Anies / Karsa City Lab / UDK
-Reframed per the mentor (15 Jun) to be goal-oriented, tied to the challenge. Semi-structured,
-record with consent, code by research question.
-1. Upaya apa saja yang dilakukan untuk meningkatkan kenyamanan pejalan kaki di koridor Sudirman
-   pada 2017–2022? *(S4, S6)*
-2. Faktor apa yang menjadi pertimbangan utama saat merancang/ membangun fasilitas itu?
-3. **Hambatan apa yang paling menghalangi terbentuknya fasilitas pejalan kaki yang nyaman?**
-   *(the core purpose, anggaran? koordinasi? penegakan? perilaku?)*
-4. Bagaimana keputusan menata PKL, termasuk relokasi ke jalan-jalan di belakang koridor,
-   diambil, dan apa pertimbangannya? *(S12, and the gradient)*
-5. Mengapa kualitas trotoar berbeda jauh antara koridor utama dan jalan di belakangnya?
-6. Apa yang menurut Anda masih belum terselesaikan untuk kenyamanan pejalan kaki di sini?
+## Expert / policy interview (generative, appreciative): Anies / Karsa City Lab / UDK
+Reworked 20 Jun 2026 to be **generative**, appreciative and forward-looking, not obstacle- or
+critique-oriented (see `DECISIONS.md`). The canonical set now lives in
+[`../../../engage/guiding-questions.md`](../../../engage/guiding-questions.md) §B (with rationale)
+and the send-ready Indonesian version in
+[`lampiran-a`](../../../engage/proposal/lampiran-a-pertanyaan-wawancara.tex). Four parts:
+(1) his pedestrian-space philosophy and vision; (2) a future "dream" for walking; (3) citizens as
+co-creators / "urun daya" (our project); (4) advice to young city-builders.
 
-> Each expert question must trace back to the challenge (improve the walking experience), if a
-> question can't, drop it. (Mentor's "why" test.)
+> Test for every expert question: it draws out his vision, what worked, or what he would advise,
+> and never invites him to critique his own record or pre-load our conclusion.
 
 ---
 

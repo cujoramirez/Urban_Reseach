@@ -47,6 +47,9 @@
 \fancypagestyle{plain}{\fancyhf{}\fancyfoot[C]{\footnotesize \thepage}%
   \renewcommand{\headrulewidth}{0pt}}
 
+% --- Affinity-map appendix support (shared with the standalone handout) ---
+\input{affinity-map-preamble}
+
 \begin{document}
 \hypersetup{pageanchor=false}
 \pagenumbering{roman}
@@ -426,6 +429,23 @@ dipisahkan secara eksplisit, dan temuan tidak ditulis sebelum data lapangan terk
 % TODO: ISI HANYA SETELAH DATA LAPANGAN TERKUMPUL. Jangan menulis temuan
 % atau kesimpulan sebelum data nyata tersedia.
 Bab ini akan memuat hasil dan kesimpulan setelah kerja lapangan. \textit{(Placeholder.)}
+
+% =====================================================================
+\appendix
+\chapter{Peta Afinitas dan Sintesis Awal Lapangan (\textit{Field Day 1})}
+\label{app:affinity}
+% CATATAN: Lampiran ini memuat hasil PROVISIONAL putaran lapangan pertama
+% (18 Jun 2026), sengaja ditempatkan di lampiran dan BUKAN di BAB IV (yang
+% menunggu data lengkap). Bersifat problem-level (tidak menyebut solusi).
+% Sumber tunggal: affinity-map-body.tex (juga dipakai handout mandiri).
+Lampiran ini merangkum putaran lapangan pertama (18 Juni 2026) sebagai \emph{peta afinitas} dan
+sintesis awal yang menjadi dasar penajaman tantangan. Hasil bersifat \textbf{sementara} (satu sesi
+siang, sebagian besar di trotoar utama) dan disajikan pada tataran masalah, bukan solusi. Angka
+bersifat deskriptif; skor skala masih merupakan tafsir dari transkrip, bukan hasil pengukuran.
+
+\bigskip
+\def\affinityembedded{}
+\input{affinity-map-body}
 
 % --- Daftar Pustaka ---------------------------------------------------
 \printbibliography[title={Daftar Pustaka}]

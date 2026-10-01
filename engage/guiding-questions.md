@@ -41,33 +41,57 @@ back to the walking experience in the Sudirman corridor.
 
 ---
 
-## B. Interview questions (policy expert: obstacle-oriented)
+## B. Interview questions (Anies Baswedan: open, generative, funnel)
 
-> **Context:** Planned interview with the former Jakarta governor who led the **2017–2022
-> sidewalk program**. **Purpose:** to surface the **obstacles that blocked comfortable
-> pedestrian facilities** from being built and maintained. This is the clear, challenge-tied
-> reason for the interview, not vague "cross-validation."
+> **Context:** Interview with Anies Baswedan, who as Governor (2017–2022) led Jakarta's sidewalk
+> program and citizen-participation systems, and now runs Karsa City Lab. **Approach:** broad and
+> generative, following the funnel method. Open "what/how" questions invite his perspective,
+> stories, and ideas; we then deepen through neutral live probes. We do not pin him to specific
+> decisions on paper; the depth comes from the conversation. Every question stays open, neutral,
+> non-leading, and free of critique. The send-ready Indonesian version lives in
+> [`proposal/lampiran-a-pertanyaan-wawancara.tex`](proposal/lampiran-a-pertanyaan-wawancara.tex).
 
-1. **What were the main obstacles to building and maintaining good pedestrian facilities
-   along corridors like Sudirman during the 2017–2022 program?**
-   - *Why this matters:* The core of the interview, names the real-world barriers we'd
-     otherwise only guess at.
+### B1. Philosophy and experience
 
-2. **Which obstacles were budgetary, which were regulatory/coordination, and which were about
-   behaviour or enforcement?**
-   - *Why this matters:* Helps us locate where a design intervention could realistically help
-     vs. where the barrier is structural.
+1. **How do you see the role of walking in the life of a city?**
+   - *Why this matters:* A broad opener that surfaces his philosophy; no presupposition.
 
-3. **Why is the sidewalk quality so different between the main corridor and the back-streets
-   behind it?**
-   - *Why this matters:* Asks an expert to explain the very gradient we're observing.
+2. **What makes people feel comfortable and want to walk in an area?**
+   - *Why this matters:* Comfort, our core. Heat, shade, and safety tend to emerge in his own
+     words.
 
-4. **What was tried to keep sidewalks clear of obstructions, and what worked or didn't?**
-   - *Why this matters:* Past attempts and their results keep us from re-proposing failed
-     ideas.
+3. **Could you tell us about the experience that stayed with you most from shaping pedestrian
+   space in Jakarta?**
+   - *Why this matters:* A story invitation; his lessons and the specific detail come out
+     naturally.
 
-5. **What would you say is still unsolved for pedestrian comfort in this area?**
-   - *Why this matters:* Points us toward gaps a new solution might address.
+### B2. Citizens and the city (the project)
+
+4. **How do you see the role of residents in helping build and care for their city?**
+   - *Why this matters:* Participation, broad. He tends to bring up collaboration and JAKI on his
+     own.
+
+5. **From your experience, what makes citizen voice and participation genuinely bring change to a
+   city?**
+   - *Why this matters:* The heart of our project, asked openly, his lessons rather than an audit.
+
+### B3. Reaching everyone, and the future
+
+6. **How do you imagine good pedestrian space growing to reach more of the neighborhoods where
+   people live?**
+   - *Why this matters:* The gradient, framed as growth and aspiration, not a gap to defend.
+
+7. **How do you imagine a city that is truly humane for people on foot, and what is your message
+   for those of us who want to help bring it about?**
+   - *Why this matters:* Vision plus a warm close.
+
+### Deepening (live, not on the send sheet)
+
+Start broad, then funnel with neutral probes that never lead: *"Bisa diceritakan lebih lanjut?"*,
+*"Boleh dengan contoh?"*, *"Apa yang Bapak pelajari dari pengalaman itu?"*, *"Bagaimana hal itu
+Bapak pikirkan saat itu?"*. The specific, privileged detail we care about (how priorities were
+set, how a citizen report became action, the design tradeoffs) is drawn out here, in the
+conversation, not by pointed questions on paper.
 
 ---
 

@@ -1,0 +1,172 @@
+% =====================================================================
+%  Affinity-map / first-pass synthesis BODY (Field Day 1, 2026-06-19).
+%  Requires affinity-map-preamble.tex loaded in the parent's preamble.
+%  In the standalone handout it renders with a title block; when embedded
+%  (main_id.tex defines \affinityembedded) the big title is suppressed so
+%  the appendix \chapter heading provides the title instead.
+% =====================================================================
+\setlist[itemize]{leftmargin=1.2em, itemsep=1pt, topsep=2pt}
+
+\ifdefined\affinityembedded\else
+\begin{center}
+  {\footnotesize\textsc{Urban Innovation Challenge \textbullet{} CBL Investigate $\rightarrow$ Refine \textbullet{} Field Day 1 (Thu 18 Jun 2026)}}\\[2pt]
+  {\LARGE\bfseries Walking the Sudirman Corridor}\\[1pt]
+  {\large Affinity Map \& First-Pass Synthesis}
+\end{center}
+\vspace{2pt}
+\fi
+
+\begin{tcolorbox}[colback=ink,colframe=ink,arc=2pt,boxsep=3pt,left=8pt,right=8pt,top=5pt,bottom=5pt]
+  \textcolor{white}{\textbf{\textcolor{yellow!80!orange}{Refined challenge (proposed):}}
+  Make walking the Sudirman corridor \textbf{comfortable and safe} --- through the heat of the
+  day, into the night, and beyond the main trotoar to the streets one block behind it.}
+\end{tcolorbox}
+
+{\footnotesize\color{ink!70}16 people engaged (10 upper/middle \textbullet{} 6 worker/``bottom'') \textbullet{}
+12 recorded intercepts + notulen \textbullet{} 105 geotagged photos/videos \textbullet{} 6 weather readings
+\textbullet{} daytime only (10:00--15:00). Scores below are \textbf{analyst-interpreted from transcripts},
+not measured.\par}
+
+% ---------------- 1. WE ENGAGED ----------------
+\sect{1\quad We engaged}
+\begin{tcbraster}[raster columns=3, raster equal height=rows, colback=white, colframe=soft,
+  fonttitle=\bfseries\small, coltitle=ink, size=small, arc=2pt]
+  \begin{tcolorbox}[title=Pedestrians]\footnotesize
+    \begin{itemize}\item Daily \& weekly commuters (KRL/MRT/TJ)\item Elderly daily walker (1.5\,h exercise)
+    \item Parent + child; students (SMAN 3)\item Motorbike rider (walks last hop only)\end{itemize}
+  \end{tcolorbox}
+  \begin{tcolorbox}[title=Workers of the corridor]\footnotesize
+    \begin{itemize}\item Area \& JPO security guards\item MITJ staff (incl.\ tunnel post)
+    \item Satpol PP; a PKL (Starling)\item GrabCar driver; local elder (Kebon Melati)\end{itemize}
+  \end{tcolorbox}
+  \begin{tcolorbox}[title=Where / when]\footnotesize
+    \begin{itemize}\item Main trotoar, stations, JPO, Kendal tunnel\item GPS: Dukuh Atas $\to$ Setiabudi/Semanggi
+    \item \textbf{Gap:} back-streets barely sampled\item \textbf{Gap:} no night, no rain\end{itemize}
+  \end{tcolorbox}
+\end{tcbraster}
+
+% ---------------- 2. WE FOUND ----------------
+\sect{2\quad We found --- affinity clusters}
+\begin{tcbraster}[raster columns=2, raster equal height=rows, colback=white, colframe=soft,
+  fonttitle=\bfseries\small, coltitle=ink, size=small, arc=2pt]
+  \begin{tcolorbox}[title={A good sidewalk, undermined by heat\tg{neg}{PAIN \textbullet{} dominant}}]\footnotesize
+    \textit{``Trotoarnya udah bagus\dots udah manusiawi? Udah.''} --- yet ``panas'' is the \#1 complaint.
+    \begin{itemize}\item Main trotoar widely praised: \textit{lega, manusiawi, bagus}.
+    \item Heat named by \textbf{7 of 12}; design critiqued as copied from 4-season countries.
+    \item Coping: shade-seeking, umbrellas, cooler hours.\end{itemize}
+  \end{tcolorbox}
+  \begin{tcolorbox}[title={Safe by day, risky at isolated night spots\tg{mix}{PAIN \textbullet{} conditional}}]\footnotesize
+    \begin{itemize}\item Daytime feels safe (incl.\ a woman walking home 01:00).
+    \item Hotspots: JPO \& parking after $\sim$22:00 --- \textbf{lit but empty}, not dark.
+    \item Guard: \textit{``terang\dots cuma sepi.''} Crime down $\sim$6 months.\end{itemize}
+  \end{tcolorbox}
+  \begin{tcolorbox}[title={Micro-hazards \& conflicts\tg{neg}{PAIN}}]\footnotesize
+    \begin{itemize}\item Kerb$\to$zebra ramp too steep/slippery --- a respondent's friend \textbf{fell twice}.
+    \item Ojol/Gojek riding onto the trotoar (near-misses).
+    \item PKL (Starling) --- convenience vs obstruction tension.\end{itemize}
+  \end{tcolorbox}
+  \begin{tcolorbox}[title={Institutional gaps\tg{neg}{PAIN \textbullet{} systemic}}]\footnotesize
+    \begin{itemize}\item Security responsibility falls between KAI/MRT/police zones.
+    \item Broken/uneven infra reported but \textit{``gak pernah digubris.''}
+    \item Open Q: is JAKI reporting working? UNHCR donation scam seen.\end{itemize}
+  \end{tcolorbox}
+\end{tcbraster}
+
+% ---------------- 3. QUANTITATIVE ----------------
+\sect{3\quad Quantitative --- what the numbers show}
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{center}\footnotesize\textbf{Measured weather across the session}\\[-2pt]
+  \begin{tikzpicture}
+    \begin{axis}[width=\linewidth,height=4.6cm,ymin=30,ymax=36,xmin=0.6,xmax=6.4,
+      xtick={1,2,3,4,5,6},xticklabels={10:20,10:30,10:55,12:48,13:03,13:35},
+      x tick label style={font=\scriptsize,rotate=30,anchor=east},
+      ylabel={\scriptsize Temp ($^{\circ}$C)},ytick={30,32,34,36},
+      tick label style={font=\scriptsize},grid=major,grid style={soft},
+      legend style={font=\scriptsize,at={(0.5,1.18)},anchor=south,legend columns=2,draw=none}]
+      \addplot[heat,very thick,mark=*] coordinates {(1,33)(2,34)(3,34)(4,35)(5,35)(6,35)};
+      \addplot[accent,very thick,dashed,mark=square*] coordinates {(1,31)(2,31)(3,32)(4,33)(5,33)(6,33)};
+      \legend{Feels-like,Air temp}
+    \end{axis}
+  \end{tikzpicture}\\[-1pt]
+  \scriptsize UV 7--8 (Very High) \textbullet{} 0\,mm rain \textbullet{} +3$^{\circ}$C above avg high.
+  Feels-like held \textbf{above the $\sim$27$^{\circ}$C comfort threshold all day}.
+  \end{center}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{center}\footnotesize\textbf{Themes mentioned (of 12 recorded interviews)}\end{center}
+  \footnotesize
+  \begin{tabular}{@{}l l r@{}}
+    Heat / too hot        & \sbar{heat}{4.06cm} & 7\\
+    Sidewalk is good/wide & \sbar{pos}{3.48cm}  & 6\\
+    Feels safe (daytime)  & \sbar{pos}{3.48cm}  & 6\\
+    Night/isolation risk  & \sbar{neg}{2.32cm}  & 4\\
+    Crossing ramp hazard  & \sbar{neg}{1.16cm}  & 2\\
+    Institutional gap     & \sbar{neg}{1.16cm}  & 2\\
+    Ojol on trotoar       & \sbar{neg}{0.58cm}  & 1\\
+  \end{tabular}\\[2pt]
+  {\scriptsize Qualitative coding of transcripts; a person can raise several themes.}
+\end{minipage}
+
+\vspace{6pt}
+\noindent
+\begin{minipage}[t]{0.46\textwidth}
+  \footnotesize\textbf{Interpreted self-rated scores by group (1--10)}\\[2pt]
+  \begin{tabular}{@{}lccc@{}}
+    \toprule
+    Group (n) & Comfort & Security & Heat-disc.\\
+    \midrule
+    Upper/middle (8) & 7.0 & 8.1 & 7.4\\
+    Worker (4)       & 7.5 & 6.3 & 5.8\\
+    All (12)         & 7.2 & 7.5 & 6.8\\
+    \bottomrule
+  \end{tabular}\\[2pt]
+  {\scriptsize Heat-disc.: 1=cool, 10=hot.}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.51\textwidth}
+  \begin{tcolorbox}[colback=yellow!8,colframe=mix!60,arc=2pt,boxsep=2pt,left=6pt,right=6pt,top=4pt,bottom=4pt]
+    \footnotesize\textbf{\textcolor{mix!70!black}{$\triangle$ Read as hypotheses, not results.}}
+    Scores are \textbf{interpreted from transcripts, not asked}, n is tiny. The apparent pattern
+    (workers rate security \& heat lower) is a \textbf{lead for Saturday's measured scales}.
+    A Mann--Whitney / permutation test on the interpreted heat scores gives effect size
+    $r=-0.56$ but $p\approx0.15$ --- \textbf{not significant}; \textbf{no t-test is reported}
+    (see \texttt{analysis-plan.md}).
+  \end{tcolorbox}
+\end{minipage}
+
+% ---------------- 4. SENTIMENT ----------------
+\sect{4\quad Sentiment by theme (transparent hand-coding)}
+\noindent\footnotesize
+\begin{tabular}{@{}l l l @{\hspace{2.2em}} l l l@{}}
+  Sidewalk / infrastructure & \sbar{pos}{2.6cm} & \textcolor{pos}{$+$} &
+  Heat / thermal comfort    & \sbar{neg}{2.6cm} & \textcolor{neg}{$-$}\\
+  Greenery / shade buffer   & \sbar{pos}{2.3cm} & \textcolor{pos}{$+$} &
+  Safety --- night/isolated & \sbar{neg}{2.1cm} & \textcolor{neg}{$-$}\\
+  Safety --- daytime        & \sbar{pos}{2.5cm} & \textcolor{pos}{$+$} &
+  Maintenance / complaints  & \sbar{neg}{1.8cm} & \textcolor{neg}{$-$}\\
+  & & & Enforcement / ojol   & \sbar{neg}{1.3cm} & \textcolor{neg}{$-$}\\
+\end{tabular}\\[2pt]
+{\scriptsize Direction of sentiment per theme, coded by hand (not an automated score). The split:
+\textbf{positive on the built sidewalk, negative on heat, night-isolation, and upkeep}.}
+
+% ---------------- 5. OPEN QUESTIONS ----------------
+\sect{5\quad Open questions --- what Saturday must test}
+\begin{tcbraster}[raster columns=4, raster equal height=rows, colback=accent!5, colframe=accent!40,
+  fonttitle=\bfseries\footnotesize, coltitle=accent!70!black, size=small, arc=2pt]
+  \begin{tcolorbox}[title=The gradient]\scriptsize Pair each main segment with the back-street one block behind; audit both. Is the gap as sharp as assumed? (untested)\end{tcolorbox}
+  \begin{tcolorbox}[title=Night \& women]\scriptsize Does daytime ``feels safe'' hold after 22:00 at the JPO/parking? Women-led intercepts (Cikini--Benhil).\end{tcolorbox}
+  \begin{tcolorbox}[title=Measured scales]\scriptsize Ask 1--10 + ASHRAE thermal vote consistently $\to$ enables real stats. 5-min counts joined to WeatherKit.\end{tcolorbox}
+  \begin{tcolorbox}[title=Rain behaviour]\scriptsize Dry yesterday; $\sim$40--50\% rain forecast Sat --- observe sheltering / mode-shift.\end{tcolorbox}
+\end{tcbraster}
+
+% ---------------- FOOTER ----------------
+\vspace{3pt}
+\begin{tcolorbox}[colback=ink!3,colframe=soft,arc=2pt,boxsep=2pt,left=6pt,right=6pt,top=4pt,bottom=4pt]
+\scriptsize\textbf{Method (data-science breakdown).}
+\textbf{Qualitative} --- verbatim transcripts thematically coded into pain-points/goals (\S2).
+\textbf{Quantitative} --- measured weather (\S3, real); frequencies (\S3); interpreted scales shown descriptively only.
+\textbf{Sentiment} --- hand-coded direction per theme (\S4), transparent, not a black-box model.
+\textbf{Inferential stats deferred:} Mann--Whitney / permutation (by group) and a comfort-vs-heat-index
+correlation run on \textbf{Saturday's measured} data, not on interpreted scores. Plan: \texttt{investigate/analysis-plan.md};
+evidence: \texttt{investigate/synthesis.md}. \hfill Tim Riset Pijak \textbullet{} 2026-06-19.
+\end{tcolorbox}

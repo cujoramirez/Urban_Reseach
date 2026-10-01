@@ -1,0 +1,25 @@
+respondent_id,source,team,timestamp,location,segment_id,class,role_or_type,mobility_mode,security_1_10,comfort_1_10,heat_1_10,scale_source,key_painpoint,notes
+R01,Interview_01.m4a,,2026-06-18,Sudirman MRT/KAI area,,bottom,Area security guard,,6,7,5,interpreted,No security integration between KAI/MRT and police; coverage gap outside gates,Permit chain Sekda->MRT->Kawis->MITJ
+R02,Interview_02.m4a,,2026-06-18,Jalan Raya Sudirman,,upper_middle,Daily pedestrian,walk,9,8,7,interpreted,Midday heat but trees compensate,jalannya enak + adem
+R03,Interview_03.m4a,,2026-06-18,Halte Dukuh Atas - Stasiun Sudirman,,upper_middle,Weekly pedestrian (counter-commute),KRL/walk,8,6,8,interpreted,Direct sun; wants canopy; feels safer when quiet,Walks against peak flow
+R04,Interview_04.m4a,,2026-06-18,Thamrin City - Semanggi - HI,,upper_middle,Elderly daily walker (exercise),walk,9,9,6,interpreted,Hot near Japanese Embassy/Sarinah only,Walks ~1.5h daily; reassured by police
+R05,Interview_05.m4a,,2026-06-18,Halte TJ CSW - Setiabudi,,upper_middle,Commuter (TJ),TransJakarta/walk,7,6,8,interpreted,Trotoar-to-zebra drop too high/steep/slippery (friend fell); motorbikes run crossing,Always carries umbrella
+R06,Interview_06.m4a,,2026-06-18,Palmerah - SMAN 3,,upper_middle,Students (2) SMAN 3 Teladan,TransJakarta/walk,9,9,5,interpreted,None significant; no catcalling,Feel safe with friends
+R07,Interview_07.m4a,,2026-06-18,Sudirman parking area,,upper_middle,Motorbike rider from Tebet,motorbike,8,7,8,interpreted,Midday too hot to walk; night enjoyable,Walks only short distances
+R08,Interview_08.m4a,,2026-06-18,Stasiun Sudirman,,bottom,MITJ employee,LRT/KRL,8,8,5,interpreted,Ongoing construction partly blocks way,"Knows history: closed car U-turn, was begal-prone; TOD now"
+R09,Interview_09.m4a,,2026-06-18,Parking area & JPO atas,,bottom,Security informant (night hotspots),,5,7,5,interpreted,JPO upper deck deserted late night; lit but isolated; crime down ~6 months,Risk after 22.00
+R10,Interview_10.m4a,,2026-06-18,Arah Universitas - Stasiun,,upper_middle,Father with child,walk,8,7,7,interpreted,Zebra-cross drop too steep; fast vehicles from main road,Likes pollution buffer + greenery
+R11,Interview_11.m4a,,2026-06-18,Trotoar Sudirman,,upper_middle,Urban-planning critic,,7,4,10,interpreted,"Design copies 4-season countries; hot by day, foliage blocks lamps at night, mosquitoes",Trotoar already good; problem is climate fit
+R12,Interview_12.m4a,,2026-06-18,Polda Bawah - Summitmas - Patung Pemuda,,bottom,Satpam / Satpol PP (mobile),,6,8,8,interpreted,Ojol forcing onto trotoar; no mass shelter in sudden rain; PKL dilemma,Motorbike enforcement is Dishub remit
+N01,notulen-timA,A,2026-06-18T10:45,Jalan Raya Sudirman belokan Karet,,,Bapak Taxi,,,7,,stated,Mixed hot/shaded,
+N02,notulen-timA,A,2026-06-18T11:00,Taman duduk depan Stasiun Sudirman - MRT,,,Mba 1 (office worker),,10,7,,stated,Unsafe at rush hour (obstacles); safe walking home at 01:00 with enough lighting,Woman; no crime/SH experienced
+N03,notulen-timA,A,2026-06-18T11:15,Jalan Raya Sudirman atas Stasiun,,,Bapak Jalan,,,7,,stated,Mixed hot/shaded,
+N04,notulen-timA,A,2026-06-18T11:25,Jalan Raya Sudirman atas Stasiun,,,Mba Tangerang Selatan,,,7,,stated,Mixed hot/shaded,
+N05,notulen-timA,A,2026-06-18T11:45,Jalan Raya Sudirman dekat JPO,,bottom,Satpam dekat JPO (2),,,7,,stated,Responsibility GAP between zones,
+N06,notulen-timA,A,2026-06-18T12:10,Jalan Raya Sudirman,,bottom,PKL,,,7,,stated,Mixed hot/shaded,
+N07,notulen-timA,A,2026-06-18T12:15,Jalan Raya Sudirman,,,Bapak bawa anak,,,7,,stated,,
+N08,notulen-timA,A,2026-06-18T12:20,Jalan Raya Sudirman,,upper_middle,Anak Sekolah SMAN 3,,,7,,stated,,Possible duplicate template rows - verify count with team
+N09,notulen-timA,A,2026-06-18T13:50,Kelurahan Kebon Melati,,bottom,Bapak Lansia Warlok,,,,,none,Back-area local; no flooding (waduk); MRT site was a tennis court,Rare back-area contact
+N10,notulen-timA,A,2026-06-18T15:00,Sudirman -> Mall GI,,bottom,Driver GrabCar,car,,,,none,Passengers cancel when too slow/jammed; starts 15:00,Pickups station->mall
+N11,notulen-timB,B,2026-06-18T12:00,Pos Terowongan Kendal Sudirman,,bottom,MITJ guard (Mas Arief),,,,,none,"Jambret above/copet-curanmor below; bule jambret 03:00 ~6mo ago; broken uneven infra ignored by govt; ojol in tunnel; staff/tenant parking blocks access; UNHCR donation scam",
+N12,notulen-timB,B,2026-06-18T12:30,Pos Terowongan Kendal Sudirman,,bottom,Ibu Lis,,,,,none,Trips often on broken uneven infra; reported but ignored; feels govt does not care,Does private charity

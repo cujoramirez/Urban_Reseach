@@ -56,8 +56,26 @@ investigate/field/photos/*.png
 
 # Python virtualenv & caches (local tooling for PDF extraction)
 .venv/
+.venv-spatial/
+.pytest_cache/
 __pycache__/
 *.pyc
 
 # Source PDFs: kept locally for the team, NOT pushed (keep remote lean)
 investigate/desk-research/sources/*.pdf
+
+# Raw field media & audio — DO NOT COMMIT (large binaries bloat the repo).
+# Keep locally / in shared storage; track only the CSV logs + READMEs that point to them.
+# (Note: *.heic/*.HEIC already ignored above; these cover video + audio.)
+*.mov
+*.MOV
+*.mp4
+*.MP4
+*.m4a
+*.M4A
+*.wav
+# Raw fieldwork dump folder (photos/videos straight off phones)
+Documentations/
+investigate/field/Documentations
+investigate/field/photos/thumbnails
+thumbnails/

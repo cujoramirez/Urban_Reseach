@@ -1,0 +1,7 @@
+timestamp,location_label,location_source,temp_c,feels_like_c,condition,humidity_pct,dew_point_c,wind_kmh,gust_kmh,wind_dir,uv_index,uv_label,visibility_km,precip_mm_today,pressure_mmhg,source,notes
+2026-06-18T10:20,Central Jakarta,Home (saved),31,33,Sunny,61,23,11,18,84 E,7,High,21,0,760,Apple Weather (screenshot),Feels warmer than actual; use sun protection until 4PM
+2026-06-18T10:30,Central Jakarta,Home (saved),31,34,Sunny,61,23,8,18,81 E,8,Very High,22,0,760,Apple Weather (screenshot),+3 above avg daily high (H:33 vs avg H:30)
+2026-06-18T10:55,Central Jakarta,Home (saved),32,34,Sunny,58,22,9,18,78 ENE,8,Very High,22,0,760,Apple Weather (screenshot),
+2026-06-18T12:48,South Jakarta,My Location (GPS),33,35,Mostly Sunny,52,22,9,20,55 NE,8,Very High,23,0,758,Apple Weather (screenshot),Feels hotter than actual
+2026-06-18T13:03,South Jakarta,My Location (GPS),33,35,Mostly Sunny,52,22,9,21,52 NE,8,Very High,22,0,758,Apple Weather (screenshot),Partly cloudy expected ~3PM
+2026-06-18T13:35,South Jakarta,My Location (GPS),33,35,Mostly Sunny,52,22,11,20,52 NE,6,High,19,0,758,Apple Weather (screenshot),Sunset 17:46 / sunrise 06:01 (same all day)

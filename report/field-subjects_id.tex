@@ -1,0 +1,771 @@
+% =====================================================================
+%  Etnografi, Demografi, dan Profil Subjek Lapangan
+%  Instrumen kerja lapangan, Koridor Jalan Jenderal Sudirman
+%  Apple Developer Academy @ BINUS, Cohort 9 - Tim Riset Pijak
+%
+%  Target lapangan: Jumat, 19 Juni 2026.
+%  Dokumen ini menyatukan tiga catatan kerja tim:
+%    - Atribut Subjek (grid kuota/screening)
+%    - Etnografi Subjek (profil persona, siapa ditemui & apa ditanya)
+%    - Protokol Fieldcraft (penampilan, pendekatan, psikologi intercept)
+%
+%  Kompilasi di OVERLEAF (pdfLaTeX). Tanpa Biber: sumber dikutip inline.
+%  babel option 'indonesian' (BUKAN 'bahasa').
+% =====================================================================
+\documentclass[11pt,a4paper]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[indonesian]{babel}
+\usepackage[margin=2.2cm]{geometry}   % beri ruang untuk tabel lebar
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage[hidelinks]{hyperref}
+
+\setlist{itemsep=2pt, topsep=3pt}
+\setlength{\tabcolsep}{4pt}           % rapatkan kolom agar matriks muat
+\renewcommand{\arraystretch}{1.1}
+
+% --- Running headers/footers (sejajar dengan main_id.tex) ----------------
+\newcommand{\shorttitle}{Profil Subjek Lapangan, Koridor Sudirman}
+\newcommand{\teamname}{Tim Riset Pijak}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize \shorttitle}
+\fancyhead[R]{\footnotesize \teamname}
+\fancyfoot[C]{\footnotesize \thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\fancypagestyle{plain}{\fancyhf{}\fancyfoot[C]{\footnotesize \thepage}%
+  \renewcommand{\headrulewidth}{0pt}}
+
+% Kartu persona ringkas: label tebal + isi
+\newcommand{\fld}[1]{\smallskip\noindent\textbf{#1.}\ }
+
+\begin{document}
+\pagenumbering{roman}
+
+% --- Halaman judul -------------------------------------------------------
+\begin{titlepage}
+\thispagestyle{empty}
+\centering
+\vspace*{2cm}
+
+{\Large\bfseries Etnografi, Demografi, dan Profil Subjek Lapangan\par}
+\vspace{0.5em}
+{\large Koridor Jalan Jenderal Sudirman dan Jalan-Jalan di Belakangnya\par}
+\vspace{0.3em}
+{\normalsize\itshape Siapa yang ditemui, apa yang ditanya, dan apa yang diamati\par}
+\vspace{1.6cm}
+
+{\large Urban Innovation Challenge (Challenge 4)\par}
+{\normalsize Challenge Based Learning, Instrumen Kerja Lapangan\par}
+\vspace{0.6em}
+{\normalsize Target lapangan: Jumat, 19 Juni 2026\par}
+\vspace{2cm}
+
+{\large\bfseries \teamname\par}
+\vspace{0.8em}
+{\normalsize
+Gading Aditya Perdana \\
+Kenrich Heavenly Sandria \\
+Naufal Ammar Rauf \\
+Jatayu Muhammad Wicaksono \\
+Sintani Gina Lestari \par}
+
+\vfill
+{\footnotesize Dokumen pendamping tinjauan pustaka dan metodologi (Bab II--III).
+Pertanyaan ditulis netral dan dua arah; asumsi disimpan pada lembar terpisah,
+tidak pernah di dalam pertanyaan.\par}
+\end{titlepage}
+
+\tableofcontents
+\clearpage
+\pagenumbering{arabic}
+
+% =====================================================================
+\chapter{Tujuan dan Prinsip Penyampelan}
+
+\section{Tujuan Dokumen}
+Dokumen ini memetakan ekosistem manusia di koridor Sudirman agar setiap anggota
+tim tahu, untuk tiap persona: di mana dan kapan mereka benar-benar muncul, apakah
+mereka di-\emph{wawancara} atau di-\emph{observasi}, kalimat pembuka yang dipakai
+(dalam Bahasa Indonesia), serta sensitivitas yang harus dijaga. Dokumen menyatukan
+tiga catatan kerja tim: grid atribut/kuota, profil persona, dan protokol \emph{fieldcraft}.
+
+\section{Dua Fakta yang Mengatur Seluruh Penyampelan}
+Kesenjangan literatur kami adalah soal \textbf{gradien} (trotoar lebar Sudirman vs
+jalan satu blok di belakangnya), dan koridor berjalan menurut \textbf{jam}: siapa
+yang hadir berubah total tiap waktu. Menyampel tempat yang salah pada jam yang salah
+menghasilkan populasi yang tidak ada di waktu lain. Bab~2 menurunkan kedua fakta ini
+menjadi peta ruang dan peta waktu.
+
+\section{Dua Sumbu yang Menjadi Sel Kuota}
+Seluruh atribut runtuh menjadi dua sumbu yang benar-benar memisahkan populasi kami,
+dan keduanya tidak pernah disilangkan oleh literatur terkumpul:
+\begin{enumerate}
+  \item \textbf{Berjalan karena pilihan vs berjalan karena keharusan.} Pelari Car
+    Free Day dan komuter hari kerja menapak aspal yang sama, tetapi subjek yang
+    berlawanan. Tandai setiap responden.
+  \item \textbf{Panggung depan vs panggung belakang.} Komuter sumbu utama vs warga
+    Karet Tengsin adalah keseluruhan gradien kami. Kelas, asal, dan kualitas
+    infrastruktur ikut bergerak sepanjang sumbu ini.
+\end{enumerate}
+Silangkan keduanya dengan \textbf{gender} (yang kami \emph{oversample}) dan
+\textbf{jendela waktu}, dan terbentuk grid kuota yang dapat dipertanggungjawabkan,
+mengisi tepat kesenjangan yang ditunjuk Bab~II.
+
+% =====================================================================
+\chapter{Lanskap Koridor: Gradien Ruang dan Jam}
+
+\section{Gradien Ruang (Panggung Depan ke Panggung Belakang)}
+Cerita yang harus diuji data: sumbu utama dirancang untuk pejalan kaki, panggung
+belakang \emph{dihuni} oleh mereka, dan keduanya menyatu secara ekonomi. Kampung
+bertahan dari menara; pekerja menara makan dan parkir di kampung. Berjalan menyusuri
+\emph{seam} di antara keduanya berarti menyusuri pertanyaan penelitian kami.
+
+\begin{longtable}{@{}p{2.8cm}p{4.2cm}p{3.2cm}p{4.3cm}@{}}
+\toprule
+\textbf{Zona} & \textbf{Apa itu} & \textbf{Siapa di sini} & \textbf{Mengapa penting} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Zona} & \textbf{Apa itu} & \textbf{Siapa di sini} & \textbf{Mengapa penting} \\
+\midrule
+\endhead
+\textbf{Sumbu utama} (trotoar Jl. Jend. Sudirman) &
+Trotoar revitalisasi 8--12 m, \emph{bollard}, ``panggung depan'' Jakarta &
+Pekerja kantoran transit, pelari, kota yang difoto &
+Basis ``baik''. Terlihat \emph{walkable}; tanyakan apakah \emph{terasa} \emph{walkable}. \\
+\addlinespace
+\textbf{Simpul transit} (Dukuh Atas / Stasiun Sudirman / Jl.\ Blora / Jl.\ Kendal) &
+Tempat KRL, MRT, LRT, TransJakarta, dan ojol bertabrakan &
+Komuter \emph{last-mile}, pengemudi ojol, pedagang &
+Friksi dan densitas tertinggi. Tumpukan ``menunggu ojol'' (Kompas, Mei 2025) terjadi
+di sini, meluber ke Jl.\ Blora. \\
+\addlinespace
+\textbf{Seam} (Benhil / Karet, sekitar Halte Bendungan Hilir, JPO Benhil) &
+Tempat sumbu mengkilap bertemu perdagangan lama &
+PKL, warteg, ekosistem Pasar Benhil &
+Sabuk PKL malam menempati 100--200 m trotoar di bawah lampu lapak, ``perpindahan''
+yang diramalkan tinjauan pustaka. \\
+\addlinespace
+\textbf{Panggung belakang} (Karet Tengsin, gang di belakang Sudirman Park, tepi Kali Krukut) &
+Kampung padat tepat satu tembok di belakang menara &
+Warga kampung, juru parkir liar, penghuni kosan &
+Gradien kami yang kurang terukur. ``Dua wajah dipisah satu tembok'': parkir motor
+Rp10k/hari, warteg menyuapi pekerja kantor, tekanan gentrifikasi, tepi sungai rawan
+banjir (Mojok, Feb 2026; Kumparan, Apr 2025). \\
+\bottomrule
+\end{longtable}
+
+\section{Jam (Segmen yang Sama adalah Lima Tempat Berbeda)}
+
+\begin{longtable}{@{}p{3.4cm}p{4.2cm}p{6.4cm}@{}}
+\toprule
+\textbf{Jendela} & \textbf{Populasi dominan} & \textbf{Perilaku khas untuk ditangkap} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Jendela} & \textbf{Populasi dominan} & \textbf{Perilaku khas untuk ditangkap} \\
+\midrule
+\endhead
+\textbf{Puncak pagi} 06.30--09.00 (puncak \textasciitilde07.30) &
+Komuter kantoran turun KRL; cepat, ber-\emph{headphone}, terarah &
+Arus KRL$\rightarrow$kantor dan KRL$\rightarrow$MRT; jembatan penghubung Dukuh Atas
+``mengular''; rebutan jemput ojol di Jl.\ Blora \\
+\addlinespace
+\textbf{Tengah hari panas} 11.00--14.00 &
+Pekerja makan siang, dagang warteg/PKL &
+Mencari teduh, payung untuk panas, menyeberang ke sisi teduh, mundur ke
+\emph{indoor}/\emph{skywalk} \\
+\addlinespace
+\textbf{Puncak sore} 15.00--18.30 &
+Arus balik MRT$\rightarrow$KRL; PKL menggelar &
+Lelah, melambat; sabuk PKL menyala dekat Benhil; Satpol PP hadir 17.00--21.00 \\
+\addlinespace
+\textbf{Malam} setelah 18.30 &
+Lebih tipis, lebih maskulin, pelanggan PKL, warga &
+Celah pencahayaan, divergensi rasa aman, perubahan rute perempuan \\
+\addlinespace
+\textbf{Akhir pekan / Car Free Day} (Min 06.00--10.00/11.00) &
+Pelari, pesepeda, keluarga, komunitas, pasar Minggu, 30--90 ribu orang &
+Koridor yang \emph{berbeda total}: rekreatif, sosial, padat. Baik untuk volume dan
+\emph{intercept} komunitas, tidak mewakili realitas hari kerja \\
+\bottomrule
+\end{longtable}
+
+\noindent\textbf{Peringatan tetap.} Hari WFH dan hari demonstrasi mengubah segalanya.
+Detik (Sep 2025) mendokumentasikan Stasiun Sudirman nyaris kosong pada pagi berimbauan
+WFH. Catat hari, cuaca, dan tiap sebutan ``kantor lagi WFH?'' pada setiap lembar
+\emph{tally}, agar hitungan tetap dapat dibandingkan.
+
+% =====================================================================
+\chapter{Atribut Subjek dan Sel Kuota}
+
+\section{Matriks Atribut Utama}
+Tag berikut dipasang pada setiap responden agar sampel \emph{nonprobability} tetap
+seimbang lintas persona, kelas, asal, moda, dan waktu.
+
+\begin{longtable}{@{}p{2.6cm}p{1.7cm}p{1.6cm}p{2.4cm}p{2.3cm}p{2.1cm}@{}}
+\toprule
+\textbf{Persona} & \textbf{Usia} & \textbf{Gender} & \textbf{Kelas/proksi} & \textbf{Asal} & \textbf{Alasan jalan} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Persona} & \textbf{Usia} & \textbf{Gender} & \textbf{Kelas/proksi} & \textbf{Asal} & \textbf{Alasan jalan} \\
+\midrule
+\endhead
+Pekerja kantoran / komuter & 23--45 & Campuran & Kerah putih; menengah--atas & Komuter Bodetabek & Keharusan (\emph{last-mile}) \\
+\addlinespace
+Pejalan kaki perempuan \emph{(oversample)} & 20--45 & Perempuan & Kerah putih campuran & Komuter + lokal & Keharusan; rute dibentuk rasa aman \\
+\addlinespace
+Pengguna \emph{last-mile} transit & 22--45 & Campuran & Kerah putih menengah & Komuter Bodetabek & Keharusan \\
+\addlinespace
+Pengemudi ojol & 20--50 & Mayoritas pria & Sektor informal; bawah--menengah & Jabodetabek & Mereka \emph{adalah} \emph{last-mile} \\
+\addlinespace
+PKL (pedagang) & 30--60 & Campuran & Sektor informal; bawah & Sering eks Pasar Benhil, lokal & Bekerja di \emph{seam} \\
+\addlinespace
+Warga kampung (Karet Tengsin) & Semua & Campuran & Bawah; penyewa kos/kontrak & Lokal Jakarta, menetap & Keharusan; infrastruktur terburuk \\
+\addlinespace
+Mobilitas khusus (disabilitas, lansia, kereta bayi) & Semua & Semua & Campuran & Campuran & Keharusan; uji \emph{walkability} paling jujur \\
+\addlinespace
+Pelajar / rekreasi CFD & 17--30 (hari kerja); semua (CFD) & Campuran & Campuran & Campuran & \textbf{Pilihan} (rekreasi) \\
+\addlinespace
+Satpam / porter / staf pendukung & 25--55 & Mayoritas pria & Jasa; bawah--menengah & Mayoritas lokal & Diam; saksi koridor \\
+\bottomrule
+\end{longtable}
+
+\section{Kehadiran menurut Waktu dan Zona}
+\emph{$\bullet$ = hadir, $\bullet\bullet\bullet$ = dominan, $\circ$ = tipis/absen.}
+
+\begin{longtable}{@{}p{3.2cm}ccccc p{2.6cm}@{}}
+\toprule
+\textbf{Persona} & \textbf{Pagi} & \textbf{Siang} & \textbf{Sore} & \textbf{Malam} & \textbf{CFD} & \textbf{Zona utama} \\
+\midrule
+\endhead
+Pekerja kantoran & $\bullet\bullet\bullet$ & $\bullet\bullet$ & $\bullet\bullet\bullet$ & $\circ$ & $\circ$ & Sumbu + simpul \\
+Pejalan kaki perempuan & $\bullet\bullet\bullet$ & $\bullet\bullet$ & $\bullet\bullet\bullet$ & $\bullet$ \emph{(kunci)} & $\bullet$ & Sumbu + jalan belakang \\
+\emph{Last-mile} transit & $\bullet\bullet\bullet$ & $\bullet$ & $\bullet\bullet\bullet$ & $\circ$ & $\circ$ & Dukuh Atas / Jl.\ Blora \\
+Ojol & $\bullet\bullet\bullet$ & $\bullet\bullet$ & $\bullet\bullet\bullet$ & $\bullet\bullet$ & $\bullet$ & Mulut stasiun, Jl.\ Blora \\
+PKL & $\circ$ & $\bullet$ & $\bullet\bullet\bullet$ & $\bullet\bullet\bullet$ & $\bullet\bullet$ & \emph{Seam} Benhil / Karet \\
+Warga kampung & $\bullet$ & $\bullet\bullet$ & $\bullet\bullet$ & $\bullet\bullet\bullet$ & $\bullet$ & Gang Karet Tengsin \\
+Mobilitas khusus & $\circ$ & $\circ$ & $\circ$ & $\circ$ & $\bullet$ & Penyeberangan, \emph{ramp} \\
+Pelajar / CFD & $\circ$ & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet\bullet\bullet$ & Dukuh Atas, FX \\
+Satpam / pendukung & $\bullet\bullet$ & $\bullet\bullet$ & $\bullet\bullet$ & $\bullet\bullet$ & $\bullet$ & Pintu gedung/stasiun \\
+\bottomrule
+\end{longtable}
+
+\section{Penanda Lapangan (Atribut Teramati, Kenali Tanpa Bertanya)}
+Atribut yang dapat dilihat langsung menentukan apakah subjek menjadi \emph{tally}
+atau wawancara.
+\begin{itemize}
+  \item \textbf{Pekerja kantoran:} busana kantor (\emph{lanyard}/ID, blazer, \emph{business-casual}), ransel/tote, sibuk menavigasi ponsel, langkah cepat terarah, \emph{headphone}, JakLingko/uang elektronik di tangan.
+  \item \textbf{Pejalan kaki perempuan:} tambahan, menyesuaikan rute memutari halangan, postur kunci/ponsel di tangan, perubahan langkah dan rute saat senja pada segmen yang sama.
+  \item \textbf{Komuter terjebak:} berdiri di tepi trotoar, berulang mengecek aplikasi \emph{ride-hail}, berkumpul dekat mulut stasiun.
+  \item \textbf{Ojol:} jaket hijau (Gojek)/hijau-putih (Grab)/lainnya, helm, parkir berjajar, mengamati \emph{ping} aplikasi.
+  \item \textbf{PKL:} gerobak/lapak tetap, lampu terang setelah gelap, makanan/minuman/rokok, jejak 100--200 m di trotoar Benhil.
+  \item \textbf{Warga kampung:} keluar-masuk gang, penjaga warteg, juru parkir menarik Rp10k, busana rumah santai.
+  \item \textbf{Mobilitas khusus:} kursi roda, tongkat, \emph{walker}, kereta bayi; tampak menegosiasi \emph{ramp}, ubin pemandu, tinggi \emph{curb}.
+  \item \textbf{Pejalan CFD:} pakaian olahraga, perlengkapan lari/sepeda, jersey komunitas, keluarga, hanya Minggu pagi.
+  \item \textbf{Satpam / pendukung:} seragam, pos tetap, sedang bertugas.
+\end{itemize}
+
+\section{Atribut Laten (Hanya Diketahui dengan Bertanya, Muatan \emph{Intercept})}
+\begin{longtable}{@{}p{4.2cm}p{4.0cm}p{5.0cm}@{}}
+\toprule
+\textbf{Atribut} & \textbf{Paling penting bagi} & \textbf{Cara mengetahui} \\
+\midrule
+\endhead
+Asal sebenarnya \& jalur \emph{last-mile} & Pekerja kantoran, pengguna transit & ``Tadi jalan dari mana ke mana?'' \\
+Jarak toleransi berjalan & Semua; perempuan (lebih pendek) & ``Tadinya mau jalan sampai mana sebelum nyerah / naik ojol?'' \\
+Logika memilih \& menghindari rute & Perempuan (rasa aman), semua & ``Ada bagian rute yang dipilih atau dihindari? Kenapa?'' \\
+Perubahan rute siang vs malam & Perempuan & Segmen sama, dua jendela \\
+Perilaku navigasi & Pekerja kantoran & ``Pakai aplikasi atau udah hafal?'' \\
+Mengatasi panas / hujan & Semua & Amati payung/perpindahan teduh, lalu tanya \\
+Simbiosis ekonomi & Kampung, PKL & ``Pelanggan kebanyakan orang gedung atau warga sini?'' \\
+Pengalaman penertiban & PKL & Halus, ``biasanya gelar jam berapa sampai jam berapa?'' \\
+Tekanan lahan / penggusuran & Kampung & Hanya jika \emph{mereka} yang mengangkat \\
+\bottomrule
+\end{longtable}
+
+% =====================================================================
+\chapter{Profil Subjek per Persona}
+
+Untuk tiap persona: profil, lokasi/waktu, metode (\emph{wawancara} = \emph{intercept};
+\emph{observasi} = hitung/audit tanpa kontak), pertanyaan, dan sensitivitas.
+Pertanyaan ditulis netral dan dua arah, tanpa asumsi.
+
+\section{Pekerja Kantoran / Komuter \textnormal{(sampel tulang punggung)}}
+\fld{Profil} Populasi penentu. Sudirman adalah submarket perkantoran terbesar Jakarta
+(sekitar 2,9 juta m\textsuperscript{2}). Sebagian besar bukan warga lokal: naik KRL dari
+Bogor, Bekasi, Depok, Tangerang, transit di Manggarai, turun di Stasiun Sudirman, lalu
+berjalan atau melompat MRT/TransJakarta untuk ruas terakhir. Berjalan di sini adalah
+penghubung \emph{last-mile}, bukan moda pilihan. Cenderung 23--45 tahun, berbusana
+kantor, terburu waktu, menavigasi ponsel.
+
+\fld{Lokasi \& waktu} Pintu keluar Stasiun Sudirman, jembatan penghubung Dukuh Atas, dan
+trotoar utama, 06.30--09.00 dan 16.30--18.30. Mereka tidak berhenti lama; tangkap pada
+jeda alami (menunggu ojol, di penyeberangan, di gerobak kopi, di peron).
+
+\fld{Metode} Keduanya. Observasi arus pagi untuk \emph{tally} (trotoar vs badan jalan,
+arah, gender, langkah). \emph{Intercept} mereka yang \emph{sudah menunggu}, itulah satu-
+satunya jendela wawancara yang realistis.
+
+\fld{Pertanyaan ($\leq$5 menit, setelah persetujuan lisan)}
+\begin{itemize}
+  \item ``Tadi Bapak/Ibu jalan kakinya dari mana ke mana?''
+  \item ``Bagian mana dari rute tadi yang paling enak dilewati, dan bagian mana yang bikin males?''
+  \item ``Kalau lagi buru-buru, jalurnya berubah nggak? Berubahnya ke mana?''
+  \item ``Tadi pakai aplikasi buat nentuin jalan, atau udah hafal? Kalau pakai, yang mana?''
+  \item ``Pernah nggak milih naik ojol buat jarak yang sebenernya deket? Kira-kira kenapa?''
+\end{itemize}
+
+\fld{Sensitivitas} Mereka terburu dan bisa mengira tim sebagai sales/MLM. Buka dengan
+``kami mahasiswa lagi riset, boleh minta waktu sebentar?'' dan biarkan mereka tetap
+berjalan bila perlu.
+
+\section{Pejalan Kaki Perempuan \textnormal{(oversample; sumbu rasa aman)}}
+\fld{Profil} Metodologi sudah menandai kelompok ini untuk \emph{oversample}, dan data
+mendukung: pada survei KRPA empat dari lima perempuan melaporkan pelecehan di ruang
+publik, sekitar 46,8\% di transportasi umum; jalanan, permukiman, dan transit adalah
+tiga lokasi teratas (KRPA 2022). Norma berjalan Jakarta menunjukkan jarak terima
+perempuan menuju stasiun lebih pendek (sekitar 593 m vs 629 m laki-laki); rasa aman dan
+kenyamanan secara harfiah mengecilkan peta mereka (Afkara \& Kusuma 2020).
+
+\fld{Lokasi \& waktu} Di mana pun kohort kantoran berada, ditambah satu \emph{pass}
+\textbf{malam} dan perbandingan \textbf{siang vs malam} pada segmen yang \emph{sama}.
+Kontras antara sumbu utama yang terang dan jalan belakang yang gelap adalah temuannya.
+
+\fld{Metode} Keduanya, dengan wawancara \textbf{dipimpin Sintani}, berpasangan, terutama
+pada malam dan topik sensitif.
+
+\fld{Pertanyaan (netral, jangan menggiring, jangan sebut ``pelecehan'' lebih dulu)}
+\begin{itemize}
+  \item ``Kalau jalan sendiri di sini, ada nggak bagian rute yang Mbak/Ibu pilih atau justru hindari? Kenapa?''
+  \item ``Beda nggak rasanya jalan di sini siang sama malam?''
+  \item ``Hal apa yang bikin satu jalur kerasa lebih nyaman buat dilewatin?''
+  \item \emph{(hanya jika mereka mengangkat)} ``Tadi sempat nyebut soal merasa kurang nyaman, boleh cerita lebih lanjut kalau berkenan?''
+\end{itemize}
+
+\fld{Sensitivitas} Kelompok paling hati-hati. Tanpa asumsi, tanpa menggali trauma, jalan
+keluar mudah, perekaman hanya dengan persetujuan terpisah, wajah dikaburkan. Bila
+responden tampak terganggu, hentikan dan ucapkan terima kasih.
+
+\section{Pengguna \emph{Last-Mile} Transit \textnormal{(beririsan dengan kantoran, memuat momen ``terjebak'')}}
+\fld{Profil} Kerumunan transit di simpul Dukuh Atas. Titik nyeri tanda tangan
+terdokumentasi: penumpang menumpuk di tepi trotoar menunggu ojol yang tak kunjung datang,
+sementara pengemudi berjaket hijau-kuning menjajari Jl.\ Blora (Kompas, Mei 2025).
+
+\fld{Lokasi \& waktu} Pintu utara Stasiun Sudirman, Jl.\ Blora, mulut MRT Dukuh Atas,
+terowongan penghubung. Puncak pagi dan sore.
+
+\fld{Metode} Observasi tumpukan dan perilaku antre untuk \emph{tally}; \emph{intercept}
+orang yang \emph{berdiri diam menunggu} (audiens paling tertahan).
+
+\fld{Pertanyaan}
+\begin{itemize}
+  \item ``Lagi nunggu ojol, atau mau lanjut jalan/naik apa?''
+  \item ``Dari turun kereta sampai ke kantor, biasanya paling ribet di bagian mana?''
+  \item ``Kalau ojolnya susah didapet kayak gini, biasanya Bapak/Ibu ngapain?''
+\end{itemize}
+
+\fld{Sensitivitas} Rendah. Orang yang menunggu sering bersedia bicara untuk mengisi waktu.
+
+\section{Ojol \textnormal{(aktor informal; infrastruktur dalam wujud manusia)}}
+\fld{Profil} Mereka \emph{adalah} sistem \emph{last-mile} yang gagal disediakan trotoar.
+Berkumpul di titik jemput yang dapat diprediksi (Jl.\ Blora, mulut stasiun), paling
+paham mikro-geografi, dan punya bacaan struktural soal di mana pejalan kaki menyerah.
+Catatan: ojol punya budaya buruh/aksi yang aktif di Jakarta, bersikap netral, jangan
+ekstraktif.
+
+\fld{Lokasi \& waktu} Klaster jemput dekat Stasiun Sudirman dan Dukuh Atas, sepanjang
+hari, memuncak seiring pasang-surut komuter.
+
+\fld{Metode} Keduanya. Mereka \emph{key informant} unggul soal perilaku pejalan kaki
+(``orang nyerah jalan di titik mana'').
+
+\fld{Pertanyaan}
+\begin{itemize}
+  \item ``Penumpang paling banyak nge-pick up di titik mana sini, Bang?''
+  \item ``Banyak nggak yang sebenernya deket tapi tetep milih ojol? Menurut Abang kenapa?''
+  \item ``Jam berapa paling rame orang nungguin ojol di sini?''
+\end{itemize}
+
+\fld{Sensitivitas} Jangan ganggu saat sedang menjemput. Dekati saat senggang. Hindari
+kesan penegakan platform/polisi.
+
+\section{PKL \textnormal{(aktor informal; cerita perpindahan)}}
+\fld{Profil} Kelompok paling sarat etnografi. Sumbu utama Sudirman resmi dinyatakan
+terlarang bagi pedagang pada 2018, dengan relokasi ``ke jalan-jalan di belakang'',
+tepat gradien yang kami kaji. Banyak yang berakar pada pembersihan Pasar Benhil;
+status mereka resmi ``liar'', dan Satpol PP berpatroli di ruas Benhil sekitar
+17.00--21.00 (Tempo/Media Indonesia/Detik 2018, berlanjut). Lapak malam mereka, terang,
+menempati 100--200 m trotoar dekat JPO Benhil. Mereka sekaligus ``halangan'' dalam
+audit sekaligus sumber pencahayaan, mata yang mengawasi jalan, dan kehidupan. Pegang
+kedua kebenaran itu.
+
+\fld{Lokasi \& waktu} \emph{Seam} Benhil/Karet, sore menjelang malam. Waktu menggelar
+(sekitar 16.00--18.00) paling baik untuk bicara, mereka belum diserbu pembeli.
+
+\fld{Metode} Keduanya. Observasi jejak, pencahayaan, dan pengalihan pejalan kaki untuk
+audit. Wawancara halus sebagai \emph{key informant} soal ritme koridor dan penertiban.
+
+\fld{Pertanyaan (hormati kerentanan, jangan interogasi legalitas)}
+\begin{itemize}
+  \item ``Biasanya mulai gelar dagangan jam berapa, sampai jam berapa, Pak/Bu?''
+  \item ``Rame-nya pembeli pas jam berapa? Orang kantoran atau warga sini?''
+  \item ``Menurut Bapak/Ibu, orang yang lewat sini lebih enak jalannya pas ada lapak atau pas kosong?''
+\end{itemize}
+
+\fld{Sensitivitas} Tinggi. Nafkah mereka rapuh secara hukum. Jangan pernah mengesankan
+tim melapor; jangan memotret dengan cara yang dapat mengenali mereka ke penertiban.
+Bingkai sebagai memahami jalan, bukan mengaudit kepatuhan.
+
+\section{Warga Jalan Belakang (Karet Tengsin) \textnormal{(gradien kurang terukur, dalam wujud)}}
+\fld{Profil} Orang yang tak pernah diukur literatur. Di gang belakang Sudirman Park,
+warga menjalankan warteg yang menyuapi pekerja kantor, menyewakan kos, dan mengelola
+parkir liar sekitar Rp10k/hari (vs basement menara yang mahal), simbiosis di mana
+``menara adalah ekonomi panggung belakang'' (Mojok Feb 2026; Kumparan Apr 2025).
+Permukiman menyentuh Kali Krukut, rawan banjir, menghadapi tekanan gentrifikasi dan
+pembelian lahan. Mereka menapaki infrastruktur terburuk koridor setiap hari tanpa
+pilihan moda.
+
+\fld{Lokasi \& waktu} Gang Karet Tengsin, titik warteg dan parkir, menjelang siang dan
+tengah hari (dagang warung), malam (di rumah). Masuk lewat warung: duduk, pesan, bicara.
+
+\fld{Metode} Terutama \textbf{wawancara/nongkrong} (warung sebagai \emph{fieldsite}).
+Audit kondisi trotoar jalan mereka sebagai paruh ``belakang'' tiap segmen berpasangan.
+
+\fld{Pertanyaan}
+\begin{itemize}
+  \item ``Bapak/Ibu tiap hari jalan kakinya ke arah mana? Lewat gang yang mana?''
+  \item ``Pelanggan warung kebanyakan orang gedung atau warga sini?''
+  \item ``Kalau hujan, jalanan di sini gimana? Pernah kebanjiran?''
+  \item ``Beda banget ya jalan di depan (Sudirman) sama di sini, menurut Bapak/Ibu kenapa bisa begitu?''
+\end{itemize}
+
+\fld{Sensitivitas} Sedang. Lahan/penggusuran adalah topik bermuatan; jangan membukanya
+lebih dulu; bila diangkat, dengarkan, jangan menasihati. Tim adalah tamu di kampung,
+bukan auditor.
+
+\section{Kelompok Mobilitas Khusus \textnormal{(uji \emph{walkability} paling jujur)}}
+\fld{Profil} Catatan tempel ``Disability Friendly?'' di papan asumsi menunjuk ke sini.
+Ubin pemandu ada di sumbu revitalisasi tetapi rutin terhalang (motor, PKL, mobil
+parkir). Kelompok ini menyingkap apakah infrastruktur bekerja bagi siapa pun yang bukan
+orang dewasa tanpa hambatan.
+
+\fld{Lokasi \& waktu} Jarang dan tak terduga di jalan; mungkin perlu rekrut lewat titik
+aksesibilitas transit, atau amati pengguna kursi roda/tongkat/kereta bayi di
+penyeberangan dan \emph{ramp}. Jangan paksakan kuota yang menghasilkan nol responden
+nyata; catat jujur bila tidak terjangkau.
+
+\fld{Metode} Observasi kelaikan \emph{ramp}, kontinuitas jalur pemandu, waktu
+penyeberangan. Wawancara hanya dengan kehati-hatian ekstra dan manfaat jelas bagi mereka.
+
+\fld{Pertanyaan}
+\begin{itemize}
+  \item ``Bagian mana dari jalur ini yang paling susah dilewati buat Bapak/Ibu?''
+  \item ``Kalau ada halangan di trotoar, biasanya Bapak/Ibu ngakalin gimana?''
+\end{itemize}
+
+\fld{Sensitivitas} Jangan membantu tanpa bertanya; jangan memperlakukan sebagai inspirasi
+atau tontonan. Penilaian mereka adalah keahlian, bukan kisah sedih.
+
+\section{Pelajar/Mahasiswa \& Pejalan Rekreasi CFD \textnormal{(volume dan kontras ``jalan untuk senang'')}}
+\fld{Profil} Hari kerja: relatif sedikit pelajar di sumbu kantor ini. Akhir pekan:
+koridor berubah, Car Free Day (Min 06.00--10.00/11.00) menarik 30--90 ribu pelari,
+pesepeda, keluarga, dan komunitas, dengan pasar Minggu dari FX hingga Benhil, Dukuh Atas,
+sampai Sarinah. Inilah berjalan sebagai rekreasi, kebalikan dari kerja \emph{last-mile}
+hari kerja, kasus kontras yang berguna, bukan pengganti data hari kerja.
+
+\fld{Lokasi \& waktu} CFD Minggu pagi, simpul Dukuh Atas dan FX (titik kumpul komunitas
+paling ramai).
+
+\fld{Metode} Keduanya, bagus untuk \emph{intercept} bervolume tinggi dan untuk menyampel
+makna ``nyaman'' yang \emph{diungkapkan} saat berjalan adalah pilihan, bukan keharusan.
+
+\fld{Pertanyaan}
+\begin{itemize}
+  \item ``Sering ke sini pas weekday juga, atau cuma pas CFD?''
+  \item ``Apa yang bikin jalan kaki di sini pas CFD kerasa beda?''
+  \item ``Kalau hari biasa, masih betah jalan kaki di sini nggak? Kenapa?''
+\end{itemize}
+
+\fld{Sensitivitas} Rendah. Suasana santai. Ingat, kesan CFD \emph{bukan} realitas hari
+kerja, beri label jelas pada data.
+
+\section{Satpam, Porter, Petugas Kebersihan, Staf Pendukung \textnormal{(saksi yang diam)}}
+\fld{Profil} Sering terabaikan, tetapi berdiri di satu titik sepanjang hari dan menonton
+seluruh siklus koridor. Keamanan gedung, porter stasiun, penyapu. \emph{Key informant}
+luar biasa soal pola (``jam segini selalu rame'', ``yang nyebrang sembarangan biasanya
+di sini'').
+
+\fld{Lokasi \& waktu} Pintu gedung, gerbang stasiun, sepanjang hari. Senggang pertengahan
+pagi/siang.
+
+\fld{Metode} Wawancara sebagai \emph{key informant}.
+
+\fld{Pertanyaan}
+\begin{itemize}
+  \item ``Bapak tiap hari di sini, jam berapa paling rame orang jalan kaki?''
+  \item ``Ada nggak titik yang orang sering nyebrang sembarangan atau jalan di badan jalan? Di mana?''
+  \item ``Kalau hujan atau panas banget, orang-orang biasanya ngapain?''
+\end{itemize}
+
+\fld{Sensitivitas} Rendah, tetapi mereka mungkin sedang bertugas, jaga singkat, jangan
+membuat mereka bermasalah dengan atasan.
+
+\section{Matriks Utama (Siapa $\times$ Kapan $\times$ Di Mana $\times$ Metode)}
+\begin{longtable}{@{}p{3.0cm}p{3.2cm}p{3.4cm}p{2.6cm}p{1.8cm}@{}}
+\toprule
+\textbf{Persona} & \textbf{Jendela terbaik} & \textbf{Simpul terbaik} & \textbf{Metode} & \textbf{Pemimpin} \\
+\midrule
+\endhead
+Pekerja kantoran & 06.30--09.00; 16.30--18.30 & Stasiun Sudirman, jembatan, sumbu utama & Observasi + \emph{intercept} & Siapa pun \\
+Pejalan kaki perempuan & Semua + \textbf{malam} + pasangan siang/malam & Sumbu + jalan belakang & \emph{Intercept} & \textbf{Sintani} (malam/sensitif) \\
+\emph{Last-mile} transit & Puncak & Jl.\ Blora, mulut Dukuh Atas & Observasi + \emph{intercept} & Siapa pun \\
+Ojol & Sepanjang hari, puncak & Jl.\ Blora, mulut stasiun & \emph{Key informant} & Siapa pun (senggang) \\
+PKL & 16.00--21.00 & \emph{Seam} Benhil/Karet & Observasi + wawancara halus & Siapa pun (berpasangan) \\
+Warga kampung & Siang \& malam & Gang Karet Tengsin, warteg & Nongkrong/wawancara & Berpasangan \\
+Mobilitas khusus & Oportunistik & Penyeberangan, \emph{ramp}, transit & Observasi + wawancara hati-hati & Siapa pun \\
+Pelajar / CFD & \textbf{Minggu 06.00--10.00} & Dukuh Atas, FX & Observasi + \emph{intercept} & Siapa pun \\
+Satpam / staf & Pertengahan pagi/siang & Pintu gedung \& stasiun & \emph{Key informant} & Siapa pun \\
+\bottomrule
+\end{longtable}
+
+% =====================================================================
+\chapter{Observasi Tanpa Wawancara (Protokol Senyap)}
+Sebagian data terbaik tidak butuh persetujuan dan tidak butuh percakapan. Saat satu
+anggota mewawancara, anggota lain menjalankan \textbf{\emph{tally} 5 menit} dan
+mengamati:
+\begin{itemize}
+  \item \textbf{Trotoar vs badan jalan:} berapa yang berjalan di badan jalan padahal
+    trotoar tersedia, dan \emph{di mana persisnya} mereka meninggalkannya (halangan atau
+    titik sempit yang mendorong mereka turun).
+  \item \textbf{Perilaku menyeberang:} titik menyeberang sembarangan, jarak antar
+    penyeberangan aman (tolok ukur 100--200 m), kepatuhan sinyal; relevan terhadap datum
+    nasional bahwa mayoritas korban pejalan kaki terkait menyeberang di tengah ruas.
+  \item \textbf{Serah-terima ojol:} di mana berjalan berakhir dan motor dimulai, dan
+    sependek apa trip itu sebenarnya.
+  \item \textbf{Mencari teduh:} perpindahan sisi tengah hari, penggunaan payung untuk
+    panas, mundur ke \emph{skywalk}/\emph{indoor}, proksi teramati untuk ketidaknyamanan
+    termal.
+  \item \textbf{Inventaris halangan:} motor parkir di ubin pemandu, jejak PKL, \emph{ramp}
+    rusak/terhalang, genangan air.
+  \item \textbf{Spasi dan waktu bergender:} apakah jumlah perempuan turun setelah gelap
+    pada satu segmen? Pada segmen mana, dan setajam apa?
+  \item \textbf{Foto kontras depan/belakang:} potret jam yang sama, aktivitas yang sama,
+    di sumbu dan satu blok di belakangnya. Citra berpasangan itulah temuan gradien.
+\end{itemize}
+
+% =====================================================================
+\chapter{Strategi Pendekatan dan Wawancara}
+\emph{Bingkai etis lebih dulu: teknik berikut adalah cara membangun \emph{rapport} dan
+mengingat akurat, bukan tuas untuk mengorek pengakuan dari orang rentan. Dengan PKL dan
+warga kampung khususnya, \emph{rapport} tidak boleh berubah jadi ekstraksi. Persetujuan
+berlangsung terus; berhenti begitu mereka mau berhenti.}
+
+\section{Sebelum Bicara: Pendekatan}
+\begin{itemize}
+  \item \textbf{\emph{Intercept} pada jeda alami, bukan saat melangkah.} Orang yang
+    menunggu ojol, di penyeberangan, atau di warung punya perhatian luang; orang berjalan
+    cepat tidak. Tumpukan di Stasiun Sudirman/Jl.\ Blora adalah audiens menganggur yang
+    tertahan, titik hasil tertinggi.
+  \item \textbf{Proksemik dan sudut tubuh.} Dekati dari depan agak menyerong, jangan dari
+    belakang, jangan menghalangi jalan. Jaga sekitar 1 m, tangan terlihat, postur terbuka,
+    senyum tulus kecil. Untuk responden perempuan ini penting: jangan mereproduksi dinamika
+    menyudutkan yang membuat jalanan terasa tidak aman.
+\end{itemize}
+
+\section{Pembukaan dan Persetujuan (\emph{Foot-in-the-Door})}
+\begin{itemize}
+  \item \textbf{Mulai dengan permintaan kecil} (Cialdini): ``Permisi, boleh minta waktu
+    2 menit?'' Satu ``ya'' kecil menyiapkan ``ya'' yang lebih besar.
+  \item \textbf{Transparansi sebagai pemercepat kepercayaan.} Sebut dalam satu tarikan
+    napas: siapa (mahasiswa, riset kampus Apple Developer Academy), apa (soal pengalaman
+    jalan kaki di sini), berapa lama (sebentar), bahwa anonim, sukarela, dan bisa berhenti
+    kapan saja.
+  \item \textbf{Biarkan \emph{clipboard} menjelaskan tim.} Prop melegitimasi gangguan
+    sebelum kalimat selesai.
+\end{itemize}
+
+\section{\emph{Rapport}: Mesin yang Sesungguhnya}
+\begin{itemize}
+  \item \textbf{Bangun tiga komponen} (Tickle-Degnen \& Rosenthal): perhatian (fokus
+    penuh), positivitas (kehangatan), koordinasi (selaraskan ritme mereka).
+  \item \textbf{Cocokkan register; alih kode.} Bahasa halus formal (Bapak/Ibu) dengan
+    lansia, pekerja kantoran, pejabat; santai dengan ojol, PKL muda, pelajar. Terlalu
+    formal terasa interogasi; terlalu santai dengan lansia terasa tidak hormat.
+  \item \textbf{Pemanasan dengan obrolan tulus.} ``ramai ya pagi ini'', komentar soal
+    panas, antrean, dagangan. Dengan pedagang, \textbf{beli dulu}: resiprositas plus
+    hormat pada nafkah mereka.
+  \item \textbf{\emph{Minimal encouragers} dan OARS} (Miller \& Rollnick): angguk, ``iya
+    terus?'', ``menarik'', refleksi singkat. Bicara lebih sedikit dari mereka.
+\end{itemize}
+
+\section{Desain Pertanyaan dan \emph{Recall}}
+\begin{itemize}
+  \item \textbf{Corong (\emph{funnel}).} Buka luas, persempit kemudian: mulai ``ceritain
+    dong tadi jalannya'', akhiri dengan hal spesifik.
+  \item \textbf{Pertanyaan \emph{grand-tour}} (Spradley): minta mereka memandu satu
+    kejadian nyata terkini, ``coba ceritain tadi pagi dari turun kereta sampai ke kantor''.
+    Ini menghasilkan perilaku, bukan opini, tepat data ``dinyatakan'' kami.
+  \item \textbf{Buang asumsi.} ``Kenapa jalan di badan jalan?'' sudah mengandaikan;
+    sebagai ganti ``tadi lewat mana?'' dan biarkan alasannya muncul. Hindari pertanyaan
+    menggiring, ganda, atau berjargon (``\emph{walkability}''), pakai kata mereka.
+  \item \textbf{Reinstatemen konteks} (Fisher \& Geiselman): ``coba inget-inget pas keluar
+    stasiun tadi, rame nggak, panas nggak?'' Bangun ulang adegan untuk akurasi ingatan.
+    Tanyakan trip nyata \emph{terakhir}, bukan rata-rata.
+\end{itemize}
+
+\section{Topik Sensitif: Menurunkan Biaya Sosial Kejujuran}
+\begin{itemize}
+  \item \textbf{Bingkai orang ketiga/proyektif} (Tourangeau \& Yan, memangkas bias
+    \emph{social-desirability}): ``ada yang bilang sini kurang nyaman buat perempuan kalau
+    malam, menurut Mbak gimana?''
+  \item \textbf{Normalisasi dulu:} ``pengalaman orang beda-beda soal ini.''
+  \item \textbf{Rasa aman perempuan:} jangan sebut pelecehan lebih dulu; biarkan mereka
+    memimpin. Bila diungkap, refleksikan dengan lembut dan jangan menggali trauma atau
+    memperbesar distres. Tawarkan jalan keluar mudah dan ucapkan terima kasih.
+  \item \textbf{Legalitas PKL/penggusuran kampung:} jangan pernah membingkai sebagai audit
+    atau penegakan. Bila mereka mengangkat penggusuran, dengarkan, jangan menasihati, dan
+    lindungi mereka, tanpa foto yang mengenali.
+  \item \textbf{Lawan bias \emph{acquiescence}:} orang setuju demi sopan. Hindari giringan
+    ya/tidak; tawarkan opsi seimbang, ``lebih enak yang mana, A, B, atau hal lain?''
+\end{itemize}
+
+\section{Menutup dan Koreografi Tim}
+\begin{itemize}
+  \item \textbf{Rangkum balik} (OARS): ``jadi intinya tadi, bener gitu, Pak?'', cek akurasi
+    yang juga membuat mereka merasa didengar.
+  \item \textbf{Buka lantai:} ``ada yang belum saya tanyain tapi penting menurut
+    Bapak/Ibu?'', kutipan terbaik sering muncul di sini.
+  \item \textbf{Berterima kasih, jangan janji berlebih.} Jangan mengesankan tim akan
+    memperbaiki jalan mereka.
+  \item \textbf{Berpasangan:} satu \emph{interviewer} (rapport + pertanyaan), satu
+    perekam/pengamat (catatan, \emph{tally}, pengawas keselamatan). Jangan keduanya
+    menghadap subjek, dua lawan satu mengintimidasi.
+  \item \textbf{\emph{Debrief} hari yang sama,} rekonsiliasi tiga sudut bukti (angka audit,
+    perilaku teramati, pandangan dinyatakan) sebelum siapa pun menulis kesimpulan.
+\end{itemize}
+
+% =====================================================================
+\chapter{Penampilan Lapangan per Zona}
+Prinsip: \textbf{cocokkan register, jangan melampauinya}. Di situs bergradien kelas, satu
+busana tidak akan bekerja. Berlebihan di sumbu SCBD membuat pekerja menggolongkan tim
+sebagai ``asuransi/MLM/sales''; berlebihan di Karet Tengsin membuat tim terbaca sebagai
+otoritas, orang luar, atau pembeli yang mengincar lahan. Target: ``kebiasaan yang
+dipelajari'', tampak wajar di zona itu, satu tingkat ke arah register subjek, tidak pernah
+di atasnya.
+
+\smallskip\noindent\textbf{Blend vs Badge.} \emph{Blend} untuk observasi/\emph{tally}:
+profil rendah, sesuai zona, tanpa \emph{clipboard} keluar, ponsel diskret, agar orang
+berperilaku normal. \emph{Badge} untuk \emph{intercept}: tampilkan identitas mahasiswa
+(\emph{lanyard} dan ID akademi, kaos polos, \emph{clipboard} berisi lembar persetujuan dan
+\emph{tally}). Aturan: \emph{blend} saat mengamati, \emph{badge} saat bertanya.
+
+\smallskip\noindent\textbf{Anti-seragam.} Jangan tampak penegak (PKL takut Satpol PP,
+patroli sekitar 17.00--21.00 di Benhil): hindari rompi seragam, gaya ``taktis'' serba
+hitam, ID-\emph{lanyard} bergaya pemerintah, atau memegang kamera seperti surveyor. Jangan
+tampak kru riset komersial. Jangan mencolok kaya di panggung belakang (simpan gawai premium;
+papan asumsi sendiri menandai \emph{copet}/\emph{rawan}).
+
+\begin{longtable}{@{}p{2.8cm}p{2.8cm}p{4.0cm}p{3.4cm}@{}}
+\toprule
+\textbf{Zona} & \textbf{Register} & \textbf{Pakai} & \textbf{Hindari} \\
+\midrule
+\endhead
+\textbf{Sumbu/SCBD} (kantoran, transit) & \emph{Junior-office smart-casual} & Kemeja kerah rapi atau kaos polos bersih, chino/jins bersih, sepatu tertutup, \emph{lanyard} terlihat & Celana pendek, kaos slogan, tampak sales, tampak kuyup/berantakan \\
+\addlinespace
+\textbf{Simpul transit} (Dukuh Atas, Jl.\ Blora) & Kasual-praktis & Sama tetapi lebih kasual, mudah bergerak di kerumunan & Apa pun yang memperlambat di keramaian \\
+\addlinespace
+\textbf{Seam Benhil} (PKL) & Polos kasual, ramah & Kaos sederhana, sopan, \emph{beli sesuatu dulu} & Tampilan resmi/audit; postur kamera ke depan \\
+\addlinespace
+\textbf{Panggung belakang} (Karet Tengsin) & Berpakaian sederhana & Pakaian sederhana tertutup, rendah hati; duduk dan pesan di warung & Gawai mencolok, ponsel mahal di tangan, bahasa tubuh ``memeriksa'' \\
+\addlinespace
+\textbf{CFD Minggu} (rekreasi) & Sporty-kasual & \emph{Athleisure} menyatu sempurna & Busana kantor (tidak pas) \\
+\bottomrule
+\end{longtable}
+
+\smallskip\noindent\textbf{Cuaca dan praktis (untuk sekitar 33\textdegree C dan kemungkinan
+hujan).} Bahan ringan cepat-kering; sepatu jalan tertutup nyaman; payung lipat/ponco
+ringan (Jumat berisiko hujan 25\%, akhir pekan lebih); tabir surya dan air; sopan menutup
+bahu dan lutut, terutama ke panggung belakang dan dengan lansia.
+
+\smallskip\noindent\textbf{Anggota perempuan dan pimpinan Sintani (malam/sensitif).}
+Praktis, sopan, \emph{alas kaki mobile} (mungkin perlu meninggalkan situasi cepat); ponsel
+mudah dijangkau. Ini keselamatan lapangan pragmatis, bukan menyalahkan korban: tim mengkaji
+koridor tempat 4 dari 5 perempuan melaporkan pelecehan ruang publik. Pegang aturan
+\textbf{berpasangan}; mencocokkan gender pewawancara dengan responden perempuan menurunkan
+ancaman yang dirasa.
+
+\smallskip\noindent\textbf{Daftar bawaan.} Terlihat: \emph{lanyard}/ID akademi, \emph{clipboard}
+berisi persetujuan + \emph{tally} + kartu pertanyaan, pena. Diskret: ponsel (yang sederhana
+di panggung belakang); perekam hanya setelah persetujuan terpisah. Praktis: air,
+payung/ponco, tabir surya, uang kecil (untuk membeli dari PKL/warung yang diwawancara).
+
+% =====================================================================
+\chapter{Wawancara Ahli, Etika, dan Logistik}
+
+\section{Wawancara Ahli (Jalur Terpisah)}
+Berbeda dari \emph{intercept} jalanan, ini terjadwal, semi-terstruktur, berorientasi
+hambatan (kesenjangan Bab~II: ``apa yang \emph{mencegah} fasilitas pejalan kaki yang
+nyaman''):
+\begin{itemize}
+  \item \textbf{Anies Baswedan} (menunggu konfirmasi ADA): revitalisasi 2017--2022, apa
+    yang menghambat \emph{walkability} yang nyaman, logika relokasi PKL, apa yang tidak
+    dapat diselesaikan kebijakan.
+  \item \textbf{Karsa City Lab / Urun Daya Kota:} rantai mobilitas perempuan, pembingkaian
+    ruang publik yang aman dan nyaman.
+  \item \textbf{KRPA / organisasi terafiliasi:} data dan metode pelecehan ruang publik,
+    untuk menginformasikan (bukan menggiring) \emph{intercept} perempuan.
+\end{itemize}
+Perlakukan klaim ahli sebagai konteks untuk diuji di lapangan, bukan sebagai kesimpulan.
+
+\section{Logistik Hari Lapangan}
+\textbf{Tiga simpul jangkar:} (1) Dukuh Atas/Stasiun Sudirman untuk klaster komuter +
+transit + ojol, (2) \emph{seam} Benhil untuk PKL + kontras depan/belakang, (3) satu gang
+Karet Tengsin untuk panggung belakang. Jalankan satu \emph{pass} puncak pagi dan satu
+\emph{pass} sore$\rightarrow$malam pada segmen yang \emph{sama} untuk kontras siang/malam.
+Tambahkan sesi CFD Minggu hanya sebagai kasus kontras.
+
+\smallskip\noindent\textbf{Perjalanan.} Tim mengkaji simpul transit yang akan dilalui
+sendiri. Datang dengan KRL ke Stasiun Sudirman atau MRT ke Dukuh Atas dan \emph{catat
+jalan \emph{last-mile} sendiri sebagai data pilot}. Hindari menyetir; parkir adalah ekonomi
+informal kampung, bukan kemudahan tim. Siapkan untuk panas tengah hari: bawa air, jadwalkan
+audit 11.00--14.00 di sisi teduh.
+
+\smallskip\noindent\textbf{Tempat \emph{debrief}.} Warteg Benhil atau kafe Dukuh Atas
+berfungsi sebagai titik \emph{debrief} murah di dalam \emph{fieldsite}; warung kampung
+sekaligus pintu masuk riset dan meja \emph{debrief}. \emph{Debrief} hari yang sama selagi
+ingatan segar, rekonsiliasi tiga sudut bukti sebelum menulis kesimpulan.
+
+\section{Kartu Etika (Bawa Selalu)}
+\begin{enumerate}
+  \item Persetujuan lisan sebelum setiap \emph{intercept}; persetujuan terpisah untuk merekam.
+  \item \emph{Intercept} sensitif dan malam dipimpin Sintani, sistem berpasangan.
+  \item Kaburkan wajah; hormati ketentuan WeatherKit/Google/OSM.
+  \item Pertanyaan netral dan dua arah; asumsi pada lembar terpisah, tidak pernah di dalam pertanyaan.
+  \item PKL dan warga kampung rentan, pahami mereka, jangan mengaudit.
+  \item Siapa pun yang tidak nyaman, hentikan dan ucapkan terima kasih.
+  \item Tidak ada temuan ditulis sebelum data terkumpul.
+\end{enumerate}
+
+\bigskip
+\noindent\rule{\textwidth}{0.4pt}\\
+{\footnotesize Sumber yang melandasi profil ini (jejak Bab~II/metodologi): survei pelecehan
+ruang publik KRPA 2022; Kompas Megapolitan tentang tumpukan ojol Stasiun Sudirman (Mei 2025);
+Mojok dan Kumparan tentang Karet Tengsin di belakang Sudirman Park (2026/2025); Tempo, Media
+Indonesia, dan Detik tentang pembersihan PKL Benhil dan patroli Satpol PP (2018, berlanjut);
+beragam laporan 2025--2026 tentang ritme komuter Dukuh Atas dan Car Free Day; Knight Frank via
+\emph{Expat Life in Indonesia} (submarket kantor Sudirman); Afkara \& Kusuma (2020) tentang norma
+jarak berjalan Jakarta; ITDP Indonesia (2019) dan Dwisadana \& Widjajanti (2024) seperti pada
+tinjauan pustaka. Kerangka wawancara: Cialdini; Spradley (1979); Fisher \& Geiselman; Miller \&
+Rollnick; Tickle-Degnen \& Rosenthal (1990); Tourangeau \& Yan (2007).\par}
+
+\end{document}
