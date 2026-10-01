@@ -317,3 +317,40 @@ replaces. This is our shared memory of *why* the project is the way it is.
   native (Xcode/MapKit/WeatherKit, Reality Composer for shade), not Unity.
 - **Refs:** `act/solution-candidates.md` (solution statement v2), `act/architecture-notes.md`.
 - **Owner:** Team.
+
+### 2026-10-01 · Transit accessibility concept paper corrected and re-based on verified sources
+
+- **Decision:** Rewrote `report/transit_accessibility_concept_paper.tex` and aligned it with the
+  workspace's honesty rules:
+  - **Team block replaced** with the current seven-person team (Project Management; UI/UX; Tech/Developer)
+    and a roles-and-contact table. The old five-person author list and the invented
+    `pijak-research.org` address are gone; roles do not assign workstreams to individuals.
+  - **Citations now use the shared `refs.bib`** (biblatex + Biber, keys map to S-notes). The paper's own
+    `transit_accessibility_concept_paper.bib` was removed: several entries carried wrong authors, venues
+    or DOIs (e.g. Tile2Net, CoolWalks, Dwisadana, Rakhmatulloh, Napitupulu, Afkara), and one cited work
+    (Fakhri 2025) is not in the verified source set and its title does not match the claim it was
+    cited for.
+  - **Sidewalk "gradient" reframed.** `gradient.csv` has 68 groups (67 named + one unnamed), not 69, and
+    43 (not 45) have no sidewalk tag. All 43 are OSM footway edges with `has_sidewalk = unknown`, so the
+    result is a source-coverage screening that prioritises field checks, not a finding of absence. The
+    unnamed group is ~60% of mapped length and the 0% tier includes the Transjakarta busway.
+  - **Network facts corrected:** 548 linear edges + 132 points; the 105 "barrier" nodes are Field-Day-1
+    media points typed provisionally, not measured barriers; JPOs are nodes, not edges; no edge has any
+    width/surface/kerb-ramp/lighting/shade value.
+  - **Unsupported claims removed or labelled:** partnership with Wisma Cheshire / Jakarta Barrier Free
+    Tourism is now "intended, not confirmed"; Google Maps scenario figures are labelled single-run and
+    unarchived (and the prototype's own numbers conflict); the "70% of commuters" and "five researchers,
+    three weeks" statements, the 800→400 m heat-contraction "calibrated against Afkara", and the
+    "100% guaranteed passability" claim were dropped. The shadow-length formula was fixed
+    (`H·tan θz`, not `H/tan θz`) and a strict **unknown-is-not-passable** rule was added to Pillar 4.
+  - Every number is now cited, traced to a workspace file (Appendix A), or marked a provisional parameter.
+- **Open items for the team to confirm** (not resolved by this edit): (1) status of the Wisma Cheshire /
+  JBFT partnerships; (2) re-run and archive the Google Maps scenario with screenshots and timestamps;
+  (3) prototype-side claims not documented in this repo (0.65/0.20/0.15 score weights, POI-spam
+  filters) — currently labelled provisional; (4) fares to be re-verified and MRT/LRT fares added;
+  (5) confirm the e-mail addresses and the cohort wording for the new team; (6) still no wheelchair
+  user interviewed, and no night, women, rain or back-street fieldwork.
+- **Reasoning:** The paper is circulated externally; overstating partnerships, citing wrong metadata, or
+  presenting an OSM tagging gap as a street-level finding would undermine the team's credibility and
+  breach the "no invented data" and confirmation-bias guardrails.
+- **Owner:** Team.
