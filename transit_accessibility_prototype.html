@@ -1901,6 +1901,7 @@
     
     let map;
     let baseTileLayer;
+    let referenceTileLayer = null;
     
     // Layer Groups
     let transitLayerGroup;
@@ -1961,23 +1962,45 @@
     function setBasemap(style) {
       if (baseTileLayer) {
         map.removeLayer(baseTileLayer);
+        baseTileLayer = null;
+      }
+      if (referenceTileLayer) {
+        map.removeLayer(referenceTileLayer);
+        referenceTileLayer = null;
       }
       currentBasemap = style;
       if (style === 'dark') {
-        baseTileLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+        baseTileLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+          maxNativeZoom: 16,
           maxZoom: 19,
-          attribution: '&copy; CartoDB &copy; OpenStreetMap'
+          attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ'
+        }).addTo(map);
+        referenceTileLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}', {
+          maxNativeZoom: 16,
+          maxZoom: 19,
+          attribution: ''
+        }).addTo(map);
+      } else if (style === 'satellite') {
+        baseTileLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+          maxZoom: 19,
+          attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS'
         }).addTo(map);
       } else {
-        baseTileLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+        baseTileLayer = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
           maxZoom: 19,
-          attribution: '&copy; CartoDB &copy; OpenStreetMap'
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(map);
       }
     }
 
     function toggleMapStyle() {
-      setBasemap(currentBasemap === 'dark' ? 'light' : 'dark');
+      if (currentBasemap === 'dark') {
+        setBasemap('light');
+      } else if (currentBasemap === 'light') {
+        setBasemap('satellite');
+      } else {
+        setBasemap('dark');
+      }
     }
 
     // Render Transit Network (KRL Green Line, Loop Line, MRT North-South, LRT, JakLingko)
